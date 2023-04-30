@@ -5,30 +5,42 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: List[int]
         """
-        lists = []
+        stack = []
+        list_of_poped_values = []
+        dictionary = {}
+        array = []
+        for i in range(len(nums2)):
+            if (len(stack) == 0):
+                stack.append(nums2[i])
+            else:
+                while(len(stack) > 0):
+                    if( nums2[i] <= stack[-1]):
+                        stack.append(nums2[i])
+                        break
+                    elif (nums2[i] > stack[-1]):
+                        list_of_poped_values.append(stack.pop(-1))
+                        dictionary[nums2[i]] = list_of_poped_values 
+                if len(stack) == 0:
+                    stack.append(nums2[i])
+                list_of_poped_values = []
+        counter = 0
         for i in range(len(nums1)):
-            for j in range(len(nums2)):
-                if nums1[i] == nums2[j]:
-                    index = j
-                    if index == len(nums2)-1:
-                            lists.append(-1)
-                    else:
-                        lists2 = nums2[index:]
-                        print(lists2)
-                        for k in range(len(lists2)):
-                            if k == len(lists2)-1:
-                                lists.append(-1)
-                                break
-                            elif (lists2[k+1] > lists2[0]):
-                                lists.append(lists2[k+1])
-                                break
-                            elif (k+1 == len(lists2)-1) and (lists2[k+1] < lists2[0]):
-                                lists.append(-1)
-                                break
-                            elif(lists2[k+1] < lists2[k+1] and k+1 != len(lists2)-1):
-                                continue
-                            else:
-                                continue
-        return lists
+            for key,values in dictionary.items():
+                if nums1[i] in values:
+                    array.append(key)
+                    counter = 0
+                    break
+                else:
+                    counter += 1
+            if counter == len(dictionary):
+                array.append(-1)
+                counter = 0
+        return array
+                    
         
+
+        
+               
+
+            
                     
