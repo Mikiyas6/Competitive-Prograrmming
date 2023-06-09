@@ -1,0 +1,65 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'countingValleys' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER steps
+#  2. STRING path
+#
+
+def countingValleys(steps, path):
+    # Write your code here
+    string = str(path)
+    string = string.upper()
+    string_lists = []
+    for letters in string:
+        string_lists.append(letters)
+    lists = []
+    for letters in string_lists:
+        if letters == "U":
+            lists.append(1)
+        else:
+            lists.append(-1)
+    lists_sum = []
+    for i in range(len(lists)):
+        if i == 0:
+            lists_sum.append(lists[i])
+        else:
+            lists_sum.append(lists_sum[-1]+lists[i])
+    pointer1 = lists_sum[0]
+    mountain = 0
+    valley = 0
+    for i in range(len(lists_sum)):
+        pointer2 = lists_sum[i]
+        if pointer1 > 0 and pointer2 == 0:
+            mountain += 1
+            if i == len(lists_sum) - 1:
+                break
+            pointer1 = lists_sum[i+1]
+        elif pointer1 < 0 and pointer2 == 0:
+            valley += 1
+            if i == len(lists_sum) - 1:
+                break
+            pointer1 = lists_sum[i+1]
+    return valley
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    steps = int(input().strip())
+
+    path = input()
+
+    result = countingValleys(steps, path)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
