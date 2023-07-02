@@ -16,19 +16,15 @@ def countSwaps(a):
     # Write your code here
     counter = 0
     for i in range(len(a)):
-        for j in range(len(a)):
-            if j == len(a) - i -1:
-                break
-            elif (a[j+1] < a[j]):
+        for j in range(i+1,len(a)):
+            if a[j] < a[i] :
                 counter += 1
-                swap(a,j,j+1)
-    print("Array is sorted in "+str(counter)+" swaps.")
-    print("First Element: "+ str(a[0]))
-    print("Last Element: " + str(a[-1]))
-def swap(a,x,y):
-    temp = a[x]
-    a[x] = a[y]
-    a[y] = temp
+                a[i], a[j] = a[j], a[i]
+    
+    print("Array is sorted in {} swaps.".format(counter))
+    print("First Element: {}".format(a[0]))
+    print("Last Element: {}".format(a[-1]))
+
     
 
 
