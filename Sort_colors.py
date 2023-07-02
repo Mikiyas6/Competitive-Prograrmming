@@ -9,8 +9,6 @@ class Solution(object):
                 if j == len(nums) - i - 1:
                     break
                 elif nums[j+1] < nums[j]:
-                    self.swap(nums,j,j+1)
-    def swap(self,nums,x,y):
-        temp = nums[x]
-        nums[x] = nums[y]
-        nums[y] = temp
+                    nums[j], nums[j+1] = nums[j+1], nums[j]
+        
+        
