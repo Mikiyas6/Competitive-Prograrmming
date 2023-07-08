@@ -1,0 +1,26 @@
+  num_test_cases = int(input())
+  while num_test_cases > 0:
+      length, target_character = input().split()
+      length = int(length)
+      input_string = input()
+      if target_character == 'g':
+          print("0")
+          num_test_cases -= 1
+          continue
+
+      next_occurrence = 0
+      for index in range(len(input_string)):
+          if input_string[index] == 'g':
+              next_occurrence = length + index
+              break
+      
+      max_distance = 0
+      for index in range(length - 1, -1, -1):
+          if input_string[index] == 'g':
+              next_occurrence = index
+          elif input_string[index] == target_character:
+              current_distance = next_occurrence - index
+              max_distance = max(max_distance, current_distance)
+
+      print(max_distance)
+      num_test_cases -= 1
