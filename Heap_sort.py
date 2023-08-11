@@ -1,4 +1,8 @@
-def heapify(self,arr, n, index):
+#User function Template for python3
+
+class Solution:
+    #Heapify function to maintain heap property.
+    def heapify(self,arr, n, index):
         # code here
         parent_node = (index-1)//2
         
@@ -21,26 +25,23 @@ def heapify(self,arr, n, index):
         #code here
         self.buildHeap(arr,n)
         for i in range(n):
-            print(arr)
-            self.swap_nodes(arr,0,len(arr)-i-1)
-            self.percolate_down(arr[:len(arr)-1-i], 0)
-            print(arr)
+            self.swap_nodes(arr, 0 ,n-1-i)
+            self.percolate_down(arr, 0 ,n-1-i)
     # Function used to maintain the heap order property by moving down
-    def percolate_down(self,arr,index):
+    def percolate_down(self,arr,index,length):
         left_node = 2*index + 1
         right_node = 2*index + 2
-        length = len(arr)
         
+        largest = index
         if left_node < length and arr[left_node] > arr[index]:
             largest = left_node
-        else:
-            largest = index
-            
+        
         if right_node < length and arr[right_node] > arr[largest]:
             largest = right_node
             
         if largest != index:
             self.swap_nodes(arr,index,largest)
-            self.percolate_down(arr,largest)
+            self.percolate_down(arr,largest,length)
         else:
             return 
+        
