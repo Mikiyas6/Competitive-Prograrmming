@@ -1,5 +1,4 @@
 def is_bicolourable(graph, n):
-    # An array to represent the color of each node, initialized with -1 (uncolored)
     node_colors = [-1] * n
     node_colors[0] = 0  
     stack = [0]  
