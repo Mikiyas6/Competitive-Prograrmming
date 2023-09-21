@@ -7,7 +7,7 @@
 
 class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
-        max_path_sum = float('-inf')  # Renamed max_sum to max_path_sum
+        max_path_sum = float('-inf')  
         
         def calculateMaxPath(node):
             nonlocal max_path_sum
