@@ -6,10 +6,10 @@ class Solution:
             adjacency_list[a].append(b)
             adjacency_list[b].append(a)
 
-        label_count = [0] * n  # Initialize a list to count labels in each subtree.
+        label_count = [0] * n  
 
         def depth_first_search(node, parent):
-            subtree_labels = ''  # Use a more descriptive name for the variable.
+            subtree_labels = '' 
 
             for child in adjacency_list[node]:
                 if child != parent:
@@ -20,5 +20,5 @@ class Solution:
 
             return subtree_labels
 
-        depth_first_search(0, -1)  # Start the DFS from the root node.
+        depth_first_search(0, -1)  
         return label_count
