@@ -1,21 +1,21 @@
 class Solution:
     def longestPath(self, parent: List[int], s: str) -> int:
-        graph = defaultdict(list)  # Create a defaultdict to represent the graph.
+        graph = defaultdict(list)  
 
-        for i in range(1, len(parent)):  # Iterate through the 'parent' list to build the graph.
-            graph[parent[i]].append(i)  # Add child nodes to the parent node in the graph.
+        for i in range(1, len(parent)): 
+            graph[parent[i]].append(i)  
 
-        max_path_length = 1  # Initialize a variable to keep track of the maximum path length.
+        max_path_length = 1  
 
         def dfs(node):
             nonlocal max_path_length  
-            # Initialize variables for the longest and second-longest path lengths.
+           
             longest_path_length = second_longest_path_length = 0
 
-            for child in graph[node]:  # Iterate through the child nodes of the current node.
-                path_length = dfs(child)  # Recursively calculate the path length.
+            for child in graph[node]:  
+                path_length = dfs(child) 
 
-                if s[child] != s[node]:  # Check if the characters at the child and parent nodes are different.
+                if s[child] != s[node]: 
                     if path_length > longest_path_length:
                         second_longest_path_length = longest_path_length
                         longest_path_length = path_length
