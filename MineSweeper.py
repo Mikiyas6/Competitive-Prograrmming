@@ -1,12 +1,12 @@
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
-        click_row, click_col = click[0], click[1]  # Renamed click_x to click_row and click_y to click_col
+        click_row, click_col = click[0], click[1]  
         
         if board[click_row][click_col] == 'M':
             board[click_row][click_col] = 'X'
             return board
         
-        num_rows, num_cols = len(board), len(board[0])  # Renamed n to num_rows and m to num_cols
+        num_rows, num_cols = len(board), len(board[0])  
         
         def dfs(row, col):
             if row in [-1, num_rows] or col in [-1, num_cols] or board[row][col] != 'E':
