@@ -7,7 +7,7 @@ class Solution(object):
         bomb_adjacency = collections.defaultdict(list)
         n = len(bombs)
         
-        # Create an adjacency list based on bomb distances
+        
         for i in range(n):
             for j in range(i + 1, n):
                 x1, y1, r1 = bombs[i]
