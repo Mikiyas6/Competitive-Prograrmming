@@ -6,23 +6,23 @@ class Node:
 
 class Solution:
     def maxDepth(self, root: 'Node') -> int:
-        max_depth = 0  # Initialize the maximum depth.
-        current_depth = 0  # Initialize the current depth.
+        max_depth = 0  
+        current_depth = 0 
         
         def dfs(node, depth=0):
-            nonlocal max_depth  # Use nonlocal to modify the max_depth variable in the outer scope.
-            depth += 1  # Increment the current depth.
+            nonlocal max_depth  .
+            depth += 1  
             
             if not node:
                 return
             
             if not node.children:
-                max_depth = max(max_depth, depth)  # Update max_depth if we reached a leaf node.
-                depth = 0  # Reset the current depth to 0.
+                max_depth = max(max_depth, depth)  
+                depth = 0 
             
             for child in node.children:
-                dfs(child, depth)  # Recursively explore children nodes.
+                dfs(child, depth)  
         
-        dfs(root)  # Start the depth-first search from the root node.
+        dfs(root)  
         
-        return max_depth  # Return the maximum depth found in the tree.
+        return max_depth  
