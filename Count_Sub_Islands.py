@@ -5,14 +5,14 @@ class Solution(object):
         :type grid2: List[List[int]]
         :rtype: int
         """
-        num_rows, num_cols, sub_island_count = len(grid1), len(grid1[0]), 0  # Renamed rows to num_rows, cols to num_cols, and count to sub_island_count
+        num_rows, num_cols, sub_island_count = len(grid1), len(grid1[0]), 0  
         
         def dfs(x, y):
             if x < 0 or x >= num_rows or y < 0 or y >= num_cols or grid2[x][y] != 1:
                 return
             
             grid2[x][y] = 0
-            directions = [(0, -1), (0, 1), (-1, 0), (1, 0)]  # Changed i, z to dx, dy for clarity
+            directions = [(0, -1), (0, 1), (-1, 0), (1, 0)]
             for dx, dy in directions:
                 dfs(x + dx, y + dy)
         
