@@ -14,15 +14,38 @@ class Solution(object):
         :type target_id: int
         :rtype: int
         """
-        employee_map = {employee.id: employee for employee in employees }
-        
-        def calculateImportance(target_id):
-            total_importance = employee_map[target_id].importance
-            for subordinate_id in employee_map[target_id].subordinates:
-                total_importance += calculateImportance(subordinate_id)
-            return total_importance
-        
-        return calculateImportance(target_id)
 
+        visited = set()
+
+        dictionary = {}
+
+        for i in range(len(employees)):
+            dictionary[employees[i].id] = i
+
+        def dfs(target_id):
+
+            if not employees[target_id].subordinates:
+                return employees[target_id].importance
+
+            visited.add(target_id)
+
+            total = employees[target_id].importance
+
+            for subordinates in employees[target_id].subordinates:
+
+                if dictionary[subordinates] not in visited:
+                    visited.add(dictionary[subordinates])
+                    total += dfs(dictionary[subordinates] )
+
+            return total
+
+        for i in range(len(employees)):
+            if employees[i].id == target_id:
+                return dfs(i)
+
+
+
+
+        
 
         
