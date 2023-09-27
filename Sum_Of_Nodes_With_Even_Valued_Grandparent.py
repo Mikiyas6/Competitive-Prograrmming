@@ -1,27 +1,15 @@
 class Solution:
     def sumEvenGrandparent(self, root: TreeNode) -> int:
-        total_sum = 0  
+        total = 0
 
-        def dfs(node):
-            nonlocal total_sum  
-
+        def dfs(node, parent, grandparent):
+            nonlocal total
             if not node:
-                return 0
+                return
+            if grandparent and grandparent.val % 2 == 0:
+                total += node.val
+            dfs(node.left, node, parent)
+            dfs(node.right, node, parent)
 
-            if node.val % 2 == 0:  
-                if node.left:
-                    if node.left.left:
-                        total_sum += node.left.left.val  
-                    if node.left.right:
-                        total_sum += node.left.right.val 
-                if node.right:
-                    if node.right.left:
-                        total_sum += node.right.left.val  
-                    if node.right.right:
-                        total_sum += node.right.right.val 
-
-            dfs(node.left)  
-            dfs(node.right)  
-
-        dfs(root)  
-        return total_sum  
+        dfs(root, None, None)
+        return total
