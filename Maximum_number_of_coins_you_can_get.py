@@ -1,19 +1,22 @@
-class Solution(object):
-    def maxCoins(self, piles):
-        """
-        :type piles: List[int]
-        :rtype: int
-        """
-        piles = sorted(piles)
-        pint = []
-        for i in range(len(piles)):
-            pint.append(piles.pop())
-        piles = pint
-        total = 0
-        for i in range(len(piles)/3):
-            total += piles[2*i + 1]
-        return total
-    
-
-
+class Solution:
+    def maxCoins(self, piles: List[int]) -> int:  
         
+        piles.sort() # O(nlogn)
+
+        i = 0
+        j = len(piles) - 1
+
+        Bob, Alice, Us = [], [], []
+
+        while i < j: # O(n)
+
+            Alice.append(piles[j])
+            Us.append(piles[j-1])
+            Bob.append(piles[i])
+        
+            i += 1
+            j -= 2
+        
+        return sum(Us)
+
+    # O(nlogn) + O(n) = O(nlogn)
