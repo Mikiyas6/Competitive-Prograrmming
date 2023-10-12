@@ -1,23 +1,38 @@
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
-        # Section One
-        skill = sorted(skill)
-        number_of_teams = len(skill)/2
-        sum_of_individual_pair = sum(skill) // number_of_teams
-        # Section Two
+
+        lists = []
+
+        skill.sort()
+
         i = 0
         j = len(skill) - 1
-        list_of_pairs = []
+    
+        if len(skill) == 2:
+            return skill[0] * skill[1]
+
         while i < j:
-            print(i,j)
-            if skill[i] + skill[j] == sum_of_individual_pair:
-                list_of_pairs.append([skill[i],skill[j]])
+
+            if i == 0:
+
+                lists.append([skill[i],skill[j]])
+            
             else:
-                return -1
+
+                if sum([skill[i],skill[j]]) != sum( lists[-1]):
+                    return -1
+                lists.append([skill[i],skill[j]])
+
             i += 1
             j -= 1
-        # Section Three
+        
         total = 0
-        for pair in list_of_pairs:
-            total += pair[0]*pair[1]
+        
+        for team in lists:
+
+            total += team[0] * team[1]
+
         return total
+
+
+            
