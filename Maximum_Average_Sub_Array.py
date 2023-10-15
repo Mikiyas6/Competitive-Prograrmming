@@ -5,24 +5,19 @@ class Solution:
             return -1
         
         max_sum = sum(nums[:k])
+
         max_average = max_sum / k
     
-        i = 1
+        i = 0
+        j = k
 
-        window_element = nums[i:k+i]
+        while j < len(nums):
 
-        window_size = len(window_element)
+            max_sum = max_sum - nums[i] + nums[j]
 
-        j = 0
-
-        while window_size == k:
-
-            max_sum = max_sum - nums[i-1] + nums[k+j]
             max_average = max(max_average, max_sum / k)
 
             i += 1
             j += 1
-
-            window_size = len(nums[i:k+i])
 
         return max_average
