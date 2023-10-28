@@ -1,19 +1,30 @@
 class Solution:
     def maxSumRangeQuery(self, nums: List[int], requests: List[List[int]]) -> int:
-        lists = [0] * (len(nums)+1)
-        frequency = [0] * len(nums)
-        for request in requests:
-            start = request[0]
-            end = request[1]
-            lists[start] += 1
-            lists[end+1] -= 1
-        lists = lists[:len(lists)-1]
-        frequency[0] = lists[0]
-        for i in range(1,len(lists)):
-            frequency[i] = frequency[i-1] + lists[i]
-        frequency = sorted(frequency)
-        nums = sorted(nums)
+        
+        frequency = [0] * (len(nums)+1)
+
+        for start,end in requests:
+
+            frequency[start] += 1
+            frequency[end+1] -= 1
+        
+        accumulate = 0
+        prefix_sum = [0]*len(nums)
+
+        for i in range(len(nums)):
+            accumulate += frequency[i]
+            prefix_sum[i] = accumulate
+        
+        prefix_sum.sort()
+        nums.sort()
+
         total = 0
-        for i in range(len(frequency)):
-            total += frequency[i] * nums[i]
-        return total%(10**9 + 7)
+
+        for i in range(len(nums)):
+
+            total += prefix_sum[i] * nums[i]
+        
+        return total%(10**9+7)
+
+
+        
