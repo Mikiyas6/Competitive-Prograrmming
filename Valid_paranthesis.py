@@ -1,24 +1,30 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        dict = {"(":")", "[":"]", "{":"}"} 
-        symbool = str(s)
-        lists = []
-        for char in symbool: 
-            if char == "(" or char == "[" or char == "{": 
-                lists.append(char)
-            else: 
-                if len(lists) == 0:
-                    return False
-                elif dict[lists[-1]] == char:
-                    lists.pop()
+class Solution:
+    def isValid(self, s: str) -> bool:
+        
+        stack = []
+        dictionary = {")":"(", "]":"[", "}":"{"}
+
+        for character in s:
+
+            if character in dictionary.values():
+
+                stack.append(character)
+            
+            elif not stack:
+                
+                return False
+            
+            else:
+
+                if stack[-1] == dictionary[character]:
+                    stack.pop()
+
                 else:
-                    return False        
-        print(lists)
-        if len(lists) == 0:
+                    return False
+            
+        if not stack:
             return True
+            
         else:
-            return False
+            False
+
