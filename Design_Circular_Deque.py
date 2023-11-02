@@ -1,99 +1,64 @@
-class MyCircularDeque(object):
+class MyCircularDeque:
 
-    def __init__(self, k):
-        """
-        :type k: int
-        """
-        self.lists = []
-        self.limit = k
-        self.size = 0
-    def insertFront(self, value):
-        """
-        :type value: int
-        :rtype: bool
-        """
-        lists1 = []
-        if (len(self.lists) == 0):
-            self.lists.append(value)
-            self.size += 1
+    def __init__(self, k: int):
+        self.queue = []
+        self.size = k
+
+    def insertFront(self, value: int) -> bool:
+        if not self.isFull():
+            self.queue.insert(0,value)
             return True
-        elif (len(self.lists) == self.limit):
-            return False
-        elif (len(self.lists) < self.limit):
-            while(len(self.lists) > 0):
-                lists1.append(self.lists[-1])
-                self.lists.pop(-1)
-            self.lists = []
-            lists1.append(value)
-            while(len(lists1) > 0):
-                self.lists.append(lists1[-1])
-                lists1.pop(-1)
-            self.size += 1
+
+        return False
+
+    def insertLast(self, value: int) -> bool:
+        if not self.isFull():
+            self.queue.append(value)
             return True
-    def insertLast(self, value):
-        """
-        :type value: int
-        :rtype: bool
-        """
-        if (len(self.lists) < self.limit):
-            self.lists.append(value)
-            self.size += 1
+
+        return False
+
+    def deleteFront(self) -> bool:
+
+        if not self.isEmpty():
+            self.queue.pop(0)
             return True
-        else:
-            return False
-    def deleteFront(self):
-        """
-        :rtype: bool
-        """
-        if (len(self.lists) == 0):
-            return False
-        else:
-            self.lists.pop(0)
-            self.size -= 1
-            return True
-    def deleteLast(self):
-        """
-        :rtype: bool
-        """
-        if (len(self.lists) == 0):
-            return False
-        else:
-            self.lists.pop(-1)
-            self.size -= 1
-            return True
-    def getFront(self):
-        """
-        :rtype: int
-        """
-        if (len(self.lists) == 0):
-            return -1
-        else:
-            return self.lists[0]
-    def getRear(self):
-        """
-        :rtype: int
-        """
-        if (len(self.lists) == 0):
-            return -1
-        else:
-            return self.lists[-1]
-    def isEmpty(self):
-        """
-        :rtype: bool
-        """
-        if (len(self.lists) == 0):
-            return True
-        else:
-            return False
-    def isFull(self):
-        """
-        :rtype: bool
-        """
-        if (len(self.lists) == self.limit):
-            return True
-        else:
-            return False
+        return False
+
+    def deleteLast(self) -> bool:
         
+        if not self.isEmpty():
+            self.queue.pop()
+            return True
+        return False
+
+    def getFront(self) -> int:
+        
+        if not self.isEmpty():
+            return self.queue[0]
+        
+        return -1
+
+    def getRear(self) -> int:
+        
+        if not self.isEmpty():
+            return self.queue[-1]
+        
+        return -1
+
+    def isEmpty(self) -> bool:
+        
+        if len(self.queue) == 0:
+            return True
+        
+        return False
+
+    def isFull(self) -> bool:
+        
+        if len(self.queue) == self.size:
+            return True
+        
+        return False
 
 
 # Your MyCircularDeque object will be instantiated and called as such:
