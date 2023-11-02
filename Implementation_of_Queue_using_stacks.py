@@ -1,75 +1,43 @@
-class MyQueue(object):
+class MyQueue:
 
     def __init__(self):
+
         self.stack1 = []
         self.stack2 = []
-    def push(self, x):
-        """
-        :type x: int
-        :rtype: None
-        """
-        # if len(self.stack2) == 0:
-        #     self.stack1.append(x)
-        # else:
-        #     while len(self.stack2) > 0:
-        #         last = self.stack2[-1]
-        #         self.stack2.pop()
-        #         self.stack1.append(last)
-        #     self.stack1.append(x)
+
+    def push(self, x: int) -> None:
+
         self.stack1.append(x)
-    def pop(self):
-        """
-        :rtype: int
-        """
-        # if len(self.stack1) == 0 and len(self.stack2) == 0:
-        #     return None
-        # elif len(self.stack1) > 0:
-        #     while len(self.stack1) > 0:
-        #         self.stack2.append(self.stack1.pop())
-        # return self.stack2.pop()
-        if (len(self.stack1) == 0 and len(self.stack2) == 0):
-            return None
-        elif (len(self.stack2) != 0):
-            return self.stack2.pop()
-        else:
-            if (len(self.stack1) == 1):
-                return self.stack1.pop()
-            for i in range(len(self.stack1) - 1):
-                self.stack2.append(self.stack1.pop())
-            return self.stack1.pop()
 
-    def peek(self):
-        """
-        :rtype: int
-        """
-        # if len(self.stack1) == 0 and len(self.stack2) == 0:
-        #     return None
-        # elif len(self.stack1) > 0:
-        #     while len(self.stack1) > 0:
-        #         self.stack2.append(self.stack1.pop())
-        # return self.stack2[-1]
-        if (len(self.stack1) == 0 and len(self.stack2) == 0):
-            return None
-        elif (len(self.stack2) != 0):
-            return self.stack2[-1]
-        elif (len(self.stack2) == 0 and len(self.stack1) != 0):
-            if (len(self.stack1) == 1):
-                return self.stack1[0]
-            for i in range(len(self.stack1)):
-                self.stack2.append(self.stack1.pop())
-            return self.stack2[-1]
-            # for i in range(len(self.stack2)):
-            #     self.stack1.append(self.stack2.pop())
-            # return value
+    def pop(self) -> int:
+        
+        if not self.empty():
 
-    def empty(self):
-        """
-        :rtype: bool
-        """
-        if(len(self.stack1) == 0 and len(self.stack2) == 0 ):
+            for i in range(len(self.stack1)-1,0,-1):
+
+                self.stack2.append(self.stack1.pop())
+            
+            value = self.stack1.pop()
+
+            for i in range(len(self.stack2)-1,-1,-1):
+
+                self.stack1.append(self.stack2[i])
+            
+            self.stack2 = []
+
+            return value
+
+    def peek(self) -> int:
+        
+        if not self.empty():
+            return self.stack1[0]
+
+    def empty(self) -> bool:
+        
+        if not self.stack1:
             return True
-        else:
-            return False
+        return False
+
 
 # Your MyQueue object will be instantiated and called as such:
 # obj = MyQueue()
