@@ -1,23 +1,19 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
 
-        lists = sorted(nums)
+        new_array = sorted(nums)
 
         dictionary = {}
 
-        for i in range(len(lists)):
-
-            if lists[i] not in dictionary.keys():
-                dictionary[lists[i]] = i
-            
-        print(dictionary)
-            
-        new_list = []
+        lists = []
 
         for i in range(len(nums)):
-            new_list.append(dictionary[nums[i]])
-        
-        return new_list
 
+            if new_array[i] not in dictionary:
+                dictionary[new_array[i]] = i
         
+        for i in range(len(nums)):
+
+            lists.append(dictionary[nums[i]])
         
+        return lists
