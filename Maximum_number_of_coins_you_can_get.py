@@ -1,22 +1,38 @@
 class Solution:
     def maxCoins(self, piles: List[int]) -> int:  
-        
-        piles.sort() # O(nlogn)
+
+        piles.sort()
 
         i = 0
         j = len(piles) - 1
+        total = 0
 
-        Bob, Alice, Us = [], [], []
+        while i < j:
 
-        while i < j: # O(n)
+            total += piles[j-1]
 
-            Alice.append(piles[j])
-            Us.append(piles[j-1])
-            Bob.append(piles[i])
-        
             i += 1
             j -= 2
         
-        return sum(Us)
+        return total
+        
+        
+    #     piles.sort() # O(nlogn)
 
-    # O(nlogn) + O(n) = O(nlogn)
+    #     i = 0
+    #     j = len(piles) - 1
+
+    #     Bob, Alice, Us = [], [], []
+
+    #     while i < j: # O(n)
+
+    #         Alice.append(piles[j])
+    #         Us.append(piles[j-1])
+    #         Bob.append(piles[i])
+        
+    #         i += 1
+    #         j -= 2
+        
+    #     return sum(Us)
+
+    # # O(nlogn) + O(n) = O(nlogn)
