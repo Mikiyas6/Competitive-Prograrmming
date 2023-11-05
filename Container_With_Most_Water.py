@@ -8,18 +8,19 @@ class Solution:
 
         while i < j:
 
+            area = (j - i)*min(height[i],height[j])
+            max_area = max(max_area,area)
+
             if height[i] < height[j]:
 
-                new_area = height[i] * (j-i)
-                max_area = max(max_area,new_area)
                 i += 1
-            
+
             else:
 
-                new_area = height[j] * (j-i)
-                max_area = max(max_area,new_area)
                 j -= 1
-            
+        
         return max_area
+
+
 
 
