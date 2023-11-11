@@ -1,16 +1,12 @@
-class Solution(object):
-    def numIdenticalPairs(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        lists = []
-        for i in range(len(nums)):
-            for j in range(i+1,len(nums)):
-                if (nums[i] == nums[j]):
-                    lists.append((i,j))
-        return len(lists)
+class Solution:
+    def numIdenticalPairs(self, nums: List[int]) -> int:
+        
+        dictionary = Counter(nums)
+        total = 0
 
+        for value in dictionary.values():
 
+            total += (value * (value-1)) // 2
 
-    
+        return total
+
