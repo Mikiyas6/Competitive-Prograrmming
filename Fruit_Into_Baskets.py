@@ -1,18 +1,12 @@
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
-        
-        dictionary = defaultdict(int)
-
         l = 0
-
-        length = 0
-
+        dictionary = defaultdict(int)
         max_length = 0
 
         for r in range(len(fruits)):
 
             dictionary[fruits[r]] += 1
-            length += 1
 
             while len(dictionary) > 2:
 
@@ -23,14 +17,7 @@ class Solution:
                     dictionary.pop(fruits[l])
 
                 l += 1
-                length -= 1
 
-            max_length = max(max_length,length)
-        
+            max_length = max(max_length,r-l+1)
+
         return max_length
-
-        
-
-
-
-
