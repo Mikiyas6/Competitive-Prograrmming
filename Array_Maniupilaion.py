@@ -17,18 +17,26 @@ import sys
 
 def arrayManipulation(n, queries):
     # Write your code here
-    lists = [0] * (n+1)
     
-    for left,right,value in queries:
-        lists[left-1] += value
-        lists[right] -= value
-    max_value = 0
-    total = 0
-    for i in range(len(lists)-1):
-        total += lists[i]
-        max_value = max(max_value,total)
+    prefix_sum = [0] * (n+1)
+    
+    for l,r,value in queries:
         
+        prefix_sum[l-1] += value
+        prefix_sum[r] -= value
+    
+    prefix_sum = prefix_sum[:n]
+    cumulative = 0
+    max_value = 0
+    
+    for value in prefix_sum:
+        
+        cumulative += value
+        max_value = max(max_value,cumulative)
+    
     return max_value
+        
+        
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
