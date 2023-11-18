@@ -25,17 +25,17 @@ class Solution:
         string = ""
         offset = ord("a")
 
-        print(s)
-
         for index,value in enumerate(s):
+
+            movement = (ord(value) - offset) + prefix_sum[index]
             
             if prefix_sum[index] > 0:
 
-                string += chr((((ord(value) - offset) + prefix_sum[index]) % 26) + offset)
+                string += chr(((movement) % 26) + offset)
             
             elif prefix_sum[index] < 0:
 
-                string += chr((((ord(value) - offset) + prefix_sum[index] + 26) % 26) + offset)
+                string += chr(((movement + 26) % 26) + offset)
 
             else:
 
