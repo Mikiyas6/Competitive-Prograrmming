@@ -1,33 +1,47 @@
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
-        offset = 26
-        lists1 = []
-        lists2 = [0] * (len(s)+1)
-        prefix_sum = [0] * len(s)
+        
+        prefix_sum = [0] * (len(s)+1)
+
+        for l,r,value in shifts:
+
+            if value == 0:
+                value = -1
+            else:
+                value = 1
+
+            prefix_sum[l] += value
+            prefix_sum[r+1] -= value
+        
+        cumulative = 0
+
+        for index,value in enumerate(prefix_sum):
+
+            cumulative += value
+            prefix_sum[index] = cumulative
+        
+        prefix_sum = prefix_sum[:len(s)]
+
         string = ""
-        string1 = "abcdefghijklmnopqrstuvwxyz"
-        # We represented lower case characters with their index 
-        # we will pick one character from s, trace it in string1, and store its index in lists1
-        for character in s:
-            lists1.append(string1.index(character))
-        # Doing the side_line algorithm to do prefix sum
-        for value in shifts:
-            start = value[0]
-            end = value[1]
-            direction = value[2]
-            if direction == 0:
-                lists2[start] -= 1
-                lists2[end+1] += 1
+        offset = ord("a")
+
+        print(s)
+
+        for index,value in enumerate(s):
+            
+            if prefix_sum[index] > 0:
+
+                string += chr((((ord(value) - offset) + prefix_sum[index]) % 26) + offset)
+            
+            elif prefix_sum[index] < 0:
+
+                string += chr((((ord(value) - offset) + prefix_sum[index] + 26) % 26) + offset)
+
             else:
-                lists2[start] += 1
-                lists2[end+1] -= 1
-        # Doing the prefix sum
-        for i in range(len(lists2)-1):
-            prefix_sum[i] = prefix_sum[i-1] + lists2[i]
-        # 
-        for i in range(len(prefix_sum)):
-            if prefix_sum[i] < 0:
-                string += string1[(lists1[i] + prefix_sum[i] + offset) % offset]
-            else:
-                string += string1[(lists1[i] + prefix_sum[i]) % offset]
-        return string        
+
+                string += value
+            
+        return string
+
+
+
