@@ -1,30 +1,31 @@
 class Solution:
     def maxSumRangeQuery(self, nums: List[int], requests: List[List[int]]) -> int:
         
-        frequency = [0] * (len(nums)+1)
+        prefix_sum = [0] * (len(nums)+1)
 
-        for start,end in requests:
+        for start, end in requests:
 
-            frequency[start] += 1
-            frequency[end+1] -= 1
+            prefix_sum[start] += 1
+            prefix_sum[end+1] -= 1
         
-        accumulate = 0
-        prefix_sum = [0]*len(nums)
-
-        for i in range(len(nums)):
-            accumulate += frequency[i]
-            prefix_sum[i] = accumulate
+        cumulative = 0
         
-        prefix_sum.sort()
+        for index,value in enumerate(prefix_sum):
+
+            cumulative += value
+            prefix_sum[index] = cumulative
+        
+        prefix_sum = prefix_sum[:len(nums)]
+        
         nums.sort()
+        prefix_sum.sort()
 
-        total = 0
+        sum_of_product = 0
 
-        for i in range(len(nums)):
+        for r in range(len(nums)):
 
-            total += prefix_sum[i] * nums[i]
+            sum_of_product += nums[r] * prefix_sum[r]
         
-        return total%(10**9+7)
+        return sum_of_product % (10**9 + 7)
 
 
-        
