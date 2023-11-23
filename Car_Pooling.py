@@ -1,27 +1,52 @@
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
 
-        modified = []
+           farthest_destination = 0
 
         for passengers, start, end in trips:
 
-            modified.append([start,1,passengers])
-            modified.append([end,0,passengers])
+            farthest_destination = max(farthest_destination,end)
         
-        modified.sort()
+        prefix_sum = [0] * (farthest_destination+1)
 
-        for location, flag, passengers in modified:
+        for passengers,start,end in trips:
 
-            if flag == 1:
+            prefix_sum[start] += passengers
+            prefix_sum[end] -= passengers
+        
+        cumulative = 0
 
-                capacity -= passengers
-            
-            else:
+        for value in prefix_sum:
 
-                capacity += passengers
-            
-            if capacity < 0:
+            cumulative += value
+
+            if cumulative > capacity:
 
                 return False
-        
+            
         return True
+
+        # modified = []
+
+        # for passengers, start, end in trips:
+
+        #     modified.append([start,1,passengers])
+        #     modified.append([end,0,passengers])
+        
+        # modified.sort()
+
+        # for location, flag, passengers in modified:
+
+        #     if flag == 1:
+
+        #         capacity -= passengers
+            
+        #     else:
+
+        #         capacity += passengers
+            
+        #     if capacity < 0:
+
+        #         return False
+        
+        # return True
