@@ -1,17 +1,14 @@
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
         
-        prefix_sum = [0] * (len(s)+1)
+        prefix_sum = [0] * (len(s) + 1)
 
-        for l,r,value in shifts:
+        for start,end,direction in shifts:
 
-            if value == 0:
-                value = -1
-            else:
-                value = 1
+            direction = 1 if direction == 1 else -1
 
-            prefix_sum[l] += value
-            prefix_sum[r+1] -= value
+            prefix_sum[start] += direction
+            prefix_sum[end+1] -= direction
         
         cumulative = 0
 
@@ -20,28 +17,23 @@ class Solution:
             cumulative += value
             prefix_sum[index] = cumulative
         
-        prefix_sum = prefix_sum[:len(s)]
+        preifx_sum = prefix_sum[:len(s)]
 
         string = ""
         offset = ord("a")
 
         for index,value in enumerate(s):
 
-            movement = (ord(value) - offset) + prefix_sum[index]
+            shift_amount = prefix_sum[index]
+            letter = ord(value) - offset
+
+            if shift_amount >= 0:
+
+                string += chr(((letter + shift_amount) % 26) + offset)
             
-            if prefix_sum[index] > 0:
+            elif shift_amount < 0:
 
-                string += chr(((movement) % 26) + offset)
-            
-            elif prefix_sum[index] < 0:
-
-                string += chr(((movement + 26) % 26) + offset)
-
-            else:
-
-                string += value
-            
+                string += chr(((letter + shift_amount + 26) % 26) + offset)
+        
         return string
-
-
-
+            
