@@ -3,16 +3,20 @@ class Solution:
         
         stack = []
 
-        for moves in logs:
+        for value in logs:
 
-            if moves == "../" and stack:
-                stack.pop()
+            if value == "../":
+
+                if stack:
+
+                    stack.pop()
             
-            elif moves == "./":
+            elif value == "./":
+
                 continue
             
-            elif moves != "../" and moves != "./":
-                stack.append(moves)
-        
+            else:
+
+                stack.append(value)
+
         return len(stack)
-                
