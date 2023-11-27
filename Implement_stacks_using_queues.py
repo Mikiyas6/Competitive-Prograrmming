@@ -1,33 +1,41 @@
 class MyStack:
 
     def __init__(self):
-        self.queue1 = []
-        self.queue2 = []
+        # Pop all the elements from queue1 to queue2 keeping the properties of queues
+        # Add the element to queue1
+        # Pop all the elements from queue2 back to queue1 keeping the properties of queues
+
+        self.queue1 = deque()
+        self.queue2 = deque()
 
     def push(self, x: int) -> None:
+        
+        while self.queue1:
+
+            self.queue2.append(self.queue1.popleft())
+        
         self.queue1.append(x)
 
+        while self.queue2:
+
+            self.queue1.append(self.queue2.popleft())
+
     def pop(self) -> int:
-
+        
         if not self.empty():
-            for i in range(len(self.queue1)):
-                self.queue2.append(self.queue1.pop())
 
-            value = self.queue2.pop(0)
+            return self.queue1.popleft()
 
-            while self.queue2:
-                self.queue1.append(self.queue2.pop())
-
-            return value
 
     def top(self) -> int:
-        return self.queue1[-1]
+        
+        if not self.empty():
+
+            return self.queue1[0]
 
     def empty(self) -> bool:
-        if not self.queue1:
-            return True
-        return False
-
+        
+        return True if not self.queue1 else False
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
