@@ -1,27 +1,33 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+
+        hashmap = defaultdict(int)
+        output = [0] * len(nums1)
         
-        lists = []
+        for index,value in enumerate(nums1):
 
-        for i in range(len(nums1)):
+            hashmap[value] = index
+        
+        stack = []
+        
+        for value in nums2:
 
-            flag = False
+            while stack and value > stack[-1]:
 
-            start = nums2.index(nums1[i]) + 1
-
-            for j in range(start,len(nums2)):
-
-                if nums1[i] < nums2[j]:
-
-                    flag = True
-                    lists.append(nums2[j])
-                    break
+                removed = stack.pop()
+                output[hashmap[removed]] = value
             
-            if not flag:
-                lists.append(-1)
+            if value in nums1:
 
+                stack.append(value)
         
-        return lists
+        for index,value in enumerate(output):
+
+            if value == 0:
+
+                output[index] = -1
+        
+        return output
 
 
 
