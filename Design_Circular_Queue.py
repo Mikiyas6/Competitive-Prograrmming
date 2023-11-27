@@ -1,38 +1,66 @@
 class MyCircularQueue:
 
     def __init__(self, k: int):
+        
         self.size = k
-        self.queue = []
+        self.queue = [None] * self.size
+        self.front = self.rear = -1
 
     def enQueue(self, value: int) -> bool:
-        if not self.isFull():
-            self.queue.append(value)
-            return True
+        
+        if self.isFull():
+            return False
+        
+        if self.isEmpty():
+
+            self.front = self.rear = 0
+        
+        else:
+
+            self.rear = (self.rear + 1) % self.size
+        
+        self.queue[self.rear] = value
+        return True
 
     def deQueue(self) -> bool:
-        if not self.isEmpty():
-            self.queue.pop(0)
-            return True
-        return False
+
+        if self.isEmpty():
+            return False
+        
+        if self.front == self.rear: 
+
+            self.front = self.rear = -1
+        
+        else:
+
+            self.front = (self.front + 1) % self.size
+        
+        return True
 
     def Front(self) -> int:
-        if not self.isEmpty():
-            return self.queue[0]
-        return -1
+        
+        if self.isEmpty():
+
+            return -1
+        
+        return self.queue[self.front]
 
     def Rear(self) -> int:
-        if not self.isEmpty():
-            return self.queue[-1]
-        return -1
+
+        if self.isEmpty():
+
+            return -1
+        
+        return self.queue[self.rear]
+
     def isEmpty(self) -> bool:
-        if not self.queue:
-            return True
-        return False
+        
+        return True if self.front == -1 and self.rear == -1 else False
 
     def isFull(self) -> bool:
-        if len(self.queue) == self.size:
-            return True
-        return False
+
+        return True if (self.rear + 1) % self.size == self.front else False
+        
 
 
 # Your MyCircularQueue object will be instantiated and called as such:
