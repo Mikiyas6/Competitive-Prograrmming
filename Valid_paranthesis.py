@@ -1,30 +1,32 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         
+        braces = { ")":"(", "}":"{", "]":"["}
+        opening_brace = "({["
+
         stack = []
-        dictionary = {")":"(", "]":"[", "}":"{"}
 
-        for character in s:
+        if len(s) == 1:
 
-            if character in dictionary.values():
+            return False
 
-                stack.append(character)
-            
-            elif not stack:
-                
-                return False
+        for brace in s:
+
+            if brace in opening_brace:
+
+                stack.append(brace)
             
             else:
 
-                if stack[-1] == dictionary[character]:
-                    stack.pop()
+                if stack and braces[brace] == stack[-1]:
 
+                    stack.pop()
+                
                 else:
+
                     return False
             
-        if not stack:
-            return True
-            
-        else:
-            False
+        return True if not stack else False
 
+
+        
