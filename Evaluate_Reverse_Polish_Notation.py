@@ -4,26 +4,34 @@ class Solution:
         stack = []
         operators = "+-*/"
 
-        for char in tokens:
+        for token in tokens:
 
-            if char not in operators:
-                stack.append(char)
-            
-            else:
+            if token in operators:
 
                 operand1 = int(stack.pop())
                 operand2 = int(stack.pop())
 
-                if char == "+":
+                if token == "+":
+
                     result = operand2 + operand1
-                if char == "-":
+
+                elif token == "-":
+
                     result = operand2 - operand1
-                if char == "*":
-                    result = operand2 * operand1
-                if char == "/":
-                    result = operand2 / operand
                 
+                elif token == "*":
+
+                    result = operand2 * operand1
+                
+                else:
+
+                   result = operand2 / operand1
+
                 stack.append(result)
+            
+            else:
+
+                stack.append(token)
         
         return int(stack[0])
-                
+
