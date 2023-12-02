@@ -3,32 +3,31 @@ class Solution:
         
         stack = []
 
-        for char in s:
+        for brace in s:
 
-            if char == "(":
+            if brace == "(":
 
-                stack.append(-1)
+                stack.append(0)
             
             else:
 
-                i = -1
                 total = 0
+                removed = stack.pop()
 
-                while stack[i] != -1:
+                while removed > 0:
 
-                    total += stack[i]
-
-                    i -= 1
+                    total += removed
+                    removed = stack.pop()
                 
-                if total != 0:
-                    total = total * 2
                 if total == 0:
+
                     total = 1
+                
+                else:
 
-                stack[i] = total
-                stack = stack[:len(stack)+i+1]
-    
-
-            
+                    total *= 2
+                
+                stack.append(total)
+        
         return sum(stack)
-            
+                  
