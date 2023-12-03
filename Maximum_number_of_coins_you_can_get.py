@@ -1,22 +1,20 @@
 class Solution:
-    def maxCoins(self, piles: List[int]) -> int:  
-
+    def maxCoins(self, piles: List[int]) -> int:
+        
         piles.sort()
 
         i = 0
-        j = len(piles) - 1
+        j = len(piles) - 2
         total = 0
 
         while i < j:
 
-            total += piles[j-1]
-
+            total += piles[j]
             i += 1
             j -= 2
         
         return total
-        
-        
+             
     #     piles.sort() # O(nlogn)
 
     #     i = 0
