@@ -1,29 +1,29 @@
-class Solution(object):
-    def sortColors(self, nums):
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
         """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        for i in range(len(nums)):
-            for j in range(len(nums)):
-                if j == len(nums) - i - 1:
-                    break
-                elif nums[j+1] < nums[j]:
-                    nums[j], nums[j+1] = nums[j+1], nums[j]
 
-        # for i in range(1,n):
+        zero_count, one_count, two_count = 0, 0, 0
 
-        #     key = nums[i]
-        #     j = i - 1
+        for value in nums:
 
-        #     while j >= 0 and key < nums[j]:
+            if value == 0:
 
-        #         nums[j+1] = nums[j]
-        #         j -= 1
+                zero_count += 1
             
-        #     nums[j+1] = key
-        
+            elif value == 1:
 
+                one_count += 1
+            
+            else:
+
+                two_count += 1
         
+        sorted_nums = [0] * zero_count + [1] * one_count + [2] * two_count
+
+        for i in range(len(nums)):
+
+            nums[i] = sorted_nums[i]
         
         
