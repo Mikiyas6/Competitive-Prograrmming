@@ -1,17 +1,27 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-        nums1 = sorted(nums)
-        nums2 = nums
-        lists = []
-        i, j = 0, 0
-        while j < len(nums2):
-            if nums2[j] > nums1[i]:
-                i+=1
-                if i == len(nums1):
-                    i = 0
-                    j+=1
-            else:
-                lists.append(i)
-                i = 0
-                j += 1
-        return lists
+
+        sorted_nums = sorted(nums)
+        
+        hashmap = defaultdict(int)
+
+        for value in sorted_nums:
+
+            hashmap[value] += 1
+        
+        total = 0
+
+        hashmap1 = defaultdict(int)
+
+        for value,count in hashmap.items():
+
+            hashmap1[value] = total
+            total += count
+        
+        output = []
+        
+        for value in nums:
+
+            output.append(hashmap1[value])
+        
+        return output
