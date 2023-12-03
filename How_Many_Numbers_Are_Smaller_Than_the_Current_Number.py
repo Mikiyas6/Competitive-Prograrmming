@@ -1,19 +1,20 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
 
-        new_array = sorted(nums)
+        sorted_array = sorted(nums)
 
-        dictionary = {}
+        hashmap = defaultdict(int)
 
-        lists = []
+        for index,value in enumerate(sorted_array):
 
-        for i in range(len(nums)):
+            if value not in hashmap:
 
-            if new_array[i] not in dictionary:
-                dictionary[new_array[i]] = i
+                hashmap[value] = index
         
-        for i in range(len(nums)):
+        output = []
 
-            lists.append(dictionary[nums[i]])
+        for value in nums:
+
+            output.append(hashmap[value])
         
-        return lists
+        return output
