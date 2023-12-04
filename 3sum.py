@@ -1,35 +1,41 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-
+        
         nums.sort()
 
-        new_set = set()
+        hashset = set()
 
-        for k in range(len(nums)):
+        n = len(nums)
 
-            key = nums[k]
-            i = k+1
-            j = len(nums) - 1
+        for k in range(n):
+
+            target_number = nums[k]
+
+            complement_target_number = -1 * target_number
+
+            i = k + 1
+            j = n - 1
 
             while i < j:
 
-                total = key + nums[i] + nums[j]
+                total = nums[i] + nums[j]
 
-                if total == 0:
+                if total == complement_target_number:
 
-                    new_set.add((key,nums[i],nums[j]))
+                    hashset.add((target_number,nums[i],nums[j]))
 
                     i += 1
                     j -= 1
                 
-                elif total > 0:
+                elif total < complement_target_number:
+
+                    i += 1
+                
+                else:
 
                     j -= 1
 
-                else:
+        output = [list(value) for value in hashset]
 
-                    i += 1 
+        return output
 
-        lists = [list(value) for value in new_set]
-
-        return lists
