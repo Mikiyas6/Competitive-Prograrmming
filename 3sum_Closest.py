@@ -3,40 +3,39 @@ class Solution:
         
         nums.sort()
 
-        lists = []
+        n = len(nums)
+
+        closest_sum = float("inf")
+
+        minimum_distance = abs(target - closest_sum)
 
         for k in range(len(nums)):
 
-            key = nums[k]
             i = k + 1
-            j = len(nums) - 1
+            j = n - 1
 
             while i < j:
 
-                if key + nums[i] + nums[j] == target:
-                    lists.append(key + nums[i] + nums[j])
+                current_sum = nums[k] + nums[i] + nums[j]
+
+                new_distance = abs(target - current_sum)
+
+                if new_distance < minimum_distance:
+
+                    closest_sum = current_sum
+                    minimum_distance = new_distance
+                
+                if current_sum == target:
+
+                    return closest_sum
+                
+                elif current_sum < target:
+
                     i += 1
-                    j -= 1
-                elif key + nums[i] + nums[j] > target:
-                    lists.append(key + nums[i] + nums[j])
-                    j -= 1
+                
                 else:
-                    lists.append(key + nums[i] + nums[j])
-                    i += 1
-        
-        dictionary = {}
-            
-        new_list = []
 
-        for value in lists:
+                    j -= 1
 
-            distance = target - value
+        return closest_sum
 
-            if distance < 0:
-                distance = -1 * distance
-            
-            new_list.append(distance)
-            dictionary[distance] = value
-        
-        return dictionary[min(new_list)]
-    
