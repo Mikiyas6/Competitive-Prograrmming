@@ -3,21 +3,20 @@
 class Solution:
     def arraySortedOrNot(self, arr, n):
         # code here
-        if n == 1:
-            return 1
-            
+        
         i = 0
         j = i + 1
         
         while j < n:
             
-            if arr[i] > arr[j]:
+            if arr[j] < arr[i]:
                 return 0
             
             i += 1
             j += 1
-            
+        
         return 1
+
 
 #{ 
  # Driver Code Starts
