@@ -3,22 +3,27 @@ class Solution:
         
         people.sort()
 
-        i = 0
-        j = len(people) - 1
-        total = 0
+        counter = 0
+
+        i, j = 0, len(people) - 1 
 
         while i < j:
 
-            if people[i] + people[j] <= limit:
-                i += 1
-            
-            total += 1
-            j -= 1
+            total = people[i] + people[j]
 
-        if i == j:
-            total += 1
+            if total <= limit:
+
+                i += 1
+                j -= 1
+            
+            else:
+
+                j -= 1
+            
+            counter += 1
         
-        return total
+        return counter + 1 if i == j else counter
+
 
 # class Solution:
 #     def numRescueBoats(self, people: List[int], limit: int) -> int:
