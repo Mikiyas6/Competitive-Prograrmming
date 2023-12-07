@@ -1,61 +1,36 @@
-from collections import Counter
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
 
-        if len(s) < len(p):
-            return []
+        k = len(p)
 
+        n = len(s)
+        
         p_hashmap = Counter(p)
+        s_hashmap = Counter(s[:k])
 
-        i = 0
-        j = len(p)
-        lists = []
+        output = []
 
-        string = s[i:j]
-        string_hashmap = Counter(string)
+        if p_hashmap == s_hashmap:
 
-        if p_hashmap == string_hashmap:
-            lists.append(i)
+            output.append(0)
         
-        i += 1
-        j += 1
-        
-        while j < len(s)+1:
+        l = 0
 
-            string_hashmap[s[i-1]] -= 1
-            string_hashmap[s[j-1]] += 1
+        for r in range(k,n):
 
-            if string_hashmap == p_hashmap:
+            s_hashmap[s[l]] -= 1
+            s_hashmap[s[r]] += 1
 
-                lists.append(i)
+            if s_hashmap[s[l]] == 0:
+
+               s_hashmap.pop(s[l])
             
-            i += 1
-            j += 1
+            if s_hashmap == p_hashmap:
+
+                output.append(l+1)
+
+            l += 1
         
-        return lists
-
-# class Solution:
-#     def findAnagrams(self, s: str, p: str) -> List[int]:
-
-#         from collections import Counter
-
-#         dictionary = Counter(p)
+        return output
         
-#         i, j = 0, len(p)
-#         lists = []
 
-#         while j < len(s)+1:
-
-#             string = s[i:j] 
-#             new_dictionary = Counter(string)
-
-#             if new_dictionary == dictionary:
-#                 lists.append(i)
-
-#             i += 1
-#             j += 1
-
-#         return lists
-            
-
-        
