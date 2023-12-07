@@ -21,10 +21,6 @@ class Solution:
 
           counter -= 1
 
-          if hashmap[s[l]] == 0:
-
-              hashmap.pop(s[l])
-
           l += 1
           
         max_count = max(max_count,counter)
