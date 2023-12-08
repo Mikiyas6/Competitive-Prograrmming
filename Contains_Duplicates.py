@@ -1,17 +1,20 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
 
-        dictionary = {}
+        hashmap = defaultdict(int)
 
-        for i in range(len(nums)):
+        for index, value in enumerate(nums):
 
-            if nums[i] in dictionary:
+            if value in hashmap.keys():
 
-                first_index = dictionary[nums[i]]
+                diff = index - hashmap[value]
 
-                if abs(first_index-i) <= k:
+                if diff <= k:
+
                     return True
-
-            dictionary[nums[i]] = i
+            
+            hashmap[value] = index
         
         return False
+        
+       
