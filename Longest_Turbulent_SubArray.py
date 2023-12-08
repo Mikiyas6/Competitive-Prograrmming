@@ -1,9 +1,11 @@
 class Solution:
     def maxTurbulenceSize(self, arr: List[int]) -> int:
+        
+        max_size = 0 
 
-        previous_sign = ""
         l = 0
-        max_length = 0
+
+        previous_sign = sign = ""
 
         if len(arr) == 1:
 
@@ -13,25 +15,34 @@ class Solution:
 
             if arr[r-1] > arr[r]:
 
-                sign = ">"
-
+                current_sign = ">"
+            
             elif arr[r-1] < arr[r]:
 
-                sign = "<"
-
+                current_sign = "<"
+            
             else:
 
-                sign = "="
+                current_sign = "="
 
-            if sign == previous_sign:
+            if current_sign == previous_sign:
 
                 l = r - 1
+            
+            else:
 
-            if sign == "=":
+                if current_sign == "=":
 
-                l = r
+                    l = r
+                
+                    previous_sign = ""
+                
+                else:
 
-            max_length = max(max_length,r-l+1)
-            previous_sign = sign
-
-        return max_length
+                    previous_sign = current_sign
+            
+            max_size = max(max_size, r-l+1)
+    
+        return max_size
+            
+                
