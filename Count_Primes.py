@@ -1,24 +1,22 @@
 class Solution:
     def countPrimes(self, n: int) -> int:
-
-        prime_numbers = [True] * n
-
-        for i in range(2,math.floor(sqrt(n))+1):
-
-            if prime_numbers[i]:
-
-                for j in range(i**2,n,i):
-
-                    prime_numbers[j] = False
         
-        total = 0
-        
-        for value in prime_numbers[2:]:
+      visited = set()
 
-            if value:
+      prime_numbers = []
 
-                total += 1
-        
-        return total
-            
+      if n <= 2:
 
+        return 0
+      
+      for i in range(2,n):
+
+        if i not in visited:
+
+          prime_numbers.append(i)
+
+          for j in range(i**2,n,i):
+
+            visited.add(j)
+      
+      return len(prime_numbers)
