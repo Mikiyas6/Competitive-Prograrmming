@@ -1,21 +1,21 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-
-        total = 0
+        
         hashmap = defaultdict(int)
         hashmap[0] = 1
-        count = 0
+        counter = 0
+        total = 0
 
         for r in range(len(nums)):
 
             total += nums[r]
+            gap = total - k
 
-            if total - k in hashmap:
+            if gap in hashmap:
 
-                count += hashmap[total-k]
+                counter += hashmap[gap]
             
             hashmap[total] += 1
         
-        return count
-
-        
+        return counter
+            
