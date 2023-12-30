@@ -1,30 +1,41 @@
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
-
+        
         string1 = ""
+        size = 0
+
+        for character in s:
+
+            if character == "#":
+
+                string1 = string1[:size-1]
+                size = 0 if size == 0 else size - 1
+            
+            else:
+
+                string1 += character
+                size += 1
+        
         string2 = ""
-        
-        for letter in s:
+        size = 0
 
-            if letter != "#":
+        for character in t:
 
-                string1 += letter
+            if character == "#":
+
+                string2 = string2[:size-1]
+
+                size = 0 if size == 0 else size - 1
             
             else:
 
-                string1 = string1[:len(string1)-1]
+                string2 += character
+                size += 1
+
+        return string1 == string2
+
         
-        for letter in t:
 
-            if letter != "#":
-
-                string2 += letter
-            
-            else:
-
-                string2 = string2[:len(string2)-1]
-        
-        return True if string1 == string2 else False
 
 
 
