@@ -3,41 +3,40 @@ class MyCircularDeque:
     def __init__(self, k: int):
 
         self.size = k
-        self.queue = [None] * self.size
-        self.front, self.rear = -1, -1
+        self.Deque = [None] * self.size
+        self.left = self.right = -1
 
     def insertFront(self, value: int) -> bool:
         
         if self.isFull():
-
             return False
         
-        if self.isEmpty():
+        if self.left == self.right and self.left == -1:
 
-            self.front = self.rear = 0
+            self.left = self.right = 0
         
         else:
-
-            self.front = (self.front - 1 + self.size) % self.size
         
-        self.queue[self.front] = value
+            self.left = (self.left - 1 + self.size) % self.size
+
+        self.Deque[self.left] = value
+
         return True
 
     def insertLast(self, value: int) -> bool:
-
+        
         if self.isFull():
-
             return False
         
-        if self.isEmpty():
+        if self.left == self.right and self.left == -1:
 
-            self.front = self.rear = 0
+            self.left = self.right = 0
         
         else:
-
-            self.rear = (self.rear + 1) % self.size
         
-        self.queue[self.rear] = value
+            self.right = (self.right + 1) % self.size
+
+        self.Deque[self.right] = value
 
         return True
 
@@ -47,30 +46,30 @@ class MyCircularDeque:
 
             return False
         
-        if self.front == self.rear:
+        if self.left == self.right and self.left != -1:
 
-            self.front = self.rear = -1
+            self.left = self.right = -1
         
         else:
-        
-            self.front = (self.front + 1) % self.size
+
+            self.left = (self.left + 1) % self.size
         
         return True
 
-    def deleteLast(self) -> bool: 
+    def deleteLast(self) -> bool:
         
         if self.isEmpty():
 
             return False
         
-        if self.front == self.rear:
+        if self.left == self.right and self.left != -1:
 
-            self.front = self.rear = -1
+            self.left = self.right = -1
         
         else:
-        
-            self.rear = (self.rear - 1 + self.size) % self.size
 
+            self.right = (self.right - 1 + self.size) % self.size
+        
         return True
 
     def getFront(self) -> int:
@@ -79,7 +78,7 @@ class MyCircularDeque:
 
             return -1
         
-        return self.queue[self.front]
+        return self.Deque[self.left]
 
     def getRear(self) -> int:
         
@@ -87,17 +86,23 @@ class MyCircularDeque:
 
             return -1
         
-        return self.queue[self.rear]
+        return self.Deque[self.right]
 
-    def isEmpty(self) -> bool: 
+    def isEmpty(self) -> bool:
         
-        if self.front == -1 and self.rear == -1:
-            return True
+        if self.left == self.right and self.left == -1:
 
-    def isFull(self) -> bool: 
-        
-        if (self.rear + 1) % self.size == self.front:
             return True
+        
+        return False
+
+    def isFull(self) -> bool:
+        
+        if (self.right + 1) % self.size == self.left:
+
+            return True
+        
+        return False
 
 
 # Your MyCircularDeque object will be instantiated and called as such:
