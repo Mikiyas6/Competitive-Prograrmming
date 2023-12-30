@@ -3,24 +3,22 @@ class MyCircularQueue:
     def __init__(self, k: int):
         
         self.size = k
-        self.queue = [None] * self.size
-        self.front, self.rear = -1, -1
+        self.queue = [0] * self.size
+        self.left = self.right = -1
 
     def enQueue(self, value: int) -> bool:
-        
+
         if self.isFull():
 
             return False
-        
+
         if self.isEmpty():
 
-            self.front = self.rear = 0
-        
-        else:
+            self.left = 0
 
-            self.rear = (self.rear + 1) % self.size
-        
-        self.queue[self.rear] = value
+        self.right = (self.right + 1) % self.size
+
+        self.queue[self.right] = value
 
         return True
 
@@ -30,41 +28,47 @@ class MyCircularQueue:
 
             return False
         
-        if self.front == self.rear:
+        if self.left == self.right and self.left != -1:
 
-            self.front = self.rear = -1
+            self.left = self.right = -1
         
         else:
 
-            self.front = (self.front + 1) % self.size
-
+            self.left = (self.left + 1) % self.size
+        
         return True
 
     def Front(self) -> int:
         
-        if self.isEmpty():
+        if not self.isEmpty():
 
-            return -1
+            return self.queue[self.left]
         
-        return self.queue[self.front]
+        return -1
 
     def Rear(self) -> int:
         
-        if self.isEmpty():
+        if not self.isEmpty():
 
-            return -1
+            return self.queue[self.right]
         
-        return self.queue[self.rear]
+        return -1
 
     def isEmpty(self) -> bool:
         
-        if self.front == -1 and self.rear == -1:
+        if self.left == self.right and self.left == -1:
+
             return True
+        
+        return False
 
     def isFull(self) -> bool:
         
-        if (self.rear + 1) % self.size == self.front:
+        if (self.right + 1) % self.size == self.left:
+
             return True
+        
+        return False
 
 
 # Your MyCircularQueue object will be instantiated and called as such:
