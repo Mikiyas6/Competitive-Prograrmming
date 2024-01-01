@@ -2,17 +2,22 @@ class Solution:
     def judgeSquareSum(self, c: int) -> bool:
         
         i = 0
-        j = int(c**0.5) 
+        j = int(sqrt(c))
 
         while i <= j:
 
-            product =  i**2 + j**2
+            square = i**2 + j**2
 
-            if product == c:
-                return True
-            elif product > c:
-                j -= 1
-            else:
+            if square < c:
+
                 i += 1
+            
+            elif square > c:
+
+                j -= 1
+
+            else:
+
+                return True
 
         return False
