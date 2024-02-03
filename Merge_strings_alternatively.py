@@ -3,17 +3,10 @@ class Solution:
         
         string = ""
 
-        i = 0
-        j = 0
+        min_length = min(len(word1),len(word2))
 
-        length1 = len(word1)
-        length2 = len(word2)
+        for i in range(min_length):
 
-        while i < length1 and j < length2:
-
-            string += word1[i] + word2[j]
-
-            i += 1
-            j += 1
+            string += word1[i] + word2[i]
         
-        return string + word1[i:] + word2[j:]
+        return string + word1[i+1:] + word2[i+1:]
