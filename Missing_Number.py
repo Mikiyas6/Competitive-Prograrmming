@@ -1,6 +1,13 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
-        nums = set(nums)
-        extended_nums = set(list(range(0,len(nums)+1)))
-        if list(extended_nums.difference(nums)):
-            return list(extended_nums.difference(nums))[0]
+        
+        n = len(nums)
+
+        another_nums = list(range(n+1))
+
+        set_nums = set(nums)
+        set_another_nums = set(another_nums)
+
+        missing_number = (list(set_another_nums - set_nums)[0])
+
+        return missing_number
