@@ -1,17 +1,35 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
+
+        ######### sets #############
+
+        nums.sort()
+
+        new_set = set(nums)
+
+        new_list = list(new_set)
+
+        new_list.sort()
+
+        return nums != new_list
+
+
+        ####### Hashmap ##########
         
-        hashmap = defaultdict(int)
+        # hashmap = defaultdict(int)
 
-        for i in range(len(nums)):
+        # for i in range(len(nums)):
 
-            if nums[i] in hashmap:
+        #     if nums[i] in hashmap:
 
-                return True
+        #         return True
             
-            hashmap[nums[i]] = i
+        #     hashmap[nums[i]] = i
         
-        return False
+        # return False
+
+
+        ########## Two Pointers ##############
 
         # n = len(nums)
 
@@ -31,3 +49,5 @@ class Solution:
         #     j += 1
             
         # return False
+
+       
