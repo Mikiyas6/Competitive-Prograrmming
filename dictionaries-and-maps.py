@@ -25,5 +25,4 @@ while True:
             print("Not found")
         
     except EOFError:
-        # Handle the end of input (EOF) gracefully
         break
