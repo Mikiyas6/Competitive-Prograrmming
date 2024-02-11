@@ -10,7 +10,7 @@ class Solution:
         tortoise = head
         rabbit = head
 
-        # Phase 1
+        # Phase 1 Find if there's a Cycle
 
         while rabbit and rabbit.next:
 
@@ -19,15 +19,22 @@ class Solution:
 
             if tortoise == rabbit:
 
-                break
-        
-        # Phase 2
-
-        while rabbit and rabbit.next:
-
-            tortoise = tortoise.next
-            rabbit = rabbit.next
-
-            if tortoise == rabbit:
-
                 return True
+                # break
+        
+        # if slow != fast:
+
+        #     return False
+        
+        # Phase 2 Find the start of the cycle
+
+        # slow = head
+
+        # while rabbit and rabbit.next:
+
+        #     tortoise = tortoise.next
+        #     rabbit = rabbit.next
+
+        #     if tortoise == rabbit:
+
+        #         return Tortoise
