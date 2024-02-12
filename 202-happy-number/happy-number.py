@@ -26,14 +26,10 @@ class Solution:
         slow = n
         fast = find_square(find_square(n))
 
-        print(str(slow )+ "->" + str(fast))
-
         while slow != fast :
 
             slow = find_square(slow)
             fast = find_square(find_square(fast))
-
-            print(str(slow )+ "->" + str(fast))
 
             if fast == 1:
 
