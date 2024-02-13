@@ -7,17 +7,21 @@ class Solution:
 
         max_perimeter = 0
 
-        for r in range(2,len(nums)):
+        sum_of_three_sides = sum(nums[:3])
 
-            sum_of_two_sides = nums[l] + nums[l+1]
+        if sum_of_three_sides - nums[2] > nums[2]:
 
-            if sum_of_two_sides <= nums[r]:
+            max_perimeter = max(max_perimeter, sum_of_three_sides)
 
-                l += 1
+        for r in range(3,len(nums)):
 
-                continue 
-            
-            max_perimeter = max(max_perimeter,sum_of_two_sides + nums[r])
+            sum_of_three_sides -= nums[l]
+
+            sum_of_three_sides += nums[r]
+
+            if sum_of_three_sides - nums[r] > nums[r]:
+
+                max_perimeter = max(max_perimeter,sum_of_three_sides) 
 
             l += 1
         
