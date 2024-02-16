@@ -41,8 +41,6 @@ class FrequencyTracker:
 
             if frequency != 0:
 
-                print(self.frequency,self.frequency[frequency],number)
-
                 list_of_numbers = self.frequency[frequency]
 
                 if number in list_of_numbers:
@@ -73,9 +71,8 @@ class FrequencyTracker:
         
            return True
 
-
-# Your FrequencyTracker object will be instantiated and called as such:
-# obj = FrequencyTracker()
-# obj.add(number)
-# obj.deleteOne(number)
-# param_3 = obj.hasFrequency(frequency)
+# # Your FrequencyTracker object will be instantiated and called as such:
+# # obj = FrequencyTracker()
+# # obj.add(number)
+# # obj.deleteOne(number)
+# # param_3 = obj.hasFrequency(frequency)
