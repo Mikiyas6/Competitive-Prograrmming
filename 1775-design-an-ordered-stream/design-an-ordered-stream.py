@@ -13,11 +13,7 @@ class OrderedStream:
 
         for i in range(self.pointer,self.size):
 
-            if self.array[i]:
-
-                counter += 1
-            
-            else:
+            if not self.array[i]:
 
                 answer =  self.array[self.pointer:i]
                 self.pointer = i
