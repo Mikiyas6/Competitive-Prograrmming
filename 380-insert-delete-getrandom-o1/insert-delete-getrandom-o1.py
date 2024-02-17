@@ -1,7 +1,7 @@
 class RandomizedSet:
 
     def __init__(self):
-        self.dict = {}
+        self.dict = defaultdict(int)
         self.list = []
 
     def insert(self, val: int) -> bool:
