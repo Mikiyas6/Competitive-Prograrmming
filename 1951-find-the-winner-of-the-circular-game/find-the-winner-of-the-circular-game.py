@@ -11,7 +11,7 @@ class Solution:
 
             loser += k-1
 
-            loser %= len(players)
+            loser %= counter
 
             players.pop(loser)
 
