@@ -9,8 +9,6 @@ class Solution:
 
             if len(str(total)) > 1:
 
-                print(int(str(total)[-1]),int(str(total)[0]))
-
                 digits[i] = int(str(total)[-1])
 
                 left_over = int(str(total)[0])
