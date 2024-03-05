@@ -9,9 +9,13 @@ class Solution:
 
         while right < n:
 
-            if nums[right] != 0:
+            if nums[left] == 0 and nums[right] != 0:
 
                 nums[left], nums[right] = nums[right], nums[left]
+
+                left += 1
+            
+            elif nums[left] != 0:
 
                 left += 1
             
