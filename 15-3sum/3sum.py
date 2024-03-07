@@ -5,34 +5,67 @@ class Solution:
 
         n = len(nums)
 
-        hashset = set()
+        output = set()
 
-        for k in range(n):
+        for index, value in enumerate(nums):
 
-            i = k + 1
-            j = n - 1
+            if value > 0:
 
-            complement = -1 * nums[k]
+                continue
 
-            while i < j:
+            left = index + 1
+            right = n - 1
 
-                summation = nums[i] + nums[j]
+            target = -1 * value
 
-                if summation == complement:
+            while left < right:
 
-                    hashset.add((nums[k],nums[i],nums[j]))
-                    i += 1
-                    j -= 1
+                total = nums[left] + nums[right]
+
+                if total < target:
+
+                    left += 1
                 
-                elif summation < complement:
+                elif total > target:
 
-                    i += 1
+                    right -= 1
                 
                 else:
 
-                    j -= 1
-            
-        output = list(map(list,hashset))
+                    output.add((value,nums[left],nums[right]))
+                    left += 1
+                    right -= 1
+        
+        result = [list(items) for items in output]
+        return result
 
-        return output
+
+        # for k in range(n):
+
+        #     i = k + 1
+        #     j = n - 1
+
+        #     complement = -1 * nums[k]
+
+        #     while i < j:
+
+        #         summation = nums[i] + nums[j]
+
+        #         if summation == complement:
+
+        #             hashset.add((nums[k],nums[i],nums[j]))
+        #             i += 1
+        #             j -= 1
+                
+        #         elif summation < complement:
+
+        #             i += 1
+                
+        #         else:
+
+        #             j -= 1
+            
+        # output = list(map(list,hashset))
+
+        # return output
 
