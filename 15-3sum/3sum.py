@@ -11,7 +11,7 @@ class Solution:
 
             if value > 0:
 
-                continue
+                break
 
             left = index + 1
             right = n - 1
