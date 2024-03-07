@@ -12,15 +12,14 @@ class Solution:
         dummy = ListNode(-1)
         dummy.next = head
         prev = dummy
-        current = head
 
-        while current and current.next:
-            if current.val == current.next.val:
-                while current.next and current.val == current.next.val:
-                    current = current.next
-                prev.next = current.next
+        while head and head.next:
+            if head.val == head.next.val:
+                while head.next and head.val == head.next.val:
+                    head = head.next
+                prev.next = head.next
             else:
                 prev = prev.next
-            current = current.next
+            head = head.next
 
         return dummy.next
