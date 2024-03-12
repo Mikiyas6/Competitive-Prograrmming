@@ -4,31 +4,60 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
 
-        # i = len(nums) - 2
-        # while i >= 0 and nums[i] >= nums[i + 1]:
-        #     i -= 1
+        n = len(nums)
 
-        # if i >= 0:
-        #     j = len(nums) - 1
-        #     while j >= 0 and nums[j] <= nums[i]:
-        #         j -= 1
-        #     nums[i], nums[j] = nums[j], nums[i]
+        pointer = n - 2
 
-        # i += 1
-        # j = len(nums) - 1
-        # while i < j:
-        #     nums[i], nums[j] = nums[j], nums[i]
-        #     i += 1
-        #     j -= 1
+        while pointer >= 0:
 
-        i = len(nums) - 2
-        while i >= 0 and nums[i] >= nums[i + 1]:
-            i -= 1
+            if nums[pointer + 1] > nums[pointer]:
 
-        if i >= 0:
-            j = len(nums) - 1
-            while j >= 0 and nums[j] <= nums[i]:
+                break
+            
+            pointer -= 1
+        
+
+        if pointer < 0:
+
+            i = 0
+            j = n - 1
+
+            while i <= j:
+
+                nums[i], nums[j] = nums[j], nums[i]
+
+                i += 1
                 j -= 1
-            nums[i], nums[j] = nums[j], nums[i]
+        else:
 
-        nums[i + 1:] = reversed(nums[i + 1:])
+            value = nums[pointer]
+
+            new_pointer = n - 1
+
+            while new_pointer >= 0:
+
+                if nums[new_pointer] > value:
+
+                    nums[new_pointer],nums[pointer] = nums[pointer], nums[new_pointer]
+
+                    break
+                
+                new_pointer -= 1
+            
+            second_part = nums[pointer+1:]
+
+            first_part = nums[:pointer+1]
+
+            second_part.sort()
+
+            new_array = first_part + second_part
+
+            for i in range(n):
+
+                nums[i] = new_array[i]
+
+
+
+
+
+
