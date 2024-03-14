@@ -12,9 +12,6 @@ class Solution:
         first_part = arr[:max_index+1]
         second_part = arr[max_index:]
 
-        print(first_part)
-        print(second_part)
-
         if len(first_part) < 2 or len(second_part) < 2:
 
             return False
