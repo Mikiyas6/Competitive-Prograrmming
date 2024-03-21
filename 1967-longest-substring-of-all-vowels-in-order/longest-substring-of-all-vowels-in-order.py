@@ -28,13 +28,7 @@ class Solution:
 
                 r += 1
             
-            if word[r-1] != "u":
-
-                counter = 1
-            
-            if word[r-1] == "u" and len(hashset) < 5:
-
-                print(hashset)
+            if word[r-1] != "u" or len(hashset) < 5:
 
                 counter = 1
             
