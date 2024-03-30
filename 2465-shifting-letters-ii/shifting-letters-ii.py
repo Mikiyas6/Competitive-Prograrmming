@@ -29,6 +29,14 @@ class Solution:
         
         prefix_sum = prefix_sum[:n]
 
+        # To shift 
+
+              # idx = (idx + shift_amount) % 26
+
+        # if shift_amount is negative and makes (idx + shift_amount) negative, then you will have to add the size to it 
+
+              # idx = (idx + shift_amount + 26) % 26
+
         for index, shift in enumerate(prefix_sum):
 
             converted = ord(s[index])
