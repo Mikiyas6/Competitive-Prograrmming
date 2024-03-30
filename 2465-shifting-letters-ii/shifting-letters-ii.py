@@ -35,7 +35,13 @@ class Solution:
 
             calibrated = converted - offset
 
-            total_shift = (calibrated + shift) % 26
+            shifted = calibrated + shift
+
+            if shifted < 0:
+
+                shifted += 26
+
+            total_shift = shifted % 26
 
             new_char = chr(total_shift+offset)
 
