@@ -35,7 +35,6 @@ class Solution:
                         if sudoku(row, col + 1, board):
                             return True
                 board[row][col] = "."
-                return False
             
             else:
                 return sudoku(row, col + 1, board)
