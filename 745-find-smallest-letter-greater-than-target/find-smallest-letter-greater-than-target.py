@@ -1,10 +1,30 @@
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
-        left, right = 0, len(letters) - 1
-        while left <= right:
-            mid = left + (right - left) // 2
-            if letters[mid] <= target:
-                left = mid + 1
+        
+        def ceil(s,e,target):
+    
+            if s > e:
+                
+                return s
+            
+            mid = (s+(e-s)//2)
+            
+            if target < letters[mid]:
+                
+                e = mid-1
+            
             else:
-                right = mid - 1
-        return letters[left] if left < len(letters) else letters[0]
+                
+                s = mid+1
+            
+            return ceil(s,e,target)
+        
+        index = ceil(0,len(letters)-1,target)
+
+        if index < 0 or index >= len(letters):
+
+            index = 0
+        
+        return letters[index]
+        
+
