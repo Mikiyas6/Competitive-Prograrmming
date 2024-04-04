@@ -5,7 +5,7 @@ class Solution:
     
             if s > e:
                 
-                return s
+                return s % len(letters)
             
             mid = (s+(e-s)//2)
             
@@ -19,12 +19,6 @@ class Solution:
             
             return ceil(s,e,target)
         
-        index = ceil(0,len(letters)-1,target)
-
-        if index >= len(letters):
-
-            index = 0
-        
-        return letters[index]
+        return letters[ceil(0,len(letters)-1,target)]
         
 
