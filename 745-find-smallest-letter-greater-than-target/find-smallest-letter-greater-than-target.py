@@ -21,7 +21,7 @@ class Solution:
         
         index = ceil(0,len(letters)-1,target)
 
-        if index < 0 or index >= len(letters):
+        if index >= len(letters):
 
             index = 0
         
