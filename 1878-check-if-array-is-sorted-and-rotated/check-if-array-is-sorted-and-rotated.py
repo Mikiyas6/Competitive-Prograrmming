@@ -1,57 +1,50 @@
 class Solution:
     def check(self, nums: List[int]) -> bool:
 
-        k = 0
+        n = len(nums)
 
-        for i in range(1,len(nums)):
+        def rotator(i,j,nums):
 
-            if nums[i] < nums[i-1]:
+            if i >= j:
 
-                k = i
-                break
-        
-        k = k % len(nums)
-
-        i = k
-        j = len(nums) -1
-
-        while i < j:
-
+                return nums
+            
             nums[i], nums[j] = nums[j], nums[i]
 
-            i += 1
-            j -= 1
-        
-        i = 0
-        j = k - 1
+            return rotator(i+1,j-1,nums)
 
-        while i < j:
+        def checker(i):
 
-            nums[i],nums[j] = nums[j], nums[i]
+            if i == n:
 
-            i += 1
-            j -= 1
-        
-        i = 0
-        j = len(nums)-1
-
-        while i < j:
-
-            nums[i],nums[j] = nums[j], nums[i]
-
-            i += 1
-            j -= 1
-        
-        for i in range(1,len(nums)):
-
+                return -1
+            
             if nums[i] < nums[i-1]:
 
-                return False
+                return i
+            
+            return checker(i+1)
+
+        pivot = checker(1)
+
+        if pivot == -1:
+
+            return True
+        
+        nums = rotator(pivot,n-1,nums)
+        nums = rotator(0,pivot-1,nums)
+        nums = rotator(0,n-1,nums)
+
+        pivot = checker(1)
+
+        if pivot > -1:
+
+            return False
         
         return True
 
         
-        # s, e = 0, len(nums) - 1
+        # s, e = 0, n - 1
 
         # def find_pivot(s,e):
 
