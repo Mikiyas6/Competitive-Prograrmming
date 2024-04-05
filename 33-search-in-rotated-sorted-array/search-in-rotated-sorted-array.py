@@ -3,37 +3,56 @@ class Solution:
 
         s, e = 0, len(nums) - 1
 
-        while s <= e:
+        def find_pivot(s,e):
 
-            mid = (s+(e-s)//2)
+            if s > e:
+
+                return -1
+            
+            mid = s + (e-s)//2
+            
+            if mid + 1 < len(nums) and nums[mid] > nums[mid+1]:
+
+                return mid
+            
+            if nums[mid] < nums[mid-1]:
+
+                return mid - 1
+            
+            if nums[s] >= nums[mid]:
+
+                e = mid - 1
+            
+            else:
+
+                s = mid + 1
+            
+            return find_pivot(s,e)
+        
+        def binary_search(s,e):
+
+            if s > e:
+
+                return -1
+            
+            mid = s + (e-s)//2
 
             if nums[mid] == target:
 
                 return mid
-
-        #1 Checking whether the mid element is on the left or the right side
-        #2 After knowing which side is the mid value part of, we then try to find which part we should look at
-
-            if nums[mid] >= nums[s]: #Then the mid is part of the left side
-
-                if target > nums[mid] or target < nums[s]:
-
-                    s = mid + 1
-                
-                else:
-
-                    e = mid - 1
             
-            else: #Mid is part of the right side
+            elif target < nums[mid]:
 
-                if target < nums[mid] or target > nums[e]:
+                e = mid - 1
+            
+            else:
 
-                    e = mid - 1
-                
-                else:
-
-                    s = mid + 1
+                s = mid + 1
+            
+            return binary_search(s,e)
         
-        return -1
+        pivot = find_pivot(s,e)
 
+        return max(binary_search(s,pivot),binary_search(pivot+1,e))
             
+
