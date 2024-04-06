@@ -1,15 +1,41 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-        start, end = 0, x
-        while start <= end:
-            middle = start + (end - start)//2
-            if middle * middle == x:
-                return middle
-            elif middle * middle > x:
-                end = middle - 1
+
+        if x == 1:
+
+            return 1
+        
+        s = 0
+        e = x//2
+
+        def floor(s,e,target):
+    
+            if s > e:
+                
+                return e
+            
+            mid = (s+(e-s)//2)
+
+            square = mid**2
+            
+            if square == target:
+                
+                return mid
+            
+            if target < square:
+                
+                e = mid-1
+            
             else:
-                start = middle + 1
-        return end
+                
+                s = mid+1
+            
+            return floor(s,e,target)
+        
+        return floor(s,e,x)
+        
+
+
 
 
         
