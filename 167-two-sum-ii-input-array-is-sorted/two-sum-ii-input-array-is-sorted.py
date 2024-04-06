@@ -1,23 +1,57 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
 
-        left, right = 0, len(numbers) - 1
+        def binary_search(s,e,nums,target):
 
-        while left != right:
+            if s > e:
 
-            total = numbers[left] + numbers[right]
-
-            if total > target:
-
-                right -= 1
+                return -1
             
-            elif total < target:
+            mid = s + (e-s)//2
 
-                left += 1
+            if nums[mid] == target:
+
+                return mid
+            
+            elif target > nums[mid]:
+
+                s = mid + 1
             
             else:
 
-                return [left+1,right+1]
+                e = mid - 1
+            
+            return binary_search(s,e,nums,target)
+
+        n = len(numbers)
+
+        for index, value in enumerate(numbers):
+
+            diff = target - value
+
+            result = binary_search(index+1,n-1,numbers,diff)
+
+            if result != -1:
+
+                return [index+1,result+1]
+        
+        # left, right = 0, len(numbers) - 1
+
+        # while left != right:
+
+        #     total = numbers[left] + numbers[right]
+
+        #     if total > target:
+
+        #         right -= 1
+            
+        #     elif total < target:
+
+        #         left += 1
+            
+        #     else:
+
+        #         return [left+1,right+1]
 
         
             
