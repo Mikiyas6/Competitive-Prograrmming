@@ -1,19 +1,42 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         
-        def backtrack(start):
-            if start == len(nums):
-                permutations.append(nums[:])  # Append a copy of the current permutation
-                return
-            used = set()  # Use a set to keep track of used elements at this position
-            for i in range(start, len(nums)):
-                if nums[i] in used:
-                    continue  # Skip if the element is already used at this position
-                used.add(nums[i])  # Mark the element as used
-                nums[start], nums[i] = nums[i], nums[start]  # Swap elements
-                backtrack(start + 1)  # Recur for the next index
-                nums[start], nums[i] = nums[i], nums[start]  # Undo the swap
+        def fun(processed,unprocessed):
 
-        permutations = []
-        backtrack(0)
-        return permutations
+            if not unprocessed:
+
+                return [processed]
+            
+            first_char = unprocessed[0]
+
+            combinations = []
+
+            for i in range(len(processed)+1):
+
+                combinations.extend(fun(processed[:i]+[first_char]+processed[i:],unprocessed[1:]))
+            
+            return combinations
+        
+        nums = fun([],nums)
+
+        nums.sort()
+
+        i = 0
+        j = i + 1
+
+        result = []
+
+        while j < len(nums):
+
+            if nums[j] != nums[i]:
+
+                result.append(nums[i])
+            
+            i += 1
+            j += 1
+        
+        if nums[i] not in result:
+
+            result.append(nums[i])
+
+        return result
