@@ -1,15 +1,29 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        
-        def backtrack(start):
-            if start == len(nums):
-                permutations.append(nums[:])  # Append a copy of the current permutation
-                return
-            for i in range(start, len(nums)):
-                nums[start], nums[i] = nums[i], nums[start]  # Swap elements
-                backtrack(start + 1)  # Recur for the next index
-                nums[start], nums[i] = nums[i], nums[start]  # Undo the swap
 
-        permutations = []
-        backtrack(0)
-        return permutations
+        def fun(processed,unprocessed):
+
+            if not unprocessed:
+
+                return [processed]
+            
+            first_char = unprocessed[0]
+
+            combinations = []
+
+            for i in range(len(processed)+1):
+
+                combinations.extend(fun(processed[:i]+[first_char]+processed[i:],unprocessed[1:]))
+
+                print(combinations)
+            
+            return combinations
+        
+        nums = fun([],nums)
+
+        nums.sort()
+
+        return nums
+        
+        
+
