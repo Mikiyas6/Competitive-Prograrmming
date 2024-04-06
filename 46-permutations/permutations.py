@@ -14,8 +14,6 @@ class Solution:
             for i in range(len(processed)+1):
 
                 combinations.extend(fun(processed[:i]+[first_char]+processed[i:],unprocessed[1:]))
-
-                print(combinations)
             
             return combinations
         
