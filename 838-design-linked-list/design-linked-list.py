@@ -68,19 +68,39 @@ class MyLinkedList:
         
         else:
 
-            end_up = index-1
+            def fun(current,val,index):
 
-            current = self.head
+                if index == 0:
 
-            for i in range(end_up):
+                    temp = current.next
+                    Node = ListNode(val)
+                    current.next = Node
+                    Node.next = temp
+                    return current
+                
+                current.next = fun(current.next,val,index-1)
 
-                current = current.next
+                return current
             
-            temp = current.next
-            Node = ListNode(val)
-            current.next= Node
-            Node.next = temp
+            current = self.head
+            fun(current,val,index-1)
             self.size += 1
+        
+        # else:
+
+        #     end_up = index-1
+
+        #     current = self.head
+
+        #     for i in range(end_up):
+
+        #         current = current.next
+            
+        #     temp = current.next
+        #     Node = ListNode(val)
+        #     current.next= Node
+        #     Node.next = temp
+        #     self.size += 1
 
     def deleteAtIndex(self, index: int) -> None:
 
