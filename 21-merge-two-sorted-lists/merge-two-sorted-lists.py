@@ -15,19 +15,19 @@ class Solution:
         #          ↑
         #          current
 
-        def fun(dummy,current,list1,list2):
+        def fun(current,list1,list2):
 
             if not list1:
 
                 current.next = list2
 
-                return dummy
+                return current
 
             if not list2:
 
                 current.next = list1
 
-                return dummy
+                return current
             
             if list1.val <= list2.val:
 
@@ -38,14 +38,12 @@ class Solution:
 
                 current.next = list2
                 list2 = list2.next
-            
-            current = current.next
 
-            return fun(dummy,current,list1,list2)
-        
-        dummy = fun(dummy,current,list1,list2)
+            current.next = fun(current.next,list1,list2)
+
+            return current
     
-        return dummy.next
+        return fun(current,list1,list2).next
 
 
 
