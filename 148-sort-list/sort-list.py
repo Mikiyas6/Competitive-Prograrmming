@@ -21,7 +21,7 @@ class Solution:
         def get_middle(head):
 
             if not head or not head.next:
-                return head, None
+                return head
 
             # Use fast-slow pointers to find the middle of the linked list
             slow, fast = head, head.next
