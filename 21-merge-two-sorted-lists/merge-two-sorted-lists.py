@@ -31,15 +31,17 @@ class Solution:
             
             if list1.val <= list2.val:
 
-                current.next = list1
+                value = list1.val
                 list1 = list1.next
             
             else:
 
-                current.next = list2
+                value = list2.val
                 list2 = list2.next
+            
+            Node = ListNode(value)
 
-            current.next = fun(current.next,list1,list2)
+            current.next = fun(Node,list1,list2)
 
             return current
     
