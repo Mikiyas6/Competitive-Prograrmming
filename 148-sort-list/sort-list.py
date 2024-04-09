@@ -23,13 +23,11 @@ class Solution:
             if not head or not head.next:
                 return head
 
-            # Use fast-slow pointers to find the middle of the linked list
             slow, fast = head, head.next
             while fast and fast.next:
                 slow = slow.next
                 fast = fast.next.next
-
-            # Split the linked list into two halves
+                
             second_half = slow.next
             slow.next = None
 
