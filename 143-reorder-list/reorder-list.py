@@ -9,40 +9,104 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
-        if not head or not head.next:
-            return
+        def fun(head): #To reverse a list
 
-        # Step 1: Split the linked list into two halves
+            if not head or not head.next:
+
+                return head
+            
+            second_part = head.next
+            head.next = None
+            first_node = head
+
+            reversed_second_part = fun(second_part)
+
+            current = reversed_second_part
+
+            while current.next:
+
+                current = current.next
+            
+            current.next = first_node
+
+            return reversed_second_part
+
+        if not head or not head.next:
+
+            return head
+        
+        # Break the linkedlist in half
+
         slow = head
-        fast = head
-        while fast.next and fast.next.next:
+        fast = head.next
+
+        while fast and fast.next:
+
             slow = slow.next
             fast = fast.next.next
-
+        
         second_half = slow.next
-        slow.next = None  # Split the list
+        slow.next = None
+        first_half = head
 
-        # Step 2: Reverse the second half of the linked list
-        prev = None
-        current = second_half
-        while current:
-            temp = current.next
-            current.next = prev
-            prev = current
-            current = temp
+        # Reverse the second half
+        reversed_second_half = fun(second_half)
 
-        second_half = prev
+        ptr1 = head
+        ptr2 = reversed_second_half
 
-        # Step 3: Merge the two halves by interweaving the nodes
-        p1 = head
-        p2 = second_half
-        while p2:
-            temp1 = p1.next
-            temp2 = p2.next
+        while ptr1 and ptr2:
+            next_ptr1 = ptr1.next
+            next_ptr2 = ptr2.next
 
-            p1.next = p2
-            p2.next = temp1
+            ptr1.next = ptr2
+            ptr2.next = next_ptr1
 
-            p1 = temp1
-            p2 = temp2
+            ptr1 = next_ptr1
+            ptr2 = next_ptr2
+        
+        # combine one element from each half
+        # ptr1 = first_half
+        # ptr2 = reversed_second_half
+
+        # dummy = ListNode(-1)
+        # current = dummy
+
+        # flag = True
+
+        # while ptr1 and ptr2:
+
+        #     if flag:
+
+        #         value = ptr1.val
+        #         ptr1 = ptr1.next
+        #         flag = False
+            
+        #     else:
+
+        #         value = ptr2.val
+        #         ptr2 = ptr2.next
+        #         flag = True
+            
+        #     Node = ListNode(value)
+        #     current.next = Node
+        #     current = current.next
+        
+        # if not ptr1:
+
+        #     current.next = ptr2
+        
+        # else:
+
+        #     current.next = ptr1
+        
+        # linked_list = dummy.next
+        # print(linked_list)
+
+        
+
+
+
+
+        
         
