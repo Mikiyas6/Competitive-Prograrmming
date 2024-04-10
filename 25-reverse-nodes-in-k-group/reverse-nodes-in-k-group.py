@@ -39,26 +39,18 @@ class Solution:
         end_up = k - 1
 
         ptr = head
+        second_part = None
 
         while ptr:
 
             for i in range(end_up):
 
+                ptr = ptr.next
+
                 if not ptr:
 
                     current.next = second_part
                     return dummy.next
-
-                ptr = ptr.next
-            
-            if not ptr:
-
-                current.next = second_part
-                return dummy.next
-            
-            if not ptr:
-
-                return dummy.next
             
             second_part = ptr.next
             ptr.next = None
