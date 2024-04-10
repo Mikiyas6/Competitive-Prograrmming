@@ -12,26 +12,16 @@ class Solution:
         
         def fun(head): #To reverse a list
 
-            if not head or not head.next:
+            prev = None
+            current = head
 
-                return head
-            
-            second_part = head.next
-            head.next = None
-            first_node = head
+            while current:
+                next_node = current.next
+                current.next = prev
+                prev = current
+                current = next_node
 
-            reversed_second_part = fun(second_part)
-
-            current = reversed_second_part
-
-            while current.next:
-
-                current = current.next
-            
-            current.next = first_node
-
-            return reversed_second_part
-        
+            return prev
         
         dummy = ListNode(-1)
         current = dummy
