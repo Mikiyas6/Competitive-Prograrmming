@@ -58,6 +58,8 @@ class Solution:
         while ptr1 and ptr2:
             next_ptr1 = ptr1.next
             next_ptr2 = ptr2.next
+            ptr1.next = None
+            ptr2.next = None
 
             ptr1.next = ptr2
             ptr2.next = next_ptr1
