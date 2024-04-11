@@ -10,51 +10,63 @@ class Solution:
 
             return head
         
-        def fun(head): #To reverse a list
-
-            prev = None
-            current = head
-
-            while current:
-                next_node = current.next
-                current.next = prev
-                prev = current
-                current = next_node
-
-            return prev
-        
-        dummy = ListNode(-1)
-        current = dummy
-
         end_up = k - 1
 
-        ptr = head
-        second_part = None
+        def reverse(ptr):
 
-        while ptr:
+            if not ptr or not ptr.next:
 
-            for i in range(end_up):
-
-                ptr = ptr.next
-
-                if not ptr:
-
-                    current.next = second_part
-                    return dummy.next
+                return ptr
             
             second_part = ptr.next
+
             ptr.next = None
+        
+            first_node = ptr
 
-            reversed_part = fun(head)
+            reversed_second_part = reverse(second_part)
 
-            current.next = reversed_part
+            current = reversed_second_part
 
             while current.next:
 
                 current = current.next
             
-            ptr = second_part
-            head = second_part
-        
-        return dummy.next
+            current.next = first_node
 
+            return reversed_second_part
+
+        def fun(ptr):
+
+            if not ptr or not ptr.next:
+
+                return ptr
+            
+            uncut = ptr
+            
+            for i in range(end_up):
+
+                ptr = ptr.next
+
+                if not ptr:
+                    return uncut
+
+            second_part = ptr.next
+            ptr.next = None
+
+            reversed_first_part = reverse(uncut)
+
+            current = reversed_first_part
+
+            while current.next:
+
+                current = current.next
+            
+            current.next = fun(second_part)
+            
+            return reversed_first_part
+        
+        return fun(head)
+
+
+            
