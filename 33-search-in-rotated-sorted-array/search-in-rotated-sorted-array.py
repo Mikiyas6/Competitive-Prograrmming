@@ -25,7 +25,7 @@ class Solution:
             
             else:
 
-                s = mid + 1
+                s = mid
             
             return find_pivot(s,e)
         
