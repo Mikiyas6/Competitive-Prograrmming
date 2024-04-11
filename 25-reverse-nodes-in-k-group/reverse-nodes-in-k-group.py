@@ -42,19 +42,19 @@ class Solution:
 
                 return ptr
             
-            uncut = ptr
+            current = ptr
             
             for i in range(end_up):
 
-                ptr = ptr.next
+                current = current.next
 
-                if not ptr:
-                    return uncut
+                if not current:
+                    return ptr
 
-            second_part = ptr.next
-            ptr.next = None
+            second_part = current.next
+            current.next = None
 
-            reversed_first_part = reverse(uncut)
+            reversed_first_part = reverse(ptr)
 
             current = reversed_first_part
 
