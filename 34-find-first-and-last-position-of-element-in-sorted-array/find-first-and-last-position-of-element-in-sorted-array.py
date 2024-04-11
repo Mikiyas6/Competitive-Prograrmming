@@ -1,45 +1,46 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
 
-        def binary_search(s,e,ans,position):
+        ans = -1
+        s,e = 0, len(nums)-1
 
+        def fun(s,e,ans,side):
+            
             if s > e:
 
                 return ans
             
             mid = s + (e-s)//2
 
-            if target > nums[mid]:
-
-                s = mid + 1
-
-            elif target < nums[mid]:
+            if target < nums[mid]:
 
                 e = mid - 1
+            
+            elif target > nums[mid]:
 
+                s = mid + 1
+            
             else:
 
                 ans = mid
 
-                if position == "first":
+                if side == "left":
 
                     e = mid - 1
                 
                 else:
 
                     s = mid + 1
-            
-            return binary_search(s,e,ans,position)
         
-        ans = -1
-
-        s, e = 0, len(nums) - 1
+            return fun(s,e,ans,side)
         
-        first = binary_search(s,e,ans,"first")
+        starting = fun(s,e,ans,"left")
+        ending = fun(s,e,ans,"right")
 
-        last = binary_search(s,e,ans,"end")
-
-        return [first,last]
+        return [starting,ending]
+        
+        
+        
             
-
+            
 
