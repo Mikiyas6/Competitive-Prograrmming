@@ -37,6 +37,10 @@ class Solution:
             
             mid = s + (e-s)//2
 
+            if mid >= len(nums):
+
+                return -1
+
             if nums[mid] == target:
 
                 return mid
@@ -52,6 +56,13 @@ class Solution:
             return binary_search(s,e)
         
         pivot = find_pivot(s,e)
+        print(pivot)
+        if pivot < 0:
+            pivot += len(nums)
+
+        if nums[pivot] == target:
+
+            return pivot
 
         return max(binary_search(s,pivot),binary_search(pivot+1,e))
             
