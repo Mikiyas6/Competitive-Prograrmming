@@ -14,10 +14,6 @@ class MyCircularQueue:
 
             return False
         
-        if self.isEmpty():
-
-            self.front, self.rear = 0, 0
-        
         self.queue[self.rear] = value
 
         self.rear += 1
@@ -31,8 +27,6 @@ class MyCircularQueue:
     def deQueue(self) -> bool:
         
         if self.isEmpty():
-
-            self.front, self.rear = 0, 0
 
             return False
         
