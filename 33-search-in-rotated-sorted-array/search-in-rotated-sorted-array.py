@@ -50,6 +50,7 @@ class Solution:
                 e = mid - 1
             
             return binary_search(s,e)
+        
         pivot = pivot(s,e)
 
         if pivot < 0:
