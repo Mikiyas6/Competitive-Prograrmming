@@ -1,17 +1,26 @@
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
-        
+
         stack = []
-        moves = 0
+        counter = 0
 
-        for i, char in enumerate(s):
-            if char == '(':
-                stack.append(i)
-            elif char == ')':
+        for char in s:
+
+            if char == "(":
+
+                stack.append(char)
+                counter += 1
+            
+            else:
+
                 if stack:
-                    stack.pop()
-                else:
-                    moves += 1
 
-        moves += len(stack)
-        return moves
+                    stack.pop()
+                    counter -= 1
+                
+                else:
+
+                    counter += 1
+        
+        return counter
+        
