@@ -10,33 +10,26 @@ class Solution:
 
             return head
 
-        # finding the size
-
+        current = head
         size = 0
-        ptr = head
 
-        while ptr:
+        while current:
 
+            current = current.next
             size += 1
-            ptr = ptr.next
-        
-        k %= size
 
+        k = k%size
         if k == 0:
 
             return head
-        
         end_up = size - k - 1
+        current = head
 
-        ptr = head
-
-        for _ in range(end_up):
-
-            ptr = ptr.next
+        for i in range(end_up):
+            current = current.next
         
-        rotated_part = ptr.next
-        ptr.next = None
-        first_part = head
+        rotated_part = current.next
+        current.next = None
 
         current = rotated_part
 
@@ -44,8 +37,7 @@ class Solution:
 
             current = current.next
         
-        current.next = first_part
+        current.next = head
 
         return rotated_part
-        
-        
+
