@@ -8,7 +8,7 @@ class Solution:
             hashmap[value] = index
         
         stack = []
-        result = [0]*len(nums1)
+        result = [-1]*len(nums1)
 
         for value in nums2:
 
@@ -21,12 +21,6 @@ class Solution:
             if value in hashmap:
 
                 stack.append(value)
-        
-        for index, value in enumerate(result):
-
-            if value == 0:
-
-                result[index] = -1
         
         return result
             
