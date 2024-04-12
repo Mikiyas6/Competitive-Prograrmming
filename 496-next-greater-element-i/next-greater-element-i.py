@@ -12,29 +12,15 @@ class Solution:
 
         for value in nums2:
 
-            if not stack:
+            while stack and value > stack[-1]:
 
-                if value in hashmap:
-
-                    stack.append(value)
+                popped = stack.pop()
+                index = hashmap[popped]
+                result[index] = value
             
-            else:
+            if value in hashmap:
 
-                while stack:
-
-                    if value > stack[-1]:
-
-                        popped = stack.pop()
-
-                        result[hashmap[popped]] = value
-                    
-                    else:
-
-                        break
-                    
-                if value in hashmap:
-
-                    stack.append(value)
+                stack.append(value)
         
         for index, value in enumerate(result):
 
