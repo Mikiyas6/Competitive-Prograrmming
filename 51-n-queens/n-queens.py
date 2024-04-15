@@ -19,11 +19,14 @@ class Solution:
                     return False
                 
             return True
+        
+        def store(board):
+
+            configurations.append(["".join(row) for row in board])
 
         def fun(board, row):
             if row == n:
-                # Append a copy of the board, not the board itself
-                configurations.append(["".join(row) for row in board])
+                store(board)
                 return
 
             for col in range(n):
