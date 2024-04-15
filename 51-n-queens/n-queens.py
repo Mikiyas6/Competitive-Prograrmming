@@ -1,85 +1,30 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-
+        board = [["."]*n for _ in range(n)]
         configurations = []
 
-        def store(board):
-
-            new_board = []
-
-            for row in board:
-
-                string = ""
-
-                for column in row:
-
-                    if column == True:
-
-                        string += "Q"
-                    
-                    else:
-
-                        string += "."
-            
-                new_board.append(string)
-
-            configurations.append(new_board)
-        
-        def is_safe(board,row,col):
-
-            # Checking upwards
-
-            journey = row
-
-            for i in range(1,journey+1):
-
-                if board[row-i][col]:
-
+        def is_safe(board, row, col):
+            for i in range(row):
+                if board[i][col] == "Q":
                     return False
-
-            # Checking Left Diagonal
-            
-            journey = min(row,col)
-
-            for i in range(1,journey+1):
-
-                if board[row-i][col-i]:
-
+                if col-row+i >= 0 and board[i][col-row+i] == "Q":
                     return False
-            
-            # Checking right Diagonal
-            
-            journey = n - col - 1
-
-            for i in range(1,journey+1):
-
-                if board[row-i][col+i]:
-
+                if col+row-i < n and board[i][col+row-i] == "Q":
                     return False
-            
             return True
-            
-        def N_Queens(board,row):
 
+        def fun(board, row):
             if row == n:
-                store(board)
-
+                # Append a copy of the board, not the board itself
+                configurations.append(["".join(row) for row in board])
                 return
-            
-            for i in range(n):
 
-                if is_safe(board,row,i):
+            for col in range(n):
+                if is_safe(board, row, col):
+                    board[row][col] = "Q"
+                    fun(board, row + 1)
+                    board[row][col] = "."
 
-                    board[row][i] = True
-
-                    N_Queens(board,row+1)
-
-                    board[row][i] = False
-            
-            return 
-        
-        board = [[False]*n for _ in range(n)]
-        
-        N_Queens(board,0)
+        fun(board, 0)
 
         return configurations
