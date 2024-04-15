@@ -39,12 +39,11 @@ class MyLinkedList:
             self.addAtHead(val)
             return
         
-        end_up = self.size - 1
-        
-        Node = ListNode(val)
         current = self.head
 
-        for i in range(end_up):
+        Node = ListNode(val)
+
+        while current.next:
 
             current = current.next
         
@@ -66,28 +65,8 @@ class MyLinkedList:
 
             self.addAtTail(val)
         
-        # else:
-
-        #     def fun(current,val,index):
-
-        #         if index == 0:
-
-        #             temp = current.next
-        #             Node = ListNode(val)
-        #             current.next = Node
-        #             Node.next = temp
-        #             return current
-                
-        #         current.next = fun(current.next,val,index-1)
-
-        #         return current
-            
-        #     current = self.head
-        #     fun(current,val,index-1)
-        #     self.size += 1
-        
         else:
-
+                
             end_up = index-1
 
             current = self.head
@@ -97,6 +76,7 @@ class MyLinkedList:
                 current = current.next
             
             temp = current.next
+    
             Node = ListNode(val)
             current.next= Node
             Node.next = temp
@@ -117,7 +97,7 @@ class MyLinkedList:
             self.deleteAtEnd()
         
         else:
-
+            
             end_up = index - 1
 
             current = self.head
@@ -130,17 +110,15 @@ class MyLinkedList:
             self.size -= 1
         
     def deleteAtFirst(self) -> None:
-
+        
         self.head = self.head.next
         self.size -= 1
     
     def deleteAtEnd(self) -> None:
 
-        end_up = self.size - 2
-
         current = self.head
 
-        for i in range(end_up):
+        while current.next.next:
 
             current = current.next
         
