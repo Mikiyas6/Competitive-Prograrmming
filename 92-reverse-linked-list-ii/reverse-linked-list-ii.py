@@ -7,162 +7,90 @@ class Solution:
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
 
         if not head or not head.next:
+
             return head
-
+        
         def fun(head):
-            if not head or not head.next:
-                return head
 
+            if not head or not head.next:
+
+                return head
+            
             second_part = head.next
             head.next = None
-
             first_node = head
 
-            second_part_reversed = fun(second_part)
+            reversed_second_part = fun(second_part)
 
-            head = second_part_reversed
-
-            current = head
+            current = reversed_second_part
 
             while current.next:
-                current = current.next
 
+                current = current.next
+            
             current.next = first_node
 
-            return head
+            return reversed_second_part
 
+        current =  head
         end_up = left - 2
 
-        if right - left <= 0:
-            return head
+        if end_up >= 0:
 
-        if left == 1:
-            first_part = None
-            second_half = head
-        else:
-            current = head
-            for _ in range(end_up):
+            for i in range(end_up):
+
                 current = current.next
-            second_half = current.next
+            
+            second_part = current.next
             current.next = None
-            first_part = head
+            
+            first_part = head # The first part
 
-        end_up = right - left
-        current = second_half
-        for _ in range(end_up):
+        else:
+
+            second_part = head
+            first_part = None
+
+        current = second_part
+        calibrated = right - left
+
+        for i in range(calibrated):
+
             current = current.next
 
-        last_part = current.next
-        current.next = None
-        middle = second_half
+        if current:
+            last_part = current.next  # The last part
+            current.next = None
+        
+        else:
 
-        middle_reversed = fun(middle)
+            last_part = None
 
-        current = first_part
-        if not first_part:
-            current = middle_reversed
+        middle_part = second_part # The part we want to reverse
 
+        reversed_middle_part = fun(middle_part)
+
+        if first_part:
+
+            current = first_part
+
+            while current.next:
+
+                current = current.next
+
+            current.next = reversed_middle_part
+        
+        else:
+
+            first_part = reversed_middle_part
+
+        current = reversed_middle_part
         while current.next:
-            current = current.next
 
-        if not first_part:
-            current.next = last_part
-            return middle_reversed
-
-        current.next = middle_reversed
-
-        while current.next:
             current = current.next
 
         current.next = last_part
 
         return first_part
 
-        # if not head or not head.next:
 
-        #     return head
-        
-        # def fun(head):
-
-        #     if not head or not head.next:
-
-        #         return head
-            
-        #     second_part = head.next
-        #     head.next = None
-
-        #     first_node = head
-
-        #     second_part_reversed = fun(second_part)
-
-        #     head = second_part_reversed
-
-        #     current = head
-
-        #     while current.next:
-
-        #         current = current.next
-            
-        #     current.next = first_node
-
-        #     return head
-        
-        # end_up = left - 2
-
-        # if right - left <= 0:
-
-        #     return head 
-
-        # if left == 1:
-
-        #     first_part = None
-        #     second_half = head
-        # else:
-        #     current = head
-
-        #     for i in range(end_up):
-
-        #         current = current.next
-            
-        #     second_half = current.next
-        #     current.next = None
-        #     first_part = head
-            
-        # end_up = right-left
-        # current = second_half
-
-        # for i in range(end_up):
-
-        #     current = current.next
-
-        # last_part = current.next
-        # current.next = None
-        # middle = second_half
-        
-        # middle_reversed = fun(middle)
-
-        # current = first_part
-
-        # if not first_part:
-
-        #     current = middle_reversed
-
-        # while current.next:
-
-        #     current = current.next
-        
-        # if not first_part:
-
-        #     current.next = last_part
-
-        #     return middle_reversed
-        
-        # current.next = middle_reversed
-
-        # while current.next:
-
-        #     current = current.next
-        
-        # current.next = last_part
-
-        # return first_part
