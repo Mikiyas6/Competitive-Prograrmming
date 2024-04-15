@@ -1,8 +1,6 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-
         board = [["."]*n for _ in range(n)]
-
         configurations = []
 
         def is_safe(board,row,col):
@@ -21,7 +19,7 @@ class Solution:
                     return False
                 
             return True
-        
+
         def fun(board, row):
             if row == n:
                 # Append a copy of the board, not the board itself
@@ -37,5 +35,3 @@ class Solution:
         fun(board, 0)
 
         return configurations
-        
-        
