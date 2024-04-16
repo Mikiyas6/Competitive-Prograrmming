@@ -13,7 +13,19 @@ class Solution:
 
             return head
         
-        def fun(head):
+        def get_middle(head):
+
+            slow = head
+            fast = head.next
+
+            while fast and fast.next:
+
+                slow = slow.next
+                fast = fast.next.next
+            
+            return slow
+        
+        def reverse(head):
 
             if not head or not head.next:
 
@@ -23,55 +35,48 @@ class Solution:
             head.next = None
             first_node = head
 
-            reversed_second_part = fun(second_part)
+            reversed_second_part = reverse(second_part)
 
             current = reversed_second_part
 
             while current.next:
-
+                
                 current = current.next
             
             current.next = first_node
 
             return reversed_second_part
-
-        #Finding the middle node and break the linkedlist in half
-
-        slow = head
-        fast = head.next
-
-        while fast and fast.next:
-
-            slow = slow.next
-            fast = fast.next.next
         
-        second_half = slow.next
-        slow.next = None
-        first_half = head
+        def merge(first_part,second_part):
 
-        # Reverse the second half
+            if not first_part:
 
-        reversed_second_half = fun(second_half)
+                return None
+            
+            if not second_part:
 
-        # Re ordering everythin in place
+                first_part.next = second_part
 
-        ptr1 = first_half
-        ptr2 = reversed_second_half
+                return first_part
 
-        while ptr1 and ptr2:
+            rest_of_first_part = first_part.next
+            first_part.next = None
+            rest_of_second_part = second_part.next
+            second_part.next = None
 
-            next_ptr1 = ptr1.next
-            next_ptr2 = ptr2.next
+            first_part.next = second_part
 
-            ptr1.next = None
-            ptr2.next = None
+            second_part.next = merge(rest_of_first_part,rest_of_second_part) 
 
-            ptr1.next = ptr2
-            ptr2.next = next_ptr1
+            return first_part
 
-            ptr1 = next_ptr1
-            ptr2 = next_ptr2
-        
+        middle_node = get_middle(head)
 
+        second_part = middle_node.next
+        middle_node.next = None
 
-        
+        first_part = head
+
+        reversed_second_part = reverse(second_part)
+
+        merge(first_part,reversed_second_part)
