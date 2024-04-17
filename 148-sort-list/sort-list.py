@@ -6,68 +6,80 @@
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
-        def fun(head):
+        if not head or not head.next:
 
-            if not head or not head.next:
-
-                return head
-            
-            left,right = get_middle(head) 
-            left = fun(left)
-            right = fun(right)
-
-            return merge(left, right)
+            return head
         
         def get_middle(head):
 
             if not head or not head.next:
-                return head
 
-            slow, fast = head, head.next
+                return head
+            
+            slow = head
+            fast = head.next
+
             while fast and fast.next:
+
                 slow = slow.next
                 fast = fast.next.next
-                
-            second_half = slow.next
-            slow.next = None
+            
+            return slow
 
-            return head, second_half
-
-        def merge(left,right):
+        def merge(list1,list2):
 
             dummy = ListNode(-1)
             current = dummy
 
-            def function(current,left,right):
+            def fun(current,list1,list2):
 
-                if not left:
+                if not list1:
 
-                    current.next = right
-
-                    return current
-                
-                if not right:
-
-                    current.next = left
+                    current.next = list2
 
                     return current
                 
-                if left.val <= right.val:
+                if not list2:
 
-                    value = left.val
-                    left = left.next
+                    current.next = list1
+
+                    return current
+                
+                if list1.val <= list2.val:
+
+                    value = list1.val
+                    list1 = list1.next
                 
                 else:
 
-                    value = right.val
-                    right = right.next
+                    value = list2.val
+                    list2 = list2.next
                 
                 Node = ListNode(value)
-                
-                current.next = function(Node,left,right)
+
+                current.next = fun(Node,list1,list2)
 
                 return current
             
-            return function(current,left,right).next
+            return fun(current,list1,list2).next
+
+        def final(head):
+
+            if not head.next:
+
+                return head
+            
+            middle = get_middle(head)
+
+            right_part = middle.next
+            middle.next = None
+            left_part = head
+
+            left_part = final(left_part)
+            right_part = final(right_part)
+
+            merged = merge(left_part,right_part)
+
+            return merged
         
-        return fun(head)
+        return final(head)
