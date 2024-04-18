@@ -32,7 +32,7 @@ class Solution:
             for col in range(n):
                 if is_safe(board, row, col):
                     board[row][col] = "Q"
-                    fun([row[:] for row in board], row + 1)  # Create a deep copy of the board
+                    fun(board, row + 1)  # Create a deep copy of the board
                     board[row][col] = "."
 
         fun(board, 0)
