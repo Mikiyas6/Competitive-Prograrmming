@@ -2,26 +2,24 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
 
         def binary_search(s,e,nums,target):
+           
+            while s <= e:
 
-            if s > e:
+                mid = s + (e-s)//2
 
-                return -1
-            
-            mid = s + (e-s)//2
+                if target > nums[mid]:
 
-            if nums[mid] == target:
+                    s = mid+1
+                
+                elif target < nums[mid]:
 
-                return mid
-            
-            elif target > nums[mid]:
+                    e = mid - 1
+                
+                else:
 
-                s = mid + 1
-            
-            else:
-
-                e = mid - 1
-            
-            return binary_search(s,e,nums,target)
+                    return mid
+                
+            return -1
 
         n = len(numbers)
 
@@ -34,24 +32,22 @@ class Solution:
             if result != -1:
 
                 return [index+1,result+1]
-        
-        # left, right = 0, len(numbers) - 1
 
-        # while left != right:
+        # while s != e:
 
-        #     total = numbers[left] + numbers[right]
+        #     total = numbers[s] + numbers[e]
 
         #     if total > target:
 
-        #         right -= 1
+        #         e -= 1
             
         #     elif total < target:
 
-        #         left += 1
+        #         s += 1
             
         #     else:
 
-        #         return [left+1,right+1]
+        #         return [s+1,e+1]
 
         
             
