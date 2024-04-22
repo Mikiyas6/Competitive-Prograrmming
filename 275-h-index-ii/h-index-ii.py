@@ -9,9 +9,10 @@ class Solution:
                 return n-s
             
             mid = s + (e-s)//2
-            if citations[mid] == n - mid:
-                return n - mid
-            elif citations[mid] < n - mid:
+            length = n-mid
+            if citations[mid] == length:
+                return length
+            elif citations[mid] < length:
                 s = mid + 1
             else:
                 e = mid - 1
