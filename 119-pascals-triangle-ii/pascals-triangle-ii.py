@@ -1,48 +1,38 @@
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
 
-        n = rowIndex + 1
-        
-        matrix = [[0]*n for _ in range(n)]
+        n = rowIndex
 
-        def fun(matrix,row,col):
+        board = [[0]*(n+1) for _ in range(n+1)]
 
-            if row == n:
+        def store(board,row,col,value):
+            board[row][col] = value
+            return
 
-                return matrix
-            
+        def fun(row,col):
+
+            if row == n+1:
+                return
+
             if row == col:
-
-                matrix[row][col] = 1
-
-                return fun(matrix,row+1,0)
+                value = 1
+                store(board,row,col,value)
+                fun(row+1,0)
+                return
             
             if col == 0:
-
-                matrix[row][col] =  1
-
-            else:
-
-                matrix[row][col] = matrix[row-1][col-1] + matrix[row-1][col] 
+                value = 1
+                store(board,row,col,value)
+                fun(row,col+1)
+                return
             
-            return fun(matrix,row,col + 1)
+            value = board[row-1][col-1] + board[row-1][col]
+            store(board,row,col,value)
+            fun(row,col+1)
+            return
         
-        return fun(matrix,0,0)[-1]
-
-        # n = rowIndex + 1
+        fun(0,0)
+        return board[-1]
         
-        # matrix = [[0]*n for _ in range(n)]
 
-        # for row in range(n):
-
-        #     for col in range(row+1):
-
-        #         if row == col or col == 0:
-
-        #             matrix[row][col] = 1
-                
-        #         else:
-
-        #             matrix[row][col] = matrix[row-1][col-1] + matrix[row-1][col]
-        
-        # return matrix[-1]
+            
