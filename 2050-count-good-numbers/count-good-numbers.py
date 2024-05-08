@@ -1,6 +1,6 @@
 class Solution:
     def countGoodNumbers(self, n: int) -> int:
-
+       
         MOD = (10**9)+7
 
         even = (n//2) + (n%2)
