@@ -27,8 +27,9 @@ class Solution:
                 s = mid+1
             
             return find_ceil(s,e,target)
+        
         n = len(letters)
-        index = find_ceils(0,n-1,target)
+        index = find_ceil(0,n-1,target)
         if index < 0 or index >= n:
             index = 0
         return letters[index]
