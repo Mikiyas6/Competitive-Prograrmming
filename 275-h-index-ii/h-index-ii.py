@@ -10,10 +10,13 @@ class Solution:
             
             mid = s + (e-s)//2
             length = n-mid
+
             if citations[mid] == length:
                 return length
+
             elif citations[mid] < length:
                 s = mid + 1
+
             else:
                 e = mid - 1
             
