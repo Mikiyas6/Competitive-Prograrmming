@@ -1,8 +1,8 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
 
-        n = len(citations)
         citations.sort()
+        n = len(citations)
         
         def binary_search(s,e):
 
