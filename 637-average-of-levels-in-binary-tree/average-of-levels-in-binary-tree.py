@@ -16,22 +16,24 @@ class Solution:
             while queue:
 
                 level = len(queue)
-                level_values = []
+                total = 0
 
                 for _ in range(level):
 
                     node = queue.popleft()
-                    level_values.append(node.val)
+                    total += node.val
 
                     if node.left:
                         queue.append(node.left)
                     if node.right:
                         queue.append(node.right)
                 
-                result.append(level_values)
+                average = total /level
+                result.append(average)
             
             return result
-                    
+
+        return BFS()         
         # def BFS(root,level):
 
         #     if not root:
@@ -47,11 +49,10 @@ class Solution:
         
         # result = []
         # BFS(root,0)
-        result = BFS()
-        average = []
+        # average = []
 
-        for level in result:
-            mean = sum(level)/len(level)
-            average.append(mean)
+        # for level in result:
+        #     mean = sum(level)/len(level)
+        #     average.append(mean)
         
-        return average
+        # return average
