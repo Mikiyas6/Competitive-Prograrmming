@@ -1,22 +1,19 @@
 class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:
         
-        def binary_search(s,e):
+        def find_peak_element(s,e):
     
             if s == e:
-                
                 return s
             
-            mid = (s+(e-s)//2)
+            mid = s + (e-s)//2
             
-            if arr[mid] > arr[mid+1]:
-
+            if arr[mid] < arr[mid+1]:
+                s = mid+1
+            else:
                 e = mid
             
-            else:
+            return find_peak_element(s,e)
 
-                s = mid + 1
-                    
-            return binary_search(s,e)
-        
-        return binary_search(0,len(arr)-1)
+        s, e = 0, len(arr)-1
+        return find_peak_element(s,e)
