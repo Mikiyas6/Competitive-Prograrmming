@@ -1,14 +1,33 @@
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
+
+        hashmap = defaultdict(int)
+        initials = []
+
+        index = 0
+        for start,end in intervals:
+
+            hashmap[start] = index
+            initials.append(start)
+            index += 1
         
-        sorted_intervals = sorted((start, end, idx) for idx, (start, end) in enumerate(intervals))
-        
-        result = [-1] * len(intervals)
-        
-        for start, end, idx in sorted_intervals:
-            target = end
-            right_idx = bisect.bisect_left(sorted_intervals, (target, float('-inf'), float('-inf')))
-            if right_idx < len(intervals):
-                result[idx] = sorted_intervals[right_idx][2]
-        
+        sorted_intervals = sorted(intervals)
+        initials.sort()
+        n = len(initials)
+
+        result = []
+
+        for start,end in intervals:
+
+            idx = bisect.bisect_left(initials,end)
+
+            if idx == n:
+                result.append(-1)
+               
+            else:
+                value = initials[idx]
+                result.append(hashmap[value])
+                
         return result
+
+
