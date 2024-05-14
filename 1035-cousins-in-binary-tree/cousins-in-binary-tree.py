@@ -55,8 +55,6 @@ class Solution:
         depth_x = find_depth(root,node_x,0)
         depth_y = find_depth(root,node_y,0)
 
-        print(depth_x,depth_y)
-
         if depth_x == depth_y and not is_siblings(root,node_x,node_y):
             return True
         return False
