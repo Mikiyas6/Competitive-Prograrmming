@@ -7,10 +7,9 @@
 class Solution:
     def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
 
-        def BFS():
+        def BFS(root):
 
-            queue = deque()
-            queue.append(root)
+            queue = deque([root])
             result = []
 
             while queue:
@@ -21,38 +20,22 @@ class Solution:
                 for _ in range(level):
 
                     node = queue.popleft()
-                    total += node.val
+                    total += node.val #I used the value that i popped from the queue
 
+                    # I harvest the childs of the node if there are any
                     if node.left:
                         queue.append(node.left)
                     if node.right:
                         queue.append(node.right)
+                    
+                    #Moving on to the next node in the same level, which is the first node in the queue
                 
-                average = total /level
+                average = total/level
                 result.append(average)
             
             return result
 
-        return BFS()         
-        # def BFS(root,level):
+        return BFS(root)
+                    
+                
 
-        #     if not root:
-        #         return
-            
-        #     if len(result) == level:
-        #         result.append([])
-            
-        #     result[level].append(root.val)
-        #     BFS(root.left,level+1)
-        #     BFS(root.right,level+1)
-        #     return 
-        
-        # result = []
-        # BFS(root,0)
-        # average = []
-
-        # for level in result:
-        #     mean = sum(level)/len(level)
-        #     average.append(mean)
-        
-        # return average
