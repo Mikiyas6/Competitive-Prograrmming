@@ -18,6 +18,7 @@ class Solution:
         def fun(root):
 
             if not root:
+                store(0)
                 return -1
 
             left_height = fun(root.left)
