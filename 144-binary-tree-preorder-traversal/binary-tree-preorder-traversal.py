@@ -16,7 +16,7 @@ class Solution:
         def preorder(root):
 
             if not root:
-                return result
+                return 
             
             store(root.val)
             preorder(root.left)
