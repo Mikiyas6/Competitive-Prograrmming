@@ -21,9 +21,9 @@ class Solution:
             if left and right:
                 return root
             
-            if not left:
-                return right
+            if not right:
+                return left
             
-            return left
+            return right
         
         return DFS(root,p,q)
