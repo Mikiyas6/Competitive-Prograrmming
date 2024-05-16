@@ -7,7 +7,7 @@
 class Solution:
     def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
         
-        def DFS(root,root1,root2):
+        def DFS(root1,root2):
 
             if not root1 and not root2:
                 return None
@@ -20,14 +20,14 @@ class Solution:
 
                 return root2
 
-            root.val = root1.val + root2.val
+            root = TreeNode(root1.val + root2.val)
             
-            root.left = DFS(TreeNode(0),root1.left,root2.left)
+            root.left = DFS(root1.left,root2.left)
 
-            root.right = DFS(TreeNode(0),root1.right,root2.right)
+            root.right = DFS(root1.right,root2.right)
 
             return root 
         
-        return DFS(TreeNode(0),root1,root2)
+        return DFS(root1,root2)
 
             
