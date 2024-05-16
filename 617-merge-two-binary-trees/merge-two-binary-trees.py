@@ -19,15 +19,12 @@ class Solution:
             if not root1 and root2:
 
                 return root2
-            
-            left = DFS(TreeNode(0),root1.left,root2.left)
-
-            right = DFS(TreeNode(0),root1.right,root2.right)
 
             root.val = root1.val + root2.val
+            
+            root.left = DFS(TreeNode(0),root1.left,root2.left)
 
-            root.left = left
-            root.right = right
+            root.right = DFS(TreeNode(0),root1.right,root2.right)
 
             return root 
         
