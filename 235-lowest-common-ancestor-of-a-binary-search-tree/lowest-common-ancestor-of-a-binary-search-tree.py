@@ -15,7 +15,7 @@ class Solution:
 
             # 6       2      0      8
 
-            #      7      4
+            #     7      4
 
         def DFS(root,p,q):
 
@@ -23,16 +23,23 @@ class Solution:
                 return root
             if root == p or root == q: # p = 3 and q = 8
                 return root
-        
-            left = DFS(root.left,p,q)
-            right = DFS(root.right,p,q)
 
-            if left and right: # p = 5 and q = 8
-                return root
+            if p.val < root.val and q.val < root.val:
+
+                return DFS(root.left,p,q)
+
+            elif p.val > root.val and q.val > root.val:
+
+                return DFS(root.right,p,q)
             
-            if not right: # p = 5 and q = 4
-                return left
+            return root
+
+            # if left and right: # p = 5 and q = 8
+            #     return root
             
-            return right
+            # if not right: # p = 5 and q = 4
+            #     return left
+            
+            # return right
         
         return DFS(root,p,q)
