@@ -8,6 +8,22 @@
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
 
+        def DFS(root,cumulative):
+
+            if not root:
+                return 0
+
+            if not root.left and not root.right:
+                result = (cumulative)*10 + root.val
+                return result
+            
+            result = (cumulative)*10 + root.val
+            
+            return DFS(root.left,result) + DFS(root.right,result)
+
+        return DFS(root,0)
+
+##################################################################
         # total = 0
 
         # def store(string):
@@ -37,20 +53,6 @@ class Solution:
         # return total
 
         
-        def DFS(root,cumulative):
-
-            if not root:
-                return 0
-
-            if not root.left and not root.right:
-                result = (cumulative)*10 + root.val
-                return result
-            
-            result = (cumulative)*10 + root.val
-            
-            return DFS(root.left,result) + DFS(root.right,result)
-
-        return DFS(root,0)
 
 
 
