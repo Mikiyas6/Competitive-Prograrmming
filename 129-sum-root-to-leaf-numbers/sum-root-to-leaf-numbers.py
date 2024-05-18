@@ -7,17 +7,33 @@
 
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        def calculate_sum(node, current_sum):
-            if not node:
-                return 0
-            
-            current_sum = current_sum * 10 + node.val
-            
-            if not node.left and not node.right:
-                # If it's a leaf node, return the current sum
-                return current_sum
-            
-            # Recursively calculate the sum for left and right subtrees
-            return calculate_sum(node.left, current_sum) + calculate_sum(node.right, current_sum)
+
+        total = 0
+
+        def store(string):
+
+            nonlocal total
+
+            total += int(string)
         
-        return calculate_sum(root, 0)
+        def DFS(root,string):
+
+            if not root:
+                return
+
+            if not root.left and not root.right:
+                store(string+str(root.val))
+                return
+            
+            DFS(root.left,string+str(root.val))
+
+            DFS(root.right,string+str(root.val))
+
+            return
+
+        DFS(root,"")
+
+        return total
+
+
+
