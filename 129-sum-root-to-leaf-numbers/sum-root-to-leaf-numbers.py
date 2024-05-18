@@ -13,7 +13,8 @@ class Solution:
         def store(string):
 
             nonlocal total
-
+            
+            string = "".join(string)
             total += int(string)
         
         def DFS(root,string):
@@ -22,16 +23,16 @@ class Solution:
                 return
 
             if not root.left and not root.right:
-                store(string+str(root.val))
+                store(string+[str(root.val)])
                 return
             
-            DFS(root.left,string+str(root.val))
+            DFS(root.left,string+[str(root.val)])
 
-            DFS(root.right,string+str(root.val))
+            DFS(root.right,string+[str(root.val)])
 
             return
 
-        DFS(root,"")
+        DFS(root,[])
 
         return total
 
