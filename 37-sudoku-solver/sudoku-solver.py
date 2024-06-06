@@ -6,37 +6,37 @@ class Solution:
 
         n = 9
 
-        def is_safe(row, col, value):
-            for i in range(n):
-                if board[i][col] == value:
-                    return False
-                
-            for i in range(n):
-                if board[row][i] == value:
-                    return False
-            
-            start_row, start_col = 3 * (row // 3), 3 * (col // 3)
-            if any(board[start_row + r][start_col + c] == value for r in range(3) for c in range(3)):
+        def inbound(row, col):
+            return 0 <= row < 9 and 0 <= col < 9
+
+        def inboundAndSafe(row, col, value, board):
+            if not inbound(row, col):
                 return False
-            
+            value = str(value)
+            for i in range(9):
+                if board[row][i] == value or board[i][col] == value:
+                    return False
+                if board[3 * (row // 3) + i // 3][3 * (col // 3) + i % 3] == value:
+                    return False
             return True
 
         def sudoku(row, col, board):
-            if row == n: 
+            if row == 9:
                 return True
             
-            if col == n:
+            if col == 9:
                 return sudoku(row + 1, 0, board)
-                
-            if board[row][col] == ".": 
-                for value in range(1, 10):
-                    if is_safe(row, col, str(value)): 
-                        board[row][col] = str(value) 
-                        if sudoku(row, col + 1, board):
-                            return True
-                board[row][col] = "."
             
-            else:
+            if board[row][col] != '.':
                 return sudoku(row, col + 1, board)
+            
+            for value in range(1, 10):
+                if inboundAndSafe(row, col, value, board):
+                    board[row][col] = str(value)
+                    if sudoku(row, col + 1, board):
+                        return True
+                    board[row][col] = '.'
+            
+            return False
 
         sudoku(0, 0, board)
