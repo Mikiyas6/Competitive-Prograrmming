@@ -1,40 +1,59 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        board = [["."]*n for _ in range(n)]
         configurations = []
+        board = [['.']*n for _ in range(n)]
 
-        def is_safe(board,row,col):
-            diagonal_right = min(row,n-col-1)
-            for i in range(1,diagonal_right+1):
+        def store(board):
+
+            nonlocal configurations
+            
+            boards = []
+            for row in board:
+                boards.append(''.join(row))
+
+            configurations.append(boards)
+                
+        def inbound(row,col):
+            
+            return 0 <= row and row < n and 0 <= col and col < n
+
+        def inboundAndSafe(row,col):
+
+            if not inbound(row,col):
+                return False
+            
+            left = min(row,col)
+            right = min(row,(n-col-1))
+            up = row
+            
+            for i in range(1,left+1):
+                if board[row-i][col-i] == "Q":
+                    return False
+            
+            for i in range(1,right+1):
                 if board[row-i][col+i] == "Q":
                     return False
             
-            diagonal_left = min(row,col)
-            for i in range(1,diagonal_left+1):
-                if board[row-i][col-i] == "Q":
-                    return False
-
-            for i in range(1, row + 1):
+            for i in range(1,up+1):
                 if board[row-i][col] == "Q":
                     return False
-                
+            
             return True
-        
-        def store(board):
-
-            configurations.append(["".join(row) for row in board])
-
-        def fun(board, row):
+            
+        def NQueens(row,board):
+            
             if row == n:
-                store(board)
-                return
-
+                store([row[:] for row in board])
+            
             for col in range(n):
-                if is_safe(board, row, col):
-                    board[row][col] = "Q"
-                    fun(board, row + 1)  # Create a deep copy of the board
-                    board[row][col] = "."
+                
+                if inboundAndSafe(row,col):
+                    board[row][col] = 'Q'
+                    NQueens(row+1,board)
+                    board[row][col] = '.'
+            
+            return
 
-        fun(board, 0)
+        NQueens(0,board)
 
         return configurations
