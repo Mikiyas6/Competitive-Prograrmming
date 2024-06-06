@@ -1,27 +1,27 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 
+        permutations = []
+
+        def store(permutation):
+
+            permutations.append(permutation[:])
+
         def fun(processed,unprocessed):
 
             if not unprocessed:
-
-                return [processed]
+                store(processed)
+                return
             
-            first_char = unprocessed[0]
-
-            combinations = []
-
+            preProcessed = processed
             for i in range(len(processed)+1):
 
-                combinations.extend(fun(processed[:i]+[first_char]+processed[i:],unprocessed[1:]))
+                processed = processed[:i] + [unprocessed[0]] + processed[i:]
+                fun(processed,unprocessed[1:])
+                processed.pop(i)
             
-            return combinations
+            return
         
-        nums = fun([],nums)
-
-        nums.sort()
-
-        return nums
+        fun([],nums)
         
-        
-
+        return permutations
