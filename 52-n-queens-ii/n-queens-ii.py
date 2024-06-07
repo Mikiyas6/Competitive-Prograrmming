@@ -40,17 +40,16 @@ class Solution:
         def NQueens(row,board):
             
             if row == n:
-                store()
+                return 1
             
+            counter = 0
             for col in range(n):
                 
                 if inboundAndSafe(row,col):
                     board[row][col] = 'Q'
-                    NQueens(row+1,board)
+                    counter += NQueens(row+1,board)
                     board[row][col] = '.'
             
-            return
+            return counter
 
-        NQueens(0,board)
-
-        return counter
+        return NQueens(0,board)
