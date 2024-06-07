@@ -1,41 +1,56 @@
 class Solution:
     def totalNQueens(self, n: int) -> int:
 
-        board = [[False]*n for _ in range(n)]
+        board = [['.']*n for _ in range(n)]
+        counter = 0
 
-        def is_safe(board,row,col):
+        def store():
 
-            diagonally_right = min(row,n-col-1)
-            for i in range(1,diagonally_right+1):
-                if board[row-i][col+i]:
-                    return False
-            diagonally_left = min(row,col)
-            for i in range(1,diagonally_left+1):
-                if board[row-i][col-i]:
-                    return False
+            nonlocal counter
+            
+            counter += 1
+                
+        def inbound(row,col):
+            
+            return 0 <= row and row < n and 0 <= col and col < n
+
+        def inboundAndSafe(row,col):
+
+            if not inbound(row,col):
+                return False
+            
+            left = min(row,col)
+            right = min(row,(n-col-1))
             up = row
-            for i in range(1,up+1):
-                if board[row-i][col]:
+            
+            for i in range(1,left+1):
+                if board[row-i][col-i] == "Q":
                     return False
-
+            
+            for i in range(1,right+1):
+                if board[row-i][col+i] == "Q":
+                    return False
+            
+            for i in range(1,up+1):
+                if board[row-i][col] == "Q":
+                    return False
+            
             return True
-
-        def fun(board,row):
-
+            
+        def NQueens(row,board):
+            
             if row == n:
-
-                return 1
+                store()
             
-            counter = 0
-
             for col in range(n):
-
-                if is_safe(board,row,col):
-
-                    board[row][col] = True
-                    counter += fun(board,row+1)
-                    board[row][col] = False
+                
+                if inboundAndSafe(row,col):
+                    board[row][col] = 'Q'
+                    NQueens(row+1,board)
+                    board[row][col] = '.'
             
-            return counter
-        
-        return fun(board,0)
+            return
+
+        NQueens(0,board)
+
+        return counter
