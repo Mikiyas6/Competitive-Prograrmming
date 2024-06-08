@@ -1,15 +1,15 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
 
-        def fun(processed,unprocessed):
+        def fun(i,subset):
 
-            if not unprocessed:
-                return [processed]
+            if i == len(nums):
+
+                return [subset]
             
-            return fun(processed + [unprocessed[0]], unprocessed[1:]) + fun(processed, unprocessed[1:])
+            return fun(i+1,subset+[nums[i]]) + fun(i+1,subset)
         
-        return fun([],nums)
-
+        return fun(0,[])
             
             
 
