@@ -1,18 +1,28 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        def is_palindrome(s):
-            return s == s[::-1]
-        def backtrack(start, path, result):
-            if start == len(s):
-                result.append(path[:])
-                return
-            
-            for i in range(start + 1, len(s) + 1):
-                if is_palindrome(s[start:i]):
-                    path.append(s[start:i])
-                    backtrack(i, path, result)
-                    path.pop()
+
+        partitions = []
+
+        def isPalindrome(string):
+            return string == string[::-1]
         
-        result = []
-        backtrack(0, [], result)
-        return result
+        def dfs(i,part):
+
+            if i == len(s):
+                partitions.append(part[:])
+                return 
+            
+            for j in range(i,len(s)):
+
+                val = s[i:j+1]
+                if isPalindrome(val):
+                    part.append(val)
+                    dfs(j+1,part)
+                    part.pop()
+        
+        dfs(0,[])
+
+        return partitions
+            
+        
+
