@@ -21,7 +21,6 @@ class Solution:
                     j += 1
                     k += 1
 
-                print(part)
                 return True
 
             for j in range(i,len(num)):
