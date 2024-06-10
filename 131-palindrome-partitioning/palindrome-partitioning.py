@@ -5,7 +5,7 @@ class Solution:
 
         def isPalindrome(string):
             return string == string[::-1]
-        
+
         def dfs(i,part):
 
             if i == len(s):
@@ -14,15 +14,13 @@ class Solution:
             
             for j in range(i,len(s)):
 
-                val = s[i:j+1]
-                if isPalindrome(val):
-                    part.append(val)
+                string = s[i:j+1]
+
+                if isPalindrome(string):
+                    part.append(string)
                     dfs(j+1,part)
                     part.pop()
-        
+            
         dfs(0,[])
 
         return partitions
-            
-        
-
