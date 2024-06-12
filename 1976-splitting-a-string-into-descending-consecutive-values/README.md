@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values">1976. Splitting a String Into Descending Consecutive Values</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code> that consists of only digits.</p>
+<h2><a href="https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values">Splitting a String Into Descending Consecutive Values</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> that consists of only digits.</p>
 
 <p>Check if we can split <code>s</code> into <strong>two or more non-empty substrings</strong> such that the <strong>numerical values</strong> of the substrings are in <strong>descending order</strong> and the <strong>difference</strong> between numerical values of every two <strong>adjacent</strong> <strong>substrings</strong> is equal to <code>1</code>.</p>
 
