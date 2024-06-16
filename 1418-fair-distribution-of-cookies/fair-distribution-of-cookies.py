@@ -11,11 +11,9 @@ class Solution:
 
             for j in range(k):
                 positions[j] += cookies[i]
-                # Prune the search space if the current distribution is already worse than the best found
                 if positions[j] < min_unfairness:
                     dfs(i + 1)
                 positions[j] -= cookies[i]
-                # If one bucket is empty, no need to distribute to further empty buckets
                 if positions[j] == 0:
                     break
 
