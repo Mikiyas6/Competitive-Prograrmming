@@ -1,37 +1,31 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
 
-        directions = [(0,1),(-1,0),(1,0),(0,-1)]
+        visited = set()
+        directions = [[0,1],[1,0],[0,-1],[-1,0]]
 
         def inbound(row,col):
+            return 0 <= row and row < len(grid) and 0 <= col and col < len(grid[0])
 
-            return (0 <= row < len(grid)) and (0 <= col < len(grid[0]))
-        
-        def dfs(row,col):
+        def dfs(row,col): 
 
-            if grid[row][col] == "0" or not inbound(row,col):
-                return
-
-            grid[row][col] = "2"
-            
             for dx, dy in directions:
+                newRow = row+dx
+                newCol = col+dy
 
-                new_row = row + dx
-                new_col = col + dy
-
-                if not inbound(new_row,new_col) or grid[new_row][new_col] == "2" or grid[new_row][new_col] == "0":
-                    continue
-                grid[new_row][new_col] == "2"
-                dfs(new_row,new_col)
+                if (newRow,newCol) not in visited and inbound(newRow,newCol) and grid[newRow][newCol] == '1':
+                    visited.add((newRow,newCol))
+                    dfs(newRow,newCol)
+            
             return
-
+        
         counter = 0
-
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == "1":
-                    print(i,j)
+        for row in range(len(grid)):
+            for col in range(len(grid[0])):
+                if (row,col) not in visited and grid[row][col] == '1':
                     counter += 1
-                    dfs(i,j)
-
+                    dfs(row,col)
+        
         return counter
+            
+
