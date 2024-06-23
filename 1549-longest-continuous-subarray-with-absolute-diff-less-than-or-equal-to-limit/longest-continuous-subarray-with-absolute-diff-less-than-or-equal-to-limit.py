@@ -7,9 +7,9 @@ class Solution:
         max_len = 0
 
         for right in range(len(nums)):
-            while min_deque and nums[min_deque[-1]] >= nums[right]:
+            while min_deque and nums[right] <= nums[min_deque[-1]]:
                 min_deque.pop()
-            while max_deque and nums[max_deque[-1]] <= nums[right]:
+            while max_deque and nums[right] >= nums[max_deque[-1]]:
                 max_deque.pop()
 
             min_deque.append(right)
