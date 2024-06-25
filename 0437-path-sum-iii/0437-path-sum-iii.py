@@ -11,25 +11,26 @@ class Solution:
         hashmap[0] = 1
         counter = 0
         
-        def dfs(node, total):
+        def dfs(root,total):
+
             nonlocal counter
-            if not node:
+            if not root:
                 return
-            
-            total += node.val
-            
-            if (total - targetSum) in hashmap:
-                counter += hashmap[total - targetSum]
-            
+
+            total += root.val
+
+            if hashmap[total-targetSum]:
+                counter += hashmap[total-targetSum]
+
             hashmap[total] += 1
+
+            dfs(root.left,total)
+            dfs(root.right,total)
             
-            dfs(node.left, total)
-            dfs(node.right, total)
-            
-            hashmap[total] -= 1  # Revert the addition to hashmap[total]
+            hashmap[total] -= 1
         
-        dfs(root, 0)
-        
+        dfs(root,0)
+
         return counter
 
 
