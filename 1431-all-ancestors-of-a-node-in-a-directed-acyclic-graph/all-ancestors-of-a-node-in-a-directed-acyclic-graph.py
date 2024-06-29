@@ -4,6 +4,8 @@ class Solution:
         for u, v in edges:
             graph[v].append(u)
         
+        print(graph)
+        
         ancestors = defaultdict(set)
         
         def dfs(node):
@@ -11,14 +13,12 @@ class Solution:
             if ancestors[node]:
                 return ancestors[node]
             
-            # Visit each parent node and collect their ancestors
             for parent in graph[node]:
                 ancestors[node].add(parent)
                 ancestors[node].update(dfs(parent))
             
             return ancestors[node]
         
-        # Perform DFS for each node
         for node in range(n):
             ancestors[node] = dfs(node)
         
