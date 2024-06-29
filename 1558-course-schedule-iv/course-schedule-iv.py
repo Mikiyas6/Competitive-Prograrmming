@@ -2,36 +2,30 @@ class Solution:
     def checkIfPrerequisite(self, numCourses: int, prerequisites: List[List[int]], queries: List[List[int]]) -> List[bool]:
 
         if not prerequisites:
-            return [False]*numCourses
+            return [False] * len(queries)
         
-        hashmap = defaultdict(list)
+        graph = defaultdict(list)
         for u, v in prerequisites:
-            hashmap[v].append(u)
+            graph[v].append(u)
         
-        visited = set()
-        def bfs(start,end):
+        ancestors = defaultdict(set)
 
-            queue = deque([start])
-            while queue:
-                node = queue.popleft()
-                
-                neighbours = hashmap[node]
-                visited.add(node)
-                for neighbour in neighbours:
-                    if neighbour not in visited:
-                        if neighbour == end:
-                            return True
-                        queue.append(neighbour)
-                        
-            return False
+        def dfs(node):
+
+            if ancestors[node]:
+                return ancestors[node]
+
+            parents = graph[node]
+            for parent in parents:
+                ancestors[node].add(parent)
+                ancestors[node].update(dfs(parent))
             
+            return ancestors[node]
+
+        for node in range(numCourses):
+            ancestors[node] = dfs(node)
+
         result = []
-        for start, end in queries:
-            result.append(bfs(end,start))
-            visited = set()
-        
+        for u, v in queries:
+            result.append(u in ancestors[v])
         return result
-
-
-
-            
