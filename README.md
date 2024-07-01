@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1229-shortest-path-with-alternating-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
 ## Topological Sort
