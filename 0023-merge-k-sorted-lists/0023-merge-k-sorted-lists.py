@@ -6,34 +6,16 @@
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
 
-        if not lists:
-            return None
-        
-        def mergeSorted(arr1,arr2):
-
-            dummy = ListNode(-1)
-            current = dummy
-            node1, node2 = arr1, arr2
-
-            while node1 and node2:
-                
-                if node1.val <= node2.val:
-                    value = node1.val
-                    node1 = node1.next
-                else:
-                    value = node2.val
-                    node2 = node2.next
-                
-                current.next = ListNode(value)
-                current = current.next
-
-            if not node1:
-                current.next = node2
-            if not node2:
-                current.next = node1
-            return dummy.next
-
-        sortedArr = None
+        heap = []
         for node in lists:
-            sortedArr = mergeSorted(sortedArr,node)
-        return sortedArr
+            current = node
+            while current:
+                heappush(heap,current.val)
+                current = current.next
+        
+        dummy = ListNode(-1)
+        current = dummy
+        while heap:
+            current.next = ListNode(heappop(heap))
+            current = current.next
+        return dummy.next
