@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 ## Depth-First Search
@@ -67,12 +68,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
 ## Binary Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
@@ -194,4 +197,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0023-merge-k-sorted-lists) |
+## Design
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
