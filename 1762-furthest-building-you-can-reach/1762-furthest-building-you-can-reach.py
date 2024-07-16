@@ -6,10 +6,10 @@ class Solution:
         for i in range(n - 1):
             diff = heights[i + 1] - heights[i]
             if diff > 0:
-                heapq.heappush(heap, diff)
+                heappush(heap, diff)
             
             if len(heap) > ladders:
-                bricks -= heapq.heappop(heap)
+                bricks -= heappop(heap)
             
             if bricks < 0:
                 return i
