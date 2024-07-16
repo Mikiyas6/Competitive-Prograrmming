@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/furthest-building-you-can-reach">1762. Furthest Building You Can Reach</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>heights</code> representing the heights of buildings, some <code>bricks</code>, and some <code>ladders</code>.</p>
+<h2><a href="https://leetcode.com/problems/furthest-building-you-can-reach">Furthest Building You Can Reach</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>heights</code> representing the heights of buildings, some <code>bricks</code>, and some <code>ladders</code>.</p>
 
 <p>You start your journey from building <code>0</code> and move to the next building by possibly using bricks or ladders.</p>
 
