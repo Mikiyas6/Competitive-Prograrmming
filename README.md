@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1293-three-consecutive-odds) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
 | [1803-average-waiting-time](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1803-average-waiting-time) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0945-snakes-and-ladders](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0945-snakes-and-ladders) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
