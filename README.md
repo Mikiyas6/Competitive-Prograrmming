@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 ## Heap (Priority Queue)
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
+| [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 ## Depth-First Search
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1803-average-waiting-time) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
