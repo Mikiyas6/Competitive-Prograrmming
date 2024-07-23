@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0134-gas-station) |
+| [1303-minimum-moves-to-reach-target-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
@@ -231,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1303-minimum-moves-to-reach-target-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2645-pass-the-pillow) |
 | [2715-k-items-with-the-maximum-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2715-k-items-with-the-maximum-sum) |
