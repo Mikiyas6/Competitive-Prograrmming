@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2715-k-items-with-the-maximum-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2715-k-items-with-the-maximum-sum) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1333-sort-the-jumbled-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1333-sort-the-jumbled-numbers) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
@@ -143,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1803-average-waiting-time](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1803-average-waiting-time) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
