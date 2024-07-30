@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1229-shortest-path-with-alternating-colors) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
@@ -101,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
