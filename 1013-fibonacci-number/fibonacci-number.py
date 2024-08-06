@@ -1,8 +1,15 @@
 class Solution:
     def fib(self, n: int) -> int:
-        
-        if n <= 1:
+        hashmap = defaultdict(int)  
+        def fun(n):
+            if n <= 1:
+                return n
 
-            return n
-        
-        return self.fib(n-1) + self.fib(n-2)
+            if hashmap[n]:
+                return hashmap[n]
+            
+            hashmap[n] = fun(n-1) + fun(n-2)
+            
+            return hashmap[n]
+
+        return fun(n)
