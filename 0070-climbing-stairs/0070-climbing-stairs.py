@@ -1,16 +1,18 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        if n == 1:
-            return 1
-        if n == 2:
-            return 2
-
-        ways = [0] * (n + 1)
-
-        ways[1] = 1
-        ways[2] = 2
-
-        for i in range(3, n + 1):
-            ways[i] = ways[i - 1] + ways[i - 2]
+        hashmap = defaultdict(int)
+        def fun(n):
+            if n < 0:
+                return 0
+            if n == 0:
+                return 1
+            if n in hashmap:
+                return hashmap[n]
             
-        return ways[n]
+            value1 = fun(n-1)
+            value2 = fun(n-2)
+            hashmap[n] = value1 + value2
+            return hashmap[n]
+        
+        return fun(n)
+
