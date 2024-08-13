@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
 | [0134-gas-station](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0134-gas-station) |
 | [0198-house-robber](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Bit Manipulation
 |  |
