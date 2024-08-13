@@ -1,13 +1,23 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
+
+        memo = defaultdict(int)
+
+        def inbound(row,col):
+            return 0 <= row and row < m and 0 <= col and col < n
         
-        dp = [[0] * n for _ in range(m)]
-    
-        for i in range(m):
-            for j in range(n):
-                if i == 0 or j == 0:
-                    dp[i][j] = 1
-                else:
-                    dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        def dp(row,col):
+
+            if row == m-1 and col == n-1:
+                return 1
+            
+            if not inbound(row,col):
+                return 0
+            
+            if (row,col) not in memo:
+                memo[(row,col)] = dp(row+1,col) + dp(row,col+1)
+            
+            return memo[(row,col)]
         
-        return dp[m-1][n-1]
+        return dp(0,0)
+            
