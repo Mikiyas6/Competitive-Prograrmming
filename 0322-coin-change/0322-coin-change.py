@@ -6,20 +6,20 @@ class Solution:
             if total in memo:
                 return memo[total]
 
-            if total == amount:
+            if total == 0:
                 return 0
 
-            if total > amount:
+            if total < 0:
                 return float('inf')
 
             minCoins = float('inf')
             for value in coins:
-                minCoins = min(minCoins, fun(total + value) + 1)
+                minCoins = min(minCoins, fun(total - value))
 
-            memo[total] = minCoins
-            return minCoins
+            memo[total] = minCoins + 1
+            return memo[total]
 
-        result = fun(0)
+        result = fun(amount)
         return result if result != float('inf') else -1
 
         # dp = [float('inf')] * (amount + 1)
