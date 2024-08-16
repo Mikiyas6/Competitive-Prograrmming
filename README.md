@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0134-gas-station](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0134-gas-station) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
+| [0624-maximum-distance-in-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0624-maximum-distance-in-arrays) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0890-lemonade-change) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1303-minimum-moves-to-reach-target-score) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
+| [0624-maximum-distance-in-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0624-maximum-distance-in-arrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
