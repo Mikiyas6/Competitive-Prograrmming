@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
+| [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
 | [0134-gas-station](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0134-gas-station) |
 | [0198-house-robber](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0198-house-robber) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0198-house-robber) |
