@@ -8,8 +8,7 @@ class Solution:
             
             state = (i, target_sum)
             if state not in memo:
-                memo[state] = dp(i + 1, target_sum - nums[i]) or\
-                    dp(i + 1, target_sum)
+                memo[state] = dp(i + 1, target_sum - nums[i]) or dp(i + 1, target_sum)
             
             return memo[state]
         
