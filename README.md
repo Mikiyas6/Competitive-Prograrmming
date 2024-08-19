@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
+| [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
+| [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
