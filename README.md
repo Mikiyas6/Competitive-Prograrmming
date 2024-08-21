@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1511-count-number-of-teams) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 ## Backtracking
 |  |
 | ------- |
