@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
+| [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0948-sort-an-array) |
+| [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
 | [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1240-stone-game-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1293-three-consecutive-odds) |
+| [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1333-sort-the-jumbled-numbers) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
+| [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
