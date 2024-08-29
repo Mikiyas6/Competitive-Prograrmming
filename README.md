@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
 | [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
+| [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0134-gas-station) |
 | [0174-dungeon-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0174-dungeon-game) |
@@ -378,11 +379,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0476-number-complement](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0476-number-complement) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
