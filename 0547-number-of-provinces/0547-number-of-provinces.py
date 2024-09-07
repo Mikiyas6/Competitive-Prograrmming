@@ -2,8 +2,8 @@ class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         
         n, m = len(isConnected), len(isConnected[0])
-        parent = [i for i in range(n+1)]
-        rank = [1]*(n+1)
+        parent = [i for i in range(n)]
+        rank = [1]*(n)
 
         def find(node):
             if node == parent[node]:
