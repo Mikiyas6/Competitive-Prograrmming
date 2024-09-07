@@ -25,7 +25,7 @@ class Solution:
                 rank[parent2] += 1
         
         for i in range(n):
-            for j in range(i + 1, n):
+            for j in range(i + 1, m):
                 if isConnected[i][j] == 1:
                     union(i, j)
         
