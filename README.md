@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
+| [0547-number-of-provinces](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0820-find-eventual-safe-states) |
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
+| [0547-number-of-provinces](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0820-find-eventual-safe-states](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0820-find-eventual-safe-states) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
+| [0547-number-of-provinces](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0820-find-eventual-safe-states) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
@@ -310,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
+| [0547-number-of-provinces](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [0999-regions-cut-by-slashes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0999-regions-cut-by-slashes) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
