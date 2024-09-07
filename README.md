@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1229-shortest-path-with-alternating-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
+| [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -192,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
+| [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -425,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0023-merge-k-sorted-lists) |
+| [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2299-merge-nodes-in-between-zeros) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
