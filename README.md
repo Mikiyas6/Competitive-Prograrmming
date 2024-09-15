@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [2803-modify-graph-edge-weights](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Sorting
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 ## Topological Sort
 |  |
 | ------- |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0999-regions-cut-by-slashes) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
+| [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 ## String
 |  |
 | ------- |
