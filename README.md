@@ -342,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0005-longest-palindromic-substring) |
 | [0115-distinct-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0115-distinct-subsequences) |
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
+| [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
@@ -629,13 +630,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
 ## String Matching
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
+| [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
