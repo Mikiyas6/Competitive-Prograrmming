@@ -451,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
+| [0201-bitwise-and-of-numbers-range](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0461-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0461-hamming-distance) |
