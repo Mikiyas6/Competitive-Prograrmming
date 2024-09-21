@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
+| [0386-lexicographical-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0386-lexicographical-numbers) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
@@ -563,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0386-lexicographical-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0386-lexicographical-numbers) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 ## Bucket Sort
 |  |
