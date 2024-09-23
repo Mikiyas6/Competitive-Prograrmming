@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/linked-list-in-binary-tree">1484. Linked List in Binary Tree</a></h2><h3>Medium</h3><hr><p>Given a binary tree <code>root</code> and a&nbsp;linked list with&nbsp;<code>head</code>&nbsp;as the first node.&nbsp;</p>
+<h2><a href="https://leetcode.com/problems/linked-list-in-binary-tree">Linked List in Binary Tree</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a binary tree <code>root</code> and a&nbsp;linked list with&nbsp;<code>head</code>&nbsp;as the first node.&nbsp;</p>
 
 <p>Return True if all the elements in the linked list starting from the <code>head</code> correspond to some <em>downward path</em> connected in the binary tree&nbsp;otherwise return False.</p>
 
