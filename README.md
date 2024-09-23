@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2413-smallest-number-in-infinite-set](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2413-smallest-number-in-infinite-set) |
 | [2479-meeting-rooms-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2479-meeting-rooms-iii) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
+| [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2727-number-of-senior-citizens) |
+| [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Shortest Path
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1511-count-number-of-teams) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
+| [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -570,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
+| [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 ## Bucket Sort
 |  |
 | ------- |
