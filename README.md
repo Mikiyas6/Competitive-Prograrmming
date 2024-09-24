@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Tree
 |  |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Matrix
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Shortest Path
 |  |
 | ------- |
@@ -575,6 +578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Bucket Sort
 |  |
 | ------- |
