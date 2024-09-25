@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
 | [2479-meeting-rooms-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2479-meeting-rooms-iii) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2727-number-of-senior-citizens](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2727-number-of-senior-citizens) |
@@ -373,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
@@ -577,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Bucket Sort
@@ -593,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Radix Sort
 |  |
