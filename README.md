@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
