@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0624-maximum-distance-in-arrays) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0890-lemonade-change) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
@@ -252,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0624-maximum-distance-in-arrays) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
