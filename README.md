@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1499-maximum-performance-of-a-team](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1499-maximum-performance-of-a-team) |
 | [1511-count-number-of-teams](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 ## Divide and Conquer
@@ -582,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2413-smallest-number-in-infinite-set) |
 ## Binary Search Tree
 |  |
