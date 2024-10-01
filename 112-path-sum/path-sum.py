@@ -7,6 +7,18 @@
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         
+        def path_sum(root,cumulative,target):
+
+            if not root:
+                return False
+            
+            if not root.left and not root.right and root.val + cumulative == target:
+                return True
+            
+            return path_sum(root.left,root.val+cumulative,target) or path_sum(root.right,root.val+cumulative,target)
+        
+        return path_sum(root,0,targetSum)
+
         # def accumulate(root,cumulative):
 
         #     if not root:
@@ -33,15 +45,3 @@ class Solution:
         # root = accumulate(root,0)
 
         # return find_node(root,targetSum)
-
-        def path_sum(root,cumulative,target):
-
-            if not root:
-                return False
-            
-            if not root.left and not root.right and root.val + cumulative == target:
-                return True
-            
-            return path_sum(root.left,root.val+cumulative,target) or path_sum(root.right,root.val+cumulative,target)
-        
-        return path_sum(root,0,targetSum)
