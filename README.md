@@ -543,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2645-pass-the-pillow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2645-pass-the-pillow) |
+| [2680-count-collisions-of-monkeys-on-a-polygon](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2680-count-collisions-of-monkeys-on-a-polygon) |
 | [2715-k-items-with-the-maximum-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2715-k-items-with-the-maximum-sum) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Recursion
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2680-count-collisions-of-monkeys-on-a-polygon](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2680-count-collisions-of-monkeys-on-a-polygon) |
 ## Queue
 |  |
 | ------- |
