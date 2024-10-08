@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2715-k-items-with-the-maximum-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2715-k-items-with-the-maximum-sum) |
@@ -405,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1923-sentence-similarity-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1923-sentence-similarity-iii) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1923-sentence-similarity-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1923-sentence-similarity-iii) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Binary Search
 |  |
@@ -588,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 ## Divide and Conquer
