@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0890-lemonade-change) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1499-maximum-performance-of-a-team](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1499-maximum-performance-of-a-team) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0926-find-and-replace-pattern](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0926-find-and-replace-pattern) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1250-longest-common-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -588,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
