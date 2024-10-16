@@ -291,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
@@ -512,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0688-knight-probability-in-chessboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0688-knight-probability-in-chessboard) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
 | [0815-champagne-tower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0815-champagne-tower) |
 | [0967-minimum-falling-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0967-minimum-falling-path-sum) |
@@ -534,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Bit Manipulation
 |  |
@@ -545,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0461-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0461-hamming-distance) |
 | [0476-number-complement](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0476-number-complement) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0693-binary-number-with-alternating-bits) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [1054-complement-of-base-10-integer](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1054-complement-of-base-10-integer) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -555,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bitmask
 |  |
 | ------- |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 ## Linked List
 |  |
@@ -721,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
+| [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 ## Combinatorics
 |  |
