@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -255,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -557,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Bitmask
