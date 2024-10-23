@@ -1,11 +1,11 @@
 class Solution:
     def findGCD(self, nums: List[int]) -> int:
-        mi = float('inf')
-        ma = 0
+        min_value = float('inf')
+        max_value = 0
 
         for x in nums:
-            mi = min(x, mi)
-            ma = max(x, ma)
+            min_value = min(x, min_value)
+            max_value= max(x, max_value)
 
-        return gcd(mi,ma)
+        return gcd(min_value,max_value)
         
