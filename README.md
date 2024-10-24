@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2715-k-items-with-the-maximum-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2715-k-items-with-the-maximum-sum) |
+| [2767-maximum-sum-with-exactly-k-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2767-maximum-sum-with-exactly-k-elements) |
 | [3195-separate-black-and-white-balls](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2651-count-ways-to-group-overlapping-ranges) |
 | [2727-number-of-senior-citizens](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2727-number-of-senior-citizens) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
+| [2767-maximum-sum-with-exactly-k-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2767-maximum-sum-with-exactly-k-elements) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
