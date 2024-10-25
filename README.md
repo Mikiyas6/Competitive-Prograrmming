@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1275-validate-binary-tree-nodes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1275-validate-binary-tree-nodes) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1380-number-of-closed-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1380-number-of-closed-islands) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1293-three-consecutive-odds](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1293-three-consecutive-odds) |
 | [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1333-sort-the-jumbled-numbers) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1380-number-of-closed-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1380-number-of-closed-islands) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1250-longest-common-subsequence) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1304-longest-happy-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1304-longest-happy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
@@ -732,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0648-replace-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0648-replace-words) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
