@@ -338,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
+| [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
 | [0890-lemonade-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0890-lemonade-change) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
@@ -431,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0174-dungeon-game) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
+| [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0921-spiral-matrix-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0921-spiral-matrix-iii) |
 | [0945-snakes-and-ladders](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0945-snakes-and-ladders) |
@@ -537,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0647-palindromic-substrings) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1923-sentence-similarity-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1923-sentence-similarity-iii) |
@@ -629,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0476-number-complement](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0476-number-complement) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0693-binary-number-with-alternating-bits) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [1054-complement-of-base-10-integer](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1054-complement-of-base-10-integer) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -659,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
+| [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0906-walking-robot-simulation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0906-walking-robot-simulation) |
 | [0921-spiral-matrix-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0921-spiral-matrix-iii) |
 | [1803-average-waiting-time](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1803-average-waiting-time) |
