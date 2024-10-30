@@ -667,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
+| [2178-walking-robot-simulation-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2178-walking-robot-simulation-ii) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2411-spiral-matrix-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2411-spiral-matrix-iv) |
 | [2479-meeting-rooms-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2479-meeting-rooms-iii) |
@@ -750,6 +751,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
+| [2178-walking-robot-simulation-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2178-walking-robot-simulation-ii) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2413-smallest-number-in-infinite-set) |
 ## Binary Search Tree
 |  |
