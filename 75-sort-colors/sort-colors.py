@@ -3,21 +3,14 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
+    
+        # length of the array nums
         n = len(nums)
-
+        # Iterate through the array using two pointers and compare adjacent values
         for i in range(n):
-
-            flag = False
-
-            for j in range(n-i-1):
-
-                if nums[j] > nums[j+1]:
-
-                    nums[j], nums[j+1] = nums[j+1], nums[j]
-
-                    flag = True
+            for j in range(1,n-i):
+                # If the value at the leser index is greater, swap the number to bubble up the big number
+                if nums[j-1] >= nums[j]:
+                    nums[j-1],nums[j] = nums[j], nums[j-1]
+        
                 
-            if not flag:
-
-                break
-            
