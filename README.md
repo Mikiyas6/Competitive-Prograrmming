@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0648-replace-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0648-replace-words) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
+| [0677-map-sum-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0677-map-sum-pairs) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
@@ -491,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0648-replace-words) |
 | [0664-strange-printer](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0664-strange-printer) |
+| [0677-map-sum-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0677-map-sum-pairs) |
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
@@ -759,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0295-find-median-from-data-stream) |
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
+| [0677-map-sum-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0677-map-sum-pairs) |
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -782,6 +785,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0648-replace-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0648-replace-words) |
+| [0677-map-sum-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0677-map-sum-pairs) |
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
