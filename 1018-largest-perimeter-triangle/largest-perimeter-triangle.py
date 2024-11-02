@@ -1,29 +1,13 @@
 class Solution:
     def largestPerimeter(self, nums: List[int]) -> int:
-        
+
         nums.sort()
+        area = 0
+        maxArea = 0
 
-        l = 0
-
-        max_perimeter = 0
-
-        sum_of_three_sides = sum(nums[:3])
-
-        if sum_of_three_sides - nums[2] > nums[2]:
-
-            max_perimeter = max(max_perimeter, sum_of_three_sides)
-
-        for r in range(3,len(nums)):
-
-            sum_of_three_sides -= nums[l]
-
-            sum_of_three_sides += nums[r]
-
-            if sum_of_three_sides - nums[r] > nums[r]:
-
-                max_perimeter = max(max_perimeter,sum_of_three_sides) 
-
-            l += 1
+        for right in range(2,len(nums)):
+            if nums[right-2] + nums[right-1] > nums[right]:
+                area = nums[right-2] + nums[right-1] + nums[right]
+                maxArea = max(maxArea,area)
         
-        return max_perimeter
-
+        return maxArea
