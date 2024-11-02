@@ -1,35 +1,20 @@
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
         
-        skill.sort() #O(nlogn)
-
         n = len(skill)
+        skill.sort()
 
-        i = 0
-        j = n - 1
+        left = 0
+        right = n-1
+        total = 0
 
-        target = skill[i] + skill[j]
+        value = skill[left] + skill[right]
 
-        total = skill[i] * skill[j]
-
-        i += 1
-        j -= 1
-
-        while i < j: #O(n)
-
-            if skill[i] + skill[j] == target:
-
-                total += skill[i] * skill[j]
-
-            else:
-
+        while left < right:
+            if skill[left] + skill[right] != value:
                 return -1
-
-            i += 1
-            j -= 1
+            total += skill[left] * skill[right]
+            left += 1
+            right -= 1
 
         return total
-
-        # Time complexity = O(nlogn) + O(n) = O(nlogn)
-        
-        # Space Complexity = O(1)
