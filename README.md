@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
+| [0242-valid-anagram](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0347-top-k-frequent-elements) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0349-intersection-of-two-arrays) |
@@ -498,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
+| [0242-valid-anagram](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0242-valid-anagram) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0409-longest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0409-longest-palindrome) |
