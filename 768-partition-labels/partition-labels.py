@@ -10,15 +10,12 @@ class Solution:
         result = [0]
 
         for index in range(n):
+
+            if hashmap[s[index]] > checkPoint:
+                checkPoint = hashmap[s[index]]
+
             if index == checkPoint:
                 value =  index - sum(result) + 1
                 result.append(value)
-            
-            elif hashmap[s[index]] > checkPoint:
-
-                checkPoint = hashmap[s[index]]
-                if index == checkPoint:
-                    value =  index - sum(result) + 1
-                    result.append(value)
         
         return result[1:]
