@@ -3,47 +3,18 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-
+        
         n = len(nums)
 
-        k = k % n 
+        def flip(left,right):
 
-        # First
-
-        left, right = 0, n - k - 1 
-
-        while left < right:
-
-            nums[left], nums[right] = nums[right], nums[left]
+            while left <= right:
+                nums[left],nums[right] = nums[right],nums[left]
+                left += 1
+                right -= 1
         
-            left += 1
-            right -= 1
-        
-        # Second
+        k %= n
 
-        left = n - k
-
-        right = n - 1
-
-        while left < right:
-
-            nums[left], nums[right] = nums[right], nums[left]
-        
-            left += 1
-            right -= 1
-
-        # Third
-
-        left, right = 0, n-1
-
-        while left < right:
-
-            nums[left], nums[right] = nums[right], nums[left]
-        
-            left += 1
-            right -= 1
-
-
-
-        
-        
+        flip(0,n-k-1)
+        flip(n-k,n-1)
+        flip(0,n-1)
