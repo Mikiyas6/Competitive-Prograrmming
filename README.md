@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0005-longest-palindromic-substring) |
 | [0075-sort-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0075-sort-colors) |
+| [0283-move-zeroes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0350-intersection-of-two-arrays-ii) |
