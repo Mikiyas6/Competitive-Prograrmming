@@ -1,20 +1,16 @@
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
 
-        hashmap = Counter(arr1)
-        hashmap2 = Counter(arr2)
-        hashset = []
-        
-        for value in arr1:
-            if value not in hashmap2:
-                hashset.append(value)
-        hashset.sort()
+        hash1 = Counter(arr1)
+        hash2 = Counter(arr2)
 
-        result = []
+        leftAlones = [value for value in arr1 if value not in hash2]
+        leftAlones.sort()
+        arr1.sort()
 
+        results = []
         for value in arr2:
-            result.extend([value]*hashmap[value])
-        
-        result.extend(hashset)
-        
-        return result
+            results.extend([value]*hash1[value])
+        results.extend(leftAlones)
+
+        return results
