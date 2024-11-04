@@ -380,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1018-largest-perimeter-triangle) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
+| [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
 | [1196-filling-bookcase-shelves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
@@ -651,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0815-champagne-tower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0815-champagne-tower) |
 | [0967-minimum-falling-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
+| [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
 | [1196-filling-bookcase-shelves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1196-filling-bookcase-shelves) |
 | [1240-stone-game-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1240-stone-game-ii) |
@@ -882,6 +884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
+| [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 ## Memoization
