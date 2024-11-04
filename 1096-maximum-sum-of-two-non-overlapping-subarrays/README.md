@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays">1096. Maximum Sum of Two Non-Overlapping Subarrays</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code> and two integers <code>firstLen</code> and <code>secondLen</code>, return <em>the maximum sum of elements in two non-overlapping <strong>subarrays</strong> with lengths </em><code>firstLen</code><em> and </em><code>secondLen</code>.</p>
+<h2><a href="https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays">Maximum Sum of Two Non-Overlapping Subarrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer array <code>nums</code> and two integers <code>firstLen</code> and <code>secondLen</code>, return <em>the maximum sum of elements in two non-overlapping <strong>subarrays</strong> with lengths </em><code>firstLen</code><em> and </em><code>secondLen</code>.</p>
 
 <p>The array with length <code>firstLen</code> could occur before or after the array with length <code>secondLen</code>, but they have to be non-overlapping.</p>
 
