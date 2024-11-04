@@ -378,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1002-maximum-width-ramp](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1002-maximum-width-ramp) |
 | [1009-pancake-sorting](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1009-pancake-sorting) |
 | [1018-largest-perimeter-triangle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1018-largest-perimeter-triangle) |
+| [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
 | [1196-filling-bookcase-shelves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1196-filling-bookcase-shelves) |
@@ -610,6 +611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
+| [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -879,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 ## Memoization
@@ -896,6 +899,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
+| [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
