@@ -1,17 +1,10 @@
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
+        total = 0
+        result = []
 
-        n = len(nums)
-
-        cumulative = 0
-
-        prefix_sum = []
-
-        for index,value in enumerate(nums):
-
-            cumulative += value
-
-            prefix_sum.append(cumulative)
+        for value in nums:
+            total += value
+            result.append(total)
         
-        return prefix_sum
-
+        return result
