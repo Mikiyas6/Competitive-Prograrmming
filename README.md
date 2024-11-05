@@ -664,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0343-integer-break](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0343-integer-break) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0368-largest-divisible-subset](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0368-largest-divisible-subset) |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
@@ -793,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0365-water-and-jug-problem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0368-largest-divisible-subset) |
 | [0372-super-pow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0372-super-pow) |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
@@ -972,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0375-guess-number-higher-or-lower-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [1240-stone-game-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1240-stone-game-ii) |
 ## Segment Tree
 |  |
