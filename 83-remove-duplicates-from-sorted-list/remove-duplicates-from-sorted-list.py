@@ -6,29 +6,26 @@
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
+        if not head:
+            return head
+        
         dummy = ListNode(-1)
         current = dummy
-
-        if not head or not head.next:
-
-            return head
-
         ptr1 = head
         ptr2 = head.next
 
-        while ptr2:
+        def removeDuplicates(current,ptr1,ptr2):
+
+            if not ptr2:
+                node = ListNode(ptr1.val)
+                current.next = node
+                return current
 
             if ptr1.val != ptr2.val:
-
-                Node = ListNode(ptr1.val)
-                current.next = Node
-                current = current.next
+                node = ListNode(ptr1.val)
+                current.next = removeDuplicates(node,ptr1.next,ptr2.next)
+                return current
             
-            ptr1 = ptr1.next
-            ptr2 = ptr2.next
+            return removeDuplicates(current,ptr1.next,ptr2.next)
         
-        Node = ListNode(ptr1.val)
-        current.next = Node
-
-        return dummy.next 
-        
+        return removeDuplicates(current,ptr1,ptr2).next
