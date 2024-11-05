@@ -792,6 +792,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0365-water-and-jug-problem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0365-water-and-jug-problem) |
 | [0368-largest-divisible-subset](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0368-largest-divisible-subset) |
+| [0372-super-pow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0372-super-pow) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
@@ -847,6 +848,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0347-top-k-frequent-elements) |
+| [0372-super-pow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0372-super-pow) |
 | [0948-sort-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0948-sort-an-array) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2513-number-of-pairs-satisfying-inequality) |
 ## Quickselect
