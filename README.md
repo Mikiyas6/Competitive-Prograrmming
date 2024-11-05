@@ -682,6 +682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -692,6 +693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
@@ -751,6 +753,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0204-count-primes) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
