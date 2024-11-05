@@ -276,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
 | [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
 | [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -635,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -754,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
+| [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0204-count-primes) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
@@ -841,6 +845,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Data Stream
