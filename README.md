@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
 | [0242-valid-anagram](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0347-top-k-frequent-elements) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0134-gas-station) |
+| [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
 | [0174-dungeon-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0174-dungeon-game) |
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
@@ -758,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
 | [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
 | [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
+| [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0204-count-primes) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
@@ -993,5 +996,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 <!---LeetCode Topics End-->
