@@ -768,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0172-factorial-trailing-zeroes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0172-factorial-trailing-zeroes) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0204-count-primes) |
+| [0223-rectangle-area](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0223-rectangle-area) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
@@ -1002,5 +1003,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
+| [0223-rectangle-area](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0223-rectangle-area) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 <!---LeetCode Topics End-->
