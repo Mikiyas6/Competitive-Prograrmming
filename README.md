@@ -657,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0322-coin-change) |
+| [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0416-partition-equal-subset-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
@@ -696,6 +697,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
+| [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -778,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0279-perfect-squares) |
+| [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0365-water-and-jug-problem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0365-water-and-jug-problem) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
