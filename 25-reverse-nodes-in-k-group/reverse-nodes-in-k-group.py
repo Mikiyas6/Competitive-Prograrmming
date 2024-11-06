@@ -6,67 +6,59 @@
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
 
-        if not head or not head.next:
+        def reverse(head):
+            prev = None
+            current = head
 
+            while current:
+                next_node = current.next  
+                current.next = prev       
+                prev = current            
+                current = next_node       
+
+            return prev 
+
+        if not head:
             return head
-        
+        current = head
+        n = 0
+        while current:
+            current = current.next
+            n += 1
+        end_up = n-(n%k)-1
+        current = head
+        for i in range(end_up):
+            current = current.next
+        unreversed_part = current.next
+        current.next = None
+
         end_up = k - 1
-
-        def reverse(ptr):
-
-            if not ptr or not ptr.next:
-
-                return ptr
-            
-            second_part = ptr.next
-
-            ptr.next = None
-        
-            first_node = ptr
-
-            reversed_second_part = reverse(second_part)
-
-            current = reversed_second_part
-
-            while current.next:
-
-                current = current.next
-            
-            current.next = first_node
-
-            return reversed_second_part
+        current = head
+        ptr = current
 
         def fun(ptr):
-
-            if not ptr or not ptr.next:
-
+            if not ptr:
                 return ptr
-            
             current = ptr
-            
             for i in range(end_up):
-
                 current = current.next
-
-                if not current:
-                    return ptr
-
             second_part = current.next
             current.next = None
-
-            reversed_first_part = reverse(ptr)
-
-            current = reversed_first_part
-
+            reversedList = reverse(ptr)
+            current = reversedList
             while current.next:
-
                 current = current.next
-            
             current.next = fun(second_part)
-            
-            return reversed_first_part
+            return reversedList
         
-        return fun(head)
+        properly_reversed = fun(ptr)
+        current = properly_reversed
+        while current.next:
+            current = current.next
+        current.next = unreversed_part
+        return properly_reversed
+
+            
 
 
             
