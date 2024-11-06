@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0396-rotate-function](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0396-rotate-function) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -675,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0368-largest-divisible-subset](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0368-largest-divisible-subset) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0396-rotate-function](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
@@ -816,6 +818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0372-super-pow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0372-super-pow) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0375-guess-number-higher-or-lower-ii) |
 | [0390-elimination-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0390-elimination-game) |
+| [0396-rotate-function](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0396-rotate-function) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
