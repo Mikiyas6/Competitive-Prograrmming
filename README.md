@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0148-sort-list) |
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0242-valid-anagram) |
@@ -602,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0295-find-median-from-data-stream) |
@@ -752,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0148-sort-list) |
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
@@ -861,6 +864,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0347-top-k-frequent-elements) |
@@ -877,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0148-sort-list) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0948-sort-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0948-sort-an-array) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2513-number-of-pairs-satisfying-inequality) |
