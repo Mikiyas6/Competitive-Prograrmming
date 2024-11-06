@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0409-longest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0409-longest-palindrome) |
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
+| [0447-number-of-boomerangs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0447-number-of-boomerangs) |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0396-rotate-function) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0416-partition-equal-subset-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0416-partition-equal-subset-sum) |
+| [0447-number-of-boomerangs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0447-number-of-boomerangs) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
@@ -824,6 +826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0396-rotate-function) |
 | [0400-nth-digit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0400-nth-digit) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0405-convert-a-number-to-hexadecimal) |
+| [0447-number-of-boomerangs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0447-number-of-boomerangs) |
 | [0458-poor-pigs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0458-poor-pigs) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
