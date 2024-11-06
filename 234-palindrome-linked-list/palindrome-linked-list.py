@@ -5,81 +5,51 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        if not head:
+            return head
+        #Functin to find the middle of LinkedList
+        def findMiddle(head):
+            if not head or not head.next:
+                return head
+            slow = head
+            fast = head.next
 
-        def fun(head):
+            while fast and fast.next:
+                slow = slow.next
+                fast = fast.next.next
+            return slow
 
+        #Function to reverse Linkedlist
+        def reverse(head):
             prev = None
             current = head
 
             while current:
-                next_node = current.next
-                current.next = prev
-                prev = current
-                current = next_node
+                next_node = current.next  
+                current.next = prev       
+                prev = current            
+                current = next_node       
 
-            return prev
+            return prev  
 
-        # def fun(head):
+        #Find the middle and break it in half
+        middle = findMiddle(head)
+        second_part = middle.next
+        middle.next = None
+        first_part = head
 
-        #     if not head or not head.next:
-
-        #         return head
-            
-        #     second_part = head.next
-        #     head.next = None
-        #     first_node = head
-
-        #     reversed_second_part = fun(second_part)
-
-        #     current = reversed_second_part
-
-        #     while current.next:
-
-        #         current = current.next
-            
-        #     current.next = first_node
-
-        #     return reversed_second_part
-
-        if not head or not head.next:
-
-            return head
+        # Reverse the second part
+        reversedList = reverse(second_part)
         
-        # Break the linkedlist in half
-
-        slow = head
-        fast = head.next
-
-        while fast and fast.next:
-
-            slow = slow.next
-            fast = fast.next.next
-        
-        second_half = slow.next
-        slow.next = None
-        first_half = head
-
-        # Reverse the second half
-        reversed_second_half = fun(second_half)
-
-        # Check the whether the two parts are equal or not. If they are then it's palindromic
-        ptr1 = first_half
-        ptr2 = reversed_second_half
+        # Use two pointers to check the value in each node
+        ptr1 = first_part
+        ptr2 = reversedList
 
         while ptr1 and ptr2:
-
             if ptr1.val != ptr2.val:
-
                 return False
-        
             ptr1 = ptr1.next
             ptr2 = ptr2.next
         
         return True
 
-        
-
-
-
-
-    
