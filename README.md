@@ -815,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0368-largest-divisible-subset) |
 | [0372-super-pow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0372-super-pow) |
 | [0375-guess-number-higher-or-lower-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0375-guess-number-higher-or-lower-ii) |
+| [0390-elimination-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0390-elimination-game) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
@@ -841,6 +842,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
+| [0390-elimination-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0390-elimination-game) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
