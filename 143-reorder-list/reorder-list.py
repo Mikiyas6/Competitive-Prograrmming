@@ -9,74 +9,49 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
-        if not head or not head.next:
-
-            return head
-        
-        def get_middle(head):
-
+        #Functin to find the middle of LinkedList
+        def findMiddle(head):
+            if not head or not head.next:
+                return head
             slow = head
             fast = head.next
 
             while fast and fast.next:
-
                 slow = slow.next
                 fast = fast.next.next
-            
             return slow
-        
+
+        #Function to reverse Linkedlist
         def reverse(head):
+            prev = None
+            current = head
 
-            if not head or not head.next:
+            while current:
+                next_node = current.next  
+                current.next = prev       
+                prev = current            
+                current = next_node       
 
-                return head
+            return prev  
+
+        def fun(list1,list2):
+            if not list1:
+                return list2
+            if not list2:
+                return list1
             
-            second_part = head.next
-            head.next = None
-            first_node = head
-
-            reversed_second_part = reverse(second_part)
-
-            current = reversed_second_part
-
-            while current.next:
-                
-                current = current.next
+            segment1 = list1.next
+            segment2 = list2.next
+            list1.next = list2
+            list2.next = fun(segment1,segment2)
+            return list1
             
-            current.next = first_node
-
-            return reversed_second_part
         
-        def merge(first_part,second_part):
+        middle = findMiddle(head)
+        list2 = middle.next
+        middle.next = None
+        list1 = head
 
-            if not first_part:
+        reversed_list2 = reverse(list2)
 
-                return None
-            
-            if not second_part:
-
-                first_part.next = second_part
-
-                return first_part
-
-            rest_of_first_part = first_part.next
-            first_part.next = None
-            rest_of_second_part = second_part.next
-            second_part.next = None
-
-            first_part.next = second_part
-
-            second_part.next = merge(rest_of_first_part,rest_of_second_part) 
-
-            return first_part
-
-        middle_node = get_middle(head)
-
-        second_part = middle_node.next
-        middle_node.next = None
-
-        first_part = head
-
-        reversed_second_part = reverse(second_part)
-
-        merge(first_part,reversed_second_part)
+        fun(list1,reversed_list2)
