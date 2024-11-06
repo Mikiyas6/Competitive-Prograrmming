@@ -732,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0201-bitwise-and-of-numbers-range](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
+| [0405-convert-a-number-to-hexadecimal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0461-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0461-hamming-distance) |
 | [0476-number-complement](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0476-number-complement) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0693-binary-number-with-alternating-bits) |
@@ -821,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0390-elimination-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0390-elimination-game) |
 | [0396-rotate-function](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0396-rotate-function) |
 | [0400-nth-digit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0400-nth-digit) |
+| [0405-convert-a-number-to-hexadecimal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
