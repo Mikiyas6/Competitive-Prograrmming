@@ -20,6 +20,7 @@ class Solution:
 
         if not head:
             return head
+        # Figuring out what part of the linkedlist that we don't need to reverse and breaking it out from the original list
         current = head
         n = 0
         while current:
@@ -33,8 +34,7 @@ class Solution:
         current.next = None
 
         end_up = k - 1
-        current = head
-        ptr = current
+        ptr = head
 
         def fun(ptr):
             if not ptr:
