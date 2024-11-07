@@ -783,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0234-palindrome-linked-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0237-delete-node-in-a-linked-list) |
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
 | [0725-split-linked-list-in-parts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1484-linked-list-in-binary-tree) |
