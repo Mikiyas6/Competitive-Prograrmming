@@ -276,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2455-node-with-highest-edge-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2455-node-with-highest-edge-score) |
 | [2479-meeting-rooms-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2479-meeting-rooms-iii) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
@@ -466,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2554-minimum-total-distance-traveled](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2586-longest-square-streak-in-an-array) |
@@ -1007,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 ## Memoization
 |  |
