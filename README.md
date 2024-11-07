@@ -517,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0204-count-primes) |
+| [0479-largest-palindrome-product](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0479-largest-palindrome-product) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Union Find
@@ -850,6 +851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0458-poor-pigs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0458-poor-pigs) |
 | [0464-can-i-win](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0464-can-i-win) |
 | [0477-total-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0477-total-hamming-distance) |
+| [0479-largest-palindrome-product](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0479-largest-palindrome-product) |
 | [0504-base-7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0504-base-7) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
