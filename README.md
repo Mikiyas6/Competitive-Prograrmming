@@ -464,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2513-number-of-pairs-satisfying-inequality) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2554-minimum-total-distance-traveled](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2554-minimum-total-distance-traveled) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -756,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Bitmask
 |  |
 | ------- |
@@ -1061,6 +1063,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0319-bulb-switcher](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0319-bulb-switcher) |
 | [2481-strictly-palindromic-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2481-strictly-palindromic-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2533-bitwise-xor-of-all-pairings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2533-bitwise-xor-of-all-pairings) |
 ## Rolling Hash
 |  |
 | ------- |
