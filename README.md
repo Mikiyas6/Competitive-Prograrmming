@@ -855,6 +855,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
+| [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1018-largest-perimeter-triangle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1018-largest-perimeter-triangle) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
@@ -1113,6 +1114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
 | [0223-rectangle-area](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0223-rectangle-area) |
 | [0335-self-crossing](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0335-self-crossing) |
+| [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 ## Monotonic Queue
 |  |
@@ -1122,10 +1124,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
+| [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 ## Randomized
 |  |
 | ------- |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
+| [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 ## Probability and Statistics
 |  |
 | ------- |
