@@ -369,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
+| [0553-optimal-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0553-optimal-division) |
 | [0605-can-place-flowers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0624-maximum-distance-in-arrays) |
@@ -697,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
+| [0553-optimal-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0553-optimal-division) |
 | [0647-palindromic-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0664-strange-printer) |
@@ -858,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0504-base-7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0504-base-7) |
 | [0507-perfect-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0507-perfect-number) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
+| [0553-optimal-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0553-optimal-division) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
