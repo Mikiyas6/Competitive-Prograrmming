@@ -861,6 +861,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0507-perfect-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0507-perfect-number) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0553-optimal-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0553-optimal-division) |
+| [0593-valid-square](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0593-valid-square) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
@@ -1123,6 +1124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
 | [0223-rectangle-area](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0223-rectangle-area) |
 | [0335-self-crossing](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0335-self-crossing) |
+| [0593-valid-square](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0593-valid-square) |
 | [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 ## Monotonic Queue
