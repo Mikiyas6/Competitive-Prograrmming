@@ -856,6 +856,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0483-smallest-good-base](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0483-smallest-good-base) |
 | [0492-construct-the-rectangle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0492-construct-the-rectangle) |
 | [0504-base-7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0504-base-7) |
+| [0507-perfect-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0507-perfect-number) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
