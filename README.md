@@ -651,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0400-nth-digit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0400-nth-digit) |
+| [0483-smallest-good-base](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0483-smallest-good-base) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
@@ -852,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0464-can-i-win](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0464-can-i-win) |
 | [0477-total-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0477-total-hamming-distance) |
 | [0479-largest-palindrome-product](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0479-largest-palindrome-product) |
+| [0483-smallest-good-base](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0483-smallest-good-base) |
 | [0504-base-7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0504-base-7) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
