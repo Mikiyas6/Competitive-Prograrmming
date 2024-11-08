@@ -759,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0201-bitwise-and-of-numbers-range](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
+| [0342-power-of-four](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0342-power-of-four) |
 | [0405-convert-a-number-to-hexadecimal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0405-convert-a-number-to-hexadecimal) |
 | [0461-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0461-hamming-distance) |
 | [0464-can-i-win](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0464-can-i-win) |
@@ -852,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0319-bulb-switcher](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0319-bulb-switcher) |
 | [0326-power-of-three](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0326-power-of-three) |
 | [0335-self-crossing](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0335-self-crossing) |
+| [0342-power-of-four](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0342-power-of-four) |
 | [0343-integer-break](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0343-integer-break) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0365-water-and-jug-problem](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0365-water-and-jug-problem) |
@@ -906,6 +908,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
 | [0326-power-of-three](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0326-power-of-three) |
+| [0342-power-of-four](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0342-power-of-four) |
 | [0390-elimination-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0390-elimination-game) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1197-parsing-a-boolean-expression) |
