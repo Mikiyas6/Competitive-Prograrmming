@@ -660,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0300-longest-increasing-subsequence) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0349-intersection-of-two-arrays) |
@@ -1179,4 +1180,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
