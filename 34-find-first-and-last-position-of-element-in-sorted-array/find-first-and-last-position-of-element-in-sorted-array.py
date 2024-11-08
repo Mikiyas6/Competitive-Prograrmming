@@ -1,28 +1,24 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-
-        def first_and_last(s,e,target,ans,isFirst):
-            
-            if s > e:
+        
+        def find_first_or_last(start,end,nums,target,side,ans):
+            if start > end:
                 return ans
-            
-            mid = s + (e-s)//2
-            
+            mid = start + (end-start)//2
             if target < nums[mid]:
-                e = mid-1
+                end = mid-1
             elif target > nums[mid]:
-                s = mid+1
+                start = mid+1
             else:
                 ans = mid
-                if isFirst:
-                    e = mid-1
+                if side == 'first':
+                    end = mid-1
                 else:
-                    s = mid+1
-            
-            return first_and_last(s,e,target,ans,isFirst)
-
-        s, e = 0, len(nums)-1
+                    start = mid+1
+            return find_first_or_last(start,end,nums,target,side,ans)
+        start = 0
+        end = len(nums)-1
         ans = -1
-        first = first_and_last(s,e,target,ans,True)
-        last = first_and_last(s,e,target,ans,False)
+        first = find_first_or_last(start,end,nums,target,'first',ans)
+        last = find_first_or_last(start,end,nums,target,'last',ans)
         return [first,last]
