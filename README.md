@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
+| [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0917-boats-to-save-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0948-sort-an-array) |
 | [0958-sort-array-by-parity-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0958-sort-array-by-parity-ii) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0906-walking-robot-simulation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0926-find-and-replace-pattern](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0926-find-and-replace-pattern) |
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
 | [0890-lemonade-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0890-lemonade-change) |
+| [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0906-walking-robot-simulation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0906-walking-robot-simulation) |
 | [0917-boats-to-save-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0917-boats-to-save-people) |
@@ -666,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
 | [0755-reach-a-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0755-reach-a-number) |
+| [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -883,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
 | [0679-24-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0679-24-game) |
 | [0755-reach-a-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0755-reach-a-number) |
+| [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
 | [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
@@ -1163,6 +1168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Randomized
 |  |
 | ------- |
+| [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
 | [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
 ## Probability and Statistics
