@@ -8,72 +8,44 @@
 
 class Solution:
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
+        def findPeak(start,end,nums):
+            if start == end:
+                return start
+            mid = start + (end-start)//2
+            if nums.get(mid) > nums.get(mid+1):
+                end = mid
+            else:
+                start = mid+1
+            return findPeak(start,end,nums)
+        def findIndexIncreasing(start,end,nums,target):
+            if start > end:
+                return float('inf')
+            mid = start + (end-start)//2
+            if nums.get(mid) == target:
+                return mid
+            if target < nums.get(mid):
+                end = mid-1
+            else:
+                start = mid+1
+            return findIndexIncreasing(start,end,nums,target)
+        def findIndexDecreasing(start,end,nums,target):
+            if start > end:
+                return float('inf')
+            mid = start + (end-start)//2
+            if nums.get(mid) == target:
+                return mid
+            if target < nums.get(mid):
+                start = mid+1
+            else:
+                end = mid-1
+            return findIndexDecreasing(start,end,nums,target)
         
-        def find_first_and_last(s,e,ans,isFirst,isAsc):
-            
-            if s > e:
-                return ans
-            
-            mid = s + (e-s)//2
-            if isAsc:
-
-                if target < mountain_arr.get(mid):
-                    e = mid-1
-                elif target > mountain_arr.get(mid):
-                    s = mid+1
-                else:
-                    ans = mid
-
-                    if isFirst:
-                        e = mid-1
-                    else:
-                        s = mid+1
-            else:
-
-                if target > mountain_arr.get(mid):
-                    e = mid-1
-                elif target < mountain_arr.get(mid):
-                    s = mid+1
-                else:
-                    ans = mid
-
-                    if isFirst:
-                        e = mid-1
-                    else:
-                        s = mid+1
-
-            
-            return find_first_and_last(s,e,ans,isFirst,isAsc)
-
-        def find_peak_element(s,e):
-
-            if s == e:
-                return s
-            
-            mid = s + (e-s)//2
-            if mountain_arr.get(mid) < mountain_arr.get(mid+1):
-                s = mid+1
-            else:
-                e = mid
-
-            return find_peak_element(s,e)
-         
-        s, e = 0, mountain_arr.length()-1
-        peak_index = find_peak_element(s,e)
-
-        if target == mountain_arr.get(peak_index):
-            return peak_index
-
-        s, e = 0, peak_index-1
-        ans = -1
-
-        first_left = find_first_and_last(s,e,ans,True,True)
-
-        if first_left > -1:
-            return first_left
-
-        ans = -1
-        s, e = peak_index+1, mountain_arr.length()-1
-        first_right = find_first_and_last(s,e,ans,True,False)
-
-        return first_right
+        start = 0
+        end = mountain_arr.length()-1
+        peakIndex = findPeak(start,end,mountain_arr)
+        if mountain_arr.get(peakIndex) == target:
+            return peakIndex
+        left_index = findIndexIncreasing(start,peakIndex-1,mountain_arr,target)
+        right_index = findIndexDecreasing(peakIndex+1,end,mountain_arr,target)
+        result = min(left_index,right_index)
+        return result if result != float('inf') else -1
