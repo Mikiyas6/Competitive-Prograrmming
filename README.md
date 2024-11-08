@@ -391,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
 | [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
@@ -672,6 +673,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
+| [0745-find-smallest-letter-greater-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0755-reach-a-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0755-reach-a-number) |
 | [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
