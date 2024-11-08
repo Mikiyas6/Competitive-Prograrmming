@@ -850,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0279-perfect-squares) |
 | [0319-bulb-switcher](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0319-bulb-switcher) |
+| [0326-power-of-three](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0326-power-of-three) |
 | [0335-self-crossing](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0335-self-crossing) |
 | [0343-integer-break](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0343-integer-break) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
@@ -904,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0234-palindrome-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
+| [0326-power-of-three](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0326-power-of-three) |
 | [0390-elimination-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0390-elimination-game) |
 | [1013-fibonacci-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1013-fibonacci-number) |
 | [1197-parsing-a-boolean-expression](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1197-parsing-a-boolean-expression) |
