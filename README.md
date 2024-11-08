@@ -381,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0648-replace-words) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0679-24-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0679-24-game) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0729-my-calendar-i) |
@@ -747,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
 | [0357-count-numbers-with-unique-digits](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0357-count-numbers-with-unique-digits) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
+| [0679-24-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0679-24-game) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -879,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0628-maximum-product-of-three-numbers) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0650-2-keys-keyboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0650-2-keys-keyboard) |
+| [0679-24-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0679-24-game) |
 | [0755-reach-a-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0755-reach-a-number) |
 | [0903-implement-rand10-using-rand7](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0903-implement-rand10-using-rand7) |
 | [0915-generate-random-point-in-a-circle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0915-generate-random-point-in-a-circle) |
