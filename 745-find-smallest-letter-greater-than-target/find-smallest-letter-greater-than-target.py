@@ -1,37 +1,19 @@
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
-        
-        def find_ceil(s,e,target):
-    
-            while s <= e:
-                
-                mid = s + (e-s)//2
-                
-                if target < letters[mid]:
-                    e = mid - 1
-                else:
-                    s = mid + 1
-            
-            return s
-        
-        def find_ceils(s,e,target):
-
-            if s > e:
-                return s
-            
-            mid = s + (e-s)//2
-
-            if target < letters[mid]:
-                e = mid-1
-            else:
-                s = mid+1
-            
-            return find_ceil(s,e,target)
-        
         n = len(letters)
-        index = find_ceil(0,n-1,target)
-        if index < 0 or index >= n:
-            index = 0
-        return letters[index]
-        
+        start = 0
+        end = n-1
 
+        def ceil(start,end,letters,target):
+            if start > end:
+                if start < n:
+                    return letters[start]
+                return letters[0]
+            mid = start + (end-start)//2
+            if target < letters[mid]:
+                end = mid-1
+            else:
+                start = mid+1
+            return ceil(start,end,letters,target)
+        
+        return ceil(start,end,letters,target)
