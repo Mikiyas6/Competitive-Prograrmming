@@ -418,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
+| [1185-find-in-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1185-find-in-mountain-array) |
 | [1196-filling-bookcase-shelves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1217-relative-sort-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1217-relative-sort-array) |
@@ -684,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
+| [1185-find-in-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1185-find-in-mountain-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -1192,4 +1194,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0278-first-bad-version) |
+| [1185-find-in-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1185-find-in-mountain-array) |
 <!---LeetCode Topics End-->
