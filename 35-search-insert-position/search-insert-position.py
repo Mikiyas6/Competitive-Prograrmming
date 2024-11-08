@@ -1,31 +1,20 @@
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
-        
-        def ceil(s,e,target):
-    
-            if s > e:
-                
-                return s
-            
-            mid = (s+(e-s)//2)
-            
-            if nums[mid] == target:
-                
+        n = len(nums)
+        start = 0
+        end = n-1
+
+        def ceil(nums,start,end,target):
+            if start > end:
+                return start
+            mid = start + (end-start)//2
+            if target == nums[mid]:
                 return mid
-            
             if target < nums[mid]:
-                
-                e = mid-1
-            
+                end = mid-1
             else:
-                
-                s = mid+1
-            
-            return ceil(s,e,target)
+                start = mid+1
+            return ceil(nums,start,end,target)
         
-        return ceil(0,len(nums)-1,target)
-
-                
+        return ceil(nums,start,end,target)
             
-
-        
