@@ -405,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0906-walking-robot-simulation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0906-walking-robot-simulation) |
+| [0907-koko-eating-bananas](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0917-boats-to-save-people) |
 | [0921-spiral-matrix-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0921-spiral-matrix-iii) |
 | [0926-find-and-replace-pattern](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0926-find-and-replace-pattern) |
@@ -688,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0755-reach-a-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0755-reach-a-number) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
+| [0907-koko-eating-bananas](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1185-find-in-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1185-find-in-mountain-array) |
