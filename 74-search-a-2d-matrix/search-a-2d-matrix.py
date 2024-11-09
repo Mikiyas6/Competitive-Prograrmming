@@ -1,27 +1,18 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-
-        n, m = len(matrix), len(matrix[0])
-        s, e = 0, m-1
-
-        def fun(s,e):
-
-            if e < 0 or s == n:
-
+        m = len(matrix)
+        n = len(matrix[0])
+        
+        def fun(row,col,matrix,target):
+            if row == m or col < 0:
                 return False
             
-            if target == matrix[s][e]:
-
+            if matrix[row][col] == target:
                 return True
-            
-            if target < matrix[s][e]:
-
-                e -= 1
-            
+            if target < matrix[row][col]:
+                col -= 1
             else:
-
-                s += 1
-            
-            return fun(s,e)
+                row += 1
+            return fun(row,col,matrix,target)
         
-        return fun(s,e)
+        return fun(0,n-1,matrix,target)
