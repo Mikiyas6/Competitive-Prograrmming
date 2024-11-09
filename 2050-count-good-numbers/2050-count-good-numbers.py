@@ -11,7 +11,7 @@ class Solution:
                 return num
             
             result = fun(num,pow//2)
-            final_result = result*result*num if pow%2 != 0 else result*result
+            final_result = result*result*(num**(pow%2))
             return final_result%MOD
 
         for_even_numbers = fun(5,even)
