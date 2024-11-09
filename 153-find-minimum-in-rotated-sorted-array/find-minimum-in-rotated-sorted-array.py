@@ -1,19 +1,15 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        def findPeakIndex(start,end,nums):
-            if start == end:
+        def findMinIndex(start,end,nums):
+            if nums[start] <= nums[end]:
                 return start
             mid = start + (end-start)//2
-            if nums[mid] < nums[start] and nums[mid] < nums[start]:
-                end = mid
+            if nums[mid] >= nums[start]:
+                start = mid+1
             else:
-                if nums[mid] > nums[mid+1]:
-                    end = mid
-                else:
-                    start = mid+1
-            return findPeakIndex(start,end,nums)
-        n = len(nums)
+                end = mid
+            return findMinIndex(start,end,nums)
         start = 0
-        end = n-1
-        peakIndex = findPeakIndex(start,end,nums)
-        return nums[(peakIndex+1)%n]
+        end = len(nums)-1
+        minIndex = findMinIndex(start,end,nums)
+        return nums[minIndex]
