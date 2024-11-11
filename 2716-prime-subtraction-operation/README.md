@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/prime-subtraction-operation">2716. Prime Subtraction Operation</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/prime-subtraction-operation">Prime Subtraction Operation</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code>.</p>
 
 <p>You can perform the following operation as many times as you want:</p>
 
