@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
 | [2455-node-with-highest-edge-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2455-node-with-highest-edge-score) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -559,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-number-of-closed-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1380-number-of-closed-islands) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 ## String
