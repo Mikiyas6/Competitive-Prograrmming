@@ -10,34 +10,20 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        
         if not root:
             return root
-
+        
         def BFS(root):
-
             queue = deque([root])
-            
             while queue:
-
                 level = len(queue)
-                temp_queue = deque()
-
-                for _ in range(level):
-
+                for i in range(level):
                     node = queue.popleft()
-                    if queue:
-                        node.next = queue[0]
-                    else:
-                        node.next = None
-
+                    node.next = queue[0] if i < level - 1 else None
                     if node.left:
-                        temp_queue.append(node.left)
+                        queue.append(node.left)
                     if node.right:
-                        temp_queue.append(node.right)
-                
-                queue = temp_queue
-
+                        queue.append(node.right)
             return root
         
         return BFS(root)
