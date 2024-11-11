@@ -9,80 +9,30 @@ class Solution:
         
         if not root:
             return []
-
+        
         def BFS(root):
-
             queue = deque([root])
             result = []
-            depth = 0
-
+            flag = True
             while queue:
-
                 level = len(queue)
                 nodes = []
-
                 for _ in range(level):
-
-                    if depth %2 == 0:
-
+                    if flag:
                         node = queue.popleft()
-                        nodes.append(node.val)
-
                         if node.left:
                             queue.append(node.left)
                         if node.right:
                             queue.append(node.right)
-        
                     else:
-
                         node = queue.pop()
-                        nodes.append(node.val)
-
                         if node.right:
                             queue.appendleft(node.right)
                         if node.left:
                             queue.appendleft(node.left)
-                
-                print(nodes)
-                depth += 1
-                
+                    nodes.append(node.val)
                 result.append(nodes)
-            
+                flag = not flag
             return result
-
+        
         return BFS(root)
-
-        # if not root:
-        #     return []
-
-        # def BFS(root):
-
-        #     queue = deque([root])
-        #     result = []
-        #     flag = False
-
-        #     while queue:
-
-        #         level = len(queue)
-        #         nodes = []
-
-        #         for _ in range(level):
-
-        #             node = queue.popleft()
-        #             nodes.append(node.val)
-
-        #             if node.left:
-        #                 queue.append(node.left)
-        #             if node.right:
-        #                 queue.append(node.right)
-                    
-                
-        #         if flag:
-        #             nodes = nodes[::-1]
-        #         flag = not flag
-                
-        #         result.append(nodes)
-            
-        #     return result
-
-        # return BFS(root)
