@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
+| [0101-symmetric-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
@@ -333,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
+| [0101-symmetric-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0110-balanced-binary-tree) |
