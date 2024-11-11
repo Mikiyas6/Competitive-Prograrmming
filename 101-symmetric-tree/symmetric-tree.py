@@ -6,64 +6,33 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        
-        # def BFS(root):
-
-        #     if not root:
-        #         return False
-            
-        #     queue = deque([root])
-            
-        #     while queue:
-
-        #         level = len(queue)
-        #         nodes = []
-
-        #         for _ in range(level):
-
-        #             node = queue.popleft()
-
-        #             if not node:
-        #                 nodes.append(None)
-        #             else:
-        #                 nodes.append(node.val)
-
-        #                 if node.left:
-        #                     queue.append(node.left)
-        #                 else:
-        #                     queue.append(None)
-
-        #                 if node.right:
-        #                     queue.append(node.right)
-        #                 else:
-        #                     queue.append(None)
-                
-        #         i, j = 0, len(nodes)-1
-
-        #         while i <= j:
-
-        #             if nodes[i] != nodes[j]:
-        #                 return False
-                    
-        #             i += 1
-        #             j -= 1
-            
-        #     return True
-                        
-        # return BFS(root)
 
         if not root:
-            return root
-
-        def fun(left_node,right_node):
-
-            if not left_node and not right_node:
-                return True
-            if not left_node and right_node:
-                return False
-            if not right_node and left_node:
-                return False
-            
-            return left_node.val == right_node.val and fun(left_node.left,right_node.right) and fun(left_node.right,right_node.left)
+            return False
         
-        return fun(root.left,root.right)
+        def BFS(left_queue,right_queue):
+
+            while left_queue and right_queue:
+                level = len(left_queue)
+                for _ in range(level):
+                    node1 = left_queue.popleft()
+                    node2 = right_queue.popleft()
+                    if not node1 and node2:
+                        return False
+                    if not node2 and node1:
+                        return False
+                    if not node1 and not node2:
+                        continue
+                    if node1.val != node2.val:
+                        return False
+                    
+                    left_queue.append(node1.left)
+                    left_queue.append(node1.right)
+                    right_queue.append(node2.right)
+                    right_queue.append(node2.left)
+
+            return True
+
+        return BFS(deque([root.left]),deque([root.right]))
+
+
