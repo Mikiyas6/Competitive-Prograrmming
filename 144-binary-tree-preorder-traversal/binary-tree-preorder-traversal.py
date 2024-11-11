@@ -9,17 +9,14 @@ class Solution:
 
         if not root:
             return []
-
-        result = []
         
-        def DFS(root):
+        def DFS(root,result):
             if not root:
-                return 
+                return result
             result.append(root.val)
-            DFS(root.left)
-            DFS(root.right)
+            result = DFS(root.left,result)
+            return DFS(root.right,result)
         
-        DFS(root)
-        return result
+        return DFS(root,[])
 
             
