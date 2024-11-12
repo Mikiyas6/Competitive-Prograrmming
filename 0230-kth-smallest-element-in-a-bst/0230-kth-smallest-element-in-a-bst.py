@@ -16,6 +16,7 @@ class Solution:
             count = DFS(root.left,count,k) + 1
             if count == k:
                 ans = root.val
+                pass
             return DFS(root.right,count,k)
         
         DFS(root,0,k)
