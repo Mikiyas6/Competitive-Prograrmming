@@ -7,36 +7,18 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
 
-        result = []
-
-        def store(value):
-            
-            nonlocal result
-            result.append(value)
-
-        def DFS(root):
-
+        minValue = float('-inf')
+        maxValue = float('inf')
+        
+        def DFS(root,minValue,maxValue):
             if not root:
-                return
+                return True
             
-            DFS(root.left)
-            store(root.val)
-            DFS(root.right)
-
-            return
-        
-        DFS(root)
-        
-        i, j = 0, 1
-
-        while j < len(result):
-
-            if result[j] <= result[i]:
+            if not (root.val > minValue and root.val < maxValue):
                 return False
-
-            i += 1
-            j += 1
-
-        return True
-    
+            
+            left = DFS(root.left,minValue,root.val)
+            right = DFS(root.right,root.val,maxValue)
+            return left and right
         
+        return DFS(root,minValue,maxValue)
