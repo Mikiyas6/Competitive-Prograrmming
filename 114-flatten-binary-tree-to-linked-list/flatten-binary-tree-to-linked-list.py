@@ -18,8 +18,7 @@ class Solution:
                 current = left_flatten
                 while current.right:
                     current = current.right
-                if right_flatten:
-                    current.right = right_flatten
+                current.right = right_flatten
                 root.right = left_flatten
             root.left  = None
             return root
