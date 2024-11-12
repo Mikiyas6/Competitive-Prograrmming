@@ -12,7 +12,7 @@ class Solution:
                 return None
             root = TreeNode(preorder[0])
             mid = inorder.index(preorder[0])
-            root.left = DFS(preorder[1:],inorder[:mid])
+            root.left = DFS(preorder[1:mid+1],inorder[:mid])
             root.right = DFS(preorder[mid+1:],inorder[mid+1:])
             return root
         
