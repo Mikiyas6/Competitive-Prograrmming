@@ -20,6 +20,8 @@ class Solution:
                     current = current.right
                 current.right = right_flatten
                 root.right = left_flatten
+            else:
+                root.right = right_flatten
             root.left  = None
             return root
         DFS(root)
