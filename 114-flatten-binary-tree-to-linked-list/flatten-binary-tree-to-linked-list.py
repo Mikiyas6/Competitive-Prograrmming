@@ -9,34 +9,22 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-
-        if not root:
-            return
+        def DFS(root):
+            if not root:
+                return None
+            left_flatten = DFS(root.left)
+            right_flatten = DFS(root.right)
+            if left_flatten:
+                current = left_flatten
+                while current.right:
+                    current = current.right
+                if right_flatten:
+                    current.right = right_flatten
+                root.right = left_flatten
+            root.left  = None
+            return root
+        DFS(root)
         
-        # Initialize the stack and push the root node
-        stack = [root]
-        prev = None
-        
-        while stack:
-            # Pop the current node from the stack
-            current = stack.pop()
-            
-            # If there's a previous node, adjust its pointers
-            if prev:
-                prev.left = None
-                prev.right = current
-            
-            # Push the right and then left child to the stack
-            # We push right child first so that left child is processed first
-            # The value at the top of the stack is the next element in the preorder
-            if current.right:
-                stack.append(current.right)
-            if current.left:
-                stack.append(current.left)
-            
-            # Update the previous node to the current node
-            prev = current 
 
 
-        
-        
+
