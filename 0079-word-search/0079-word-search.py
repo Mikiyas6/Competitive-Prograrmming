@@ -6,7 +6,7 @@ class Solution:
         def inbound(row, col):
             return 0 <= row < m and 0 <= col < n
 
-        def backtrack(row, col, index, visited):
+        def backtrack(row, col, index):
             if index == len(word):  
                 return True
             if not inbound(row, col) or (row, col) in visited or board[row][col] != word[index]:
@@ -15,14 +15,15 @@ class Solution:
             visited.add((row, col))  
             for dx, dy in directions:
                 newRow, newCol = row + dx, col + dy
-                if backtrack(newRow, newCol, index + 1, visited):
+                if backtrack(newRow, newCol, index + 1):
                     return True
             visited.remove((row, col))  
             return False
-        
+            
+        visited = set()
         for row in range(m):
             for col in range(n):
                 if board[row][col] == word[0]:  
-                    if backtrack(row, col, 0, set()):
+                    if backtrack(row, col, 0):
                         return True
         return False
