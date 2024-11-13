@@ -420,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0079-word-search) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0118-pascals-triangle) |
@@ -595,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0079-word-search) |
 | [0174-dungeon-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0174-dungeon-game) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
@@ -644,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0005-longest-palindromic-substring) |
+| [0079-word-search](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
 | [0115-distinct-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0125-valid-palindrome) |
@@ -862,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0040-combination-sum-ii) |
 | [0077-combinations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0079-word-search) |
 | [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
 | [0257-binary-tree-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0257-binary-tree-paths) |
