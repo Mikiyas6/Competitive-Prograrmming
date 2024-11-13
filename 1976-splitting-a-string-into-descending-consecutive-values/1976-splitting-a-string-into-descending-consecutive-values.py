@@ -3,24 +3,17 @@ class Solution:
         n = len(s)
         
         def backtrack(s,path):
-
             if not s:
-                n = len(path)
-                i,j = 0,1
-                if j == n:
+                if len(path) == 1:
                     return False
-                while j < n:
-                    if int(path[i]) - int(path[j]) != 1:
-                        return False
-                    i += 1
-                    j += 1
                 return True
-
+                
             for i in range(1,len(s)+1):
-                path.append(s[:i])
-                if backtrack(s[i:],path):
-                    return True
-                path.pop()
+                if not path or int(path[-1]) - int(s[:i]) == 1:
+                    path.append(s[:i])
+                    if backtrack(s[i:],path):
+                        return True
+                    path.pop()
 
             return False
         
