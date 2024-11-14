@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0226-invert-binary-tree) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0226-invert-binary-tree) |
@@ -447,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
 | [0189-rotate-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0215-kth-largest-element-in-an-array) |
@@ -612,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0079-word-search) |
 | [0174-dungeon-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0463-island-perimeter](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
@@ -645,6 +649,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
