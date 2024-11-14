@@ -1,26 +1,35 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
 
-        partitions = []
+        result = []
 
-        def isPalindrome(string):
-            return string == string[::-1]
+        def palindrome(string):
+            i,j = 0,len(string)-1
+            while i <= j:
+                if string[i] != string[j]:
+                    return False
+                i += 1
+                j -= 1
+            return True
 
-        def dfs(i,part):
+        def store(path):
+            flag = False
+            for string in path:
+                if not palindrome(string):
+                    flag = True
+                    break
+            if not flag:
+                result.append(path)
+        
+        def backtrack(s,path):
+            if not s:
+                store(path[:])
+                return
 
-            if i == len(s):
-                partitions.append(part[:])
-                return 
-            
-            for j in range(i,len(s)):
-
-                string = s[i:j+1]
-
-                if isPalindrome(string):
-                    part.append(string)
-                    dfs(j+1,part)
-                    part.pop()
-            
-        dfs(0,[])
-
-        return partitions
+            for i in range(1,len(s)+1):
+                path.append(s[:i])
+                backtrack(s[i:],path)
+                path.pop()
+        
+        backtrack(s,[])
+        return result
