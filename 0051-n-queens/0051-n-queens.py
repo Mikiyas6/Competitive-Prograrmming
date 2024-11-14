@@ -1,59 +1,40 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        configurations = []
+
+        configuration = []
         board = [['.']*n for _ in range(n)]
 
-        def store(board):
-
-            nonlocal configurations
-            
-            boards = []
-            for row in board:
-                boards.append(''.join(row))
-
-            configurations.append(boards)
-                
-        def inbound(row,col):
-            
-            return 0 <= row and row < n and 0 <= col and col < n
-
-        def inboundAndSafe(row,col):
-
-            if not inbound(row,col):
-                return False
-            
-            left = min(row,col)
-            right = min(row,(n-col-1))
-            up = row
-            
-            for i in range(1,left+1):
-                if board[row-i][col-i] == "Q":
+        def safe(row, col):
+            for i in range(row):
+                if board[i][col] == 'Q':
                     return False
-            
-            for i in range(1,right+1):
-                if board[row-i][col+i] == "Q":
+
+            r, c = row - 1, col - 1
+            while r >= 0 and c >= 0:
+                if board[r][c] == 'Q':
                     return False
-            
-            for i in range(1,up+1):
-                if board[row-i][col] == "Q":
+                r -= 1
+                c -= 1
+
+            r, c = row - 1, col + 1
+            while r >= 0 and c < n:
+                if board[r][c] == 'Q':
                     return False
-            
+                r -= 1
+                c += 1
+
             return True
-            
-        def NQueens(row,board):
-            
+
+        def backtrack(row,board):
             if row == n:
-                store([row[:] for row in board])
-            
+                configuration.append(["".join(row) for row in board[:]])
+                return
             for col in range(n):
-                
-                if inboundAndSafe(row,col):
-                    board[row][col] = 'Q'
-                    NQueens(row+1,board)
+                if safe(row,col):
+                    board[row][col] = "Q"
+                    backtrack(row+1,board)
                     board[row][col] = '.'
-            
-            return
 
-        NQueens(0,board)
-
-        return configurations
+        backtrack(0,board)
+        
+        return configuration
