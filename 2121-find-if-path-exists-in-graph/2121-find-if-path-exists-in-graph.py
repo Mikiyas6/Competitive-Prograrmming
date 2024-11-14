@@ -1,28 +1,25 @@
 class Solution:
     def validPath(self, n: int, edges: List[List[int]], source: int, destination: int) -> bool:
         
-        hashmap = defaultdict(list)
-
+        graph = defaultdict(list)
         for u,v in edges:
-            hashmap[u].append(v)
-            hashmap[v].append(u)
+            graph[u].append(v)
+            graph[v].append(u)
         
-        visited = set()
-        def dfs(i):
+        def backtrack(source,visited):
 
-            if i == n:
-                return False
-            
-            if i == destination:
+            if source == destination:
                 return True
-            
-            neighbors = hashmap[i]
-            visited.add(i)
+
+            neighbors = graph[source]
             for neighbor in neighbors:
                 if neighbor not in visited:
-                    if dfs(neighbor):
+                    visited.add(neighbor)
+                    if backtrack(neighbor,visited):
                         return True
             
             return False
         
-        return dfs(source)
+        visited = set()
+        visited.add(source)
+        return backtrack(source,visited)
