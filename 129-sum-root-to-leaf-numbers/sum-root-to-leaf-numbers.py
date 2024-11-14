@@ -7,15 +7,15 @@
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         
-        def DFS(root,result):
+        def dfs(root,total):
             if not root:
-                return "0"
+                return 0
             if not root.left and not root.right:
-                final_result = result+[str(root.val)]
-                return ''.join(final_result)
-            left = DFS(root.left,result+[str(root.val)])
-            right = DFS(root.right,result+[str(root.val)])
-            return int(left)+int(right)
-
-        return int(DFS(root,[]))
-
+                total = total*10 + root.val
+                return total
+            total = total*10 + root.val
+            left = dfs(root.left,total)
+            right = dfs(root.right,total)
+            return left + right
+        
+        return dfs(root,0)
