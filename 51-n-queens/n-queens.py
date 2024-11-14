@@ -4,25 +4,20 @@ class Solution:
         configuration = []
         board = [['.']*n for _ in range(n)]
 
-        def safe(row, col):
-            for i in range(row):
+        def safe(row,col):
+
+            for i in range(row+1):
                 if board[i][col] == 'Q':
                     return False
-
-            r, c = row - 1, col - 1
-            while r >= 0 and c >= 0:
-                if board[r][c] == 'Q':
+            
+            for i in range(1,n-col):
+                if board[row-i][col+i] == 'Q':
                     return False
-                r -= 1
-                c -= 1
-
-            r, c = row - 1, col + 1
-            while r >= 0 and c < n:
-                if board[r][c] == 'Q':
+            
+            for i in range(1,col+1):
+                if board[row-i][col-i] == 'Q':
                     return False
-                r -= 1
-                c += 1
-
+            
             return True
 
         def backtrack(row,board):
