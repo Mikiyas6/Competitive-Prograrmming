@@ -16,9 +16,11 @@ class Solution:
                 node, weight = neighbor
                 if node not in visited:
                     visited.add(node)
-                    result = dfs(graph, node, end, path * weight, visited)
+                    path *= weight
+                    result = dfs(graph, node, end, path, visited)
                     if result != -1:  
                         return result
+                    path /= weight
             return -1  
 
         output = []
