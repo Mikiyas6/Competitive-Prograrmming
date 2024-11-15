@@ -21,7 +21,7 @@ class Solution:
                     if result != -1:  
                         return result
                     path /= weight
-            return -1  
+            return -1
 
         output = []
         for query in queries:
