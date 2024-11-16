@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i">3522. Find the Power of K-Size Subarrays I</a></h2><h3>Medium</h3><hr><p>You are given an array of integers <code>nums</code> of length <code>n</code> and a <em>positive</em> integer <code>k</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i">Find the Power of K-Size Subarrays I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array of integers <code>nums</code> of length <code>n</code> and a <em>positive</em> integer <code>k</code>.</p>
 
 <p>The <strong>power</strong> of an array is defined as:</p>
 
