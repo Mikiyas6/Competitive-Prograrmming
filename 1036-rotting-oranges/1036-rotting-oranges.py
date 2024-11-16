@@ -30,7 +30,6 @@ class Solution:
                             queue.append([newRow,newCol])
                 if flag:
                     minutes += 1
-            print(grid)
             for row in range(m):
                 for col in range(n):
                     if grid[row][col] == 1:
