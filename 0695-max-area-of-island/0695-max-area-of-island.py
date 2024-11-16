@@ -1,34 +1,28 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        
-        n, m = len(grid), len(grid[0])
-        visited = set()
-        area, maxArea = 1, 0
-        directions = [[0,1],[1,0],[-1,0],[0,-1]]
 
         def inbound(row,col):
-            return 0 <= row and row < n and 0 <= col and col < m
+            return 0 <= row and row < m and 0 <= col and col < n
 
-        def dfs(row,col):
-
-            nonlocal area
-            for dx, dy in directions:
-                newRow = row+dx
-                newCol = col+dy
-
-                if inbound(newRow,newCol) and (newRow,newCol) not in visited and grid[newRow][newCol] == 1:
-                    visited.add((newRow,newCol))
-                    area += 1
-                    dfs(newRow,newCol)
+        def DFS(row,col,visited):
             
-            return 
-        
-        for row in range(n):
-            for col in range(m):
-                if (row,col) not in visited and grid[row][col]:
+            area = grid[row][col]
+            for dx,dy in directions:
+                newRow = row + dx
+                newCol = col + dy
+                if (newRow,newCol) not in visited and inbound(newRow,newCol) and grid[newRow][newCol] == 1:
+                    visited.add((newRow,newCol))
+                    area += DFS(newRow,newCol,visited)
+            return area
+
+        m = len(grid)
+        n = len(grid[0])
+        visited = set()
+        directions = [[0,1],[0,-1],[-1,0],[1,0]]
+        maxArea = 0
+        for row in range(m):
+            for col in range(n):
+                if (row,col) not in visited and grid[row][col] == 1:
                     visited.add((row,col))
-                    dfs(row,col)
-                    maxArea = max(maxArea,area)
-                    area = 1
-        
+                    maxArea = max(maxArea,DFS(row,col,visited))
         return maxArea
