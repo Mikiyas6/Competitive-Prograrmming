@@ -8,7 +8,7 @@ class Solution:
             graph[A].append([B,values[i]])
             graph[B].append([A,1/values[i]])
 
-        def dfs(graph, start, end, path, visited):
+        def dfs(graph, start, end,path, visited):
             if start == end:  
                 return path
 
@@ -16,12 +16,10 @@ class Solution:
                 node, weight = neighbor
                 if node not in visited:
                     visited.add(node)
-                    path *= weight
-                    result = dfs(graph, node, end, path, visited)
-                    if result != -1:  
+                    result = dfs(graph, node, end,path*weight, visited)
+                    if result != -1:
                         return result
-                    path /= weight
-            return -1  
+            return -1
 
         output = []
         for query in queries:
