@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0948-sort-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0948-sort-an-array) |
 | [1304-longest-happy-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1304-longest-happy-string) |
 | [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
@@ -511,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0890-lemonade-change) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0906-walking-robot-simulation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0906-walking-robot-simulation) |
@@ -820,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0755-reach-a-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0755-reach-a-number) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0882-peak-index-in-a-mountain-array) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0894-random-pick-with-blacklist](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0894-random-pick-with-blacklist) |
 | [0907-koko-eating-bananas](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
@@ -1099,6 +1102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Stack
@@ -1234,6 +1238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -1257,6 +1262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
@@ -1342,6 +1348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 ## Rejection Sampling
 |  |
