@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2121-find-if-path-exists-in-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -280,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
 ## Hash Table
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2413-smallest-number-in-infinite-set) |
@@ -584,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -740,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2727-number-of-senior-citizens) |
