@@ -600,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2306-create-binary-tree-from-descriptions) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2411-spiral-matrix-iv) |
@@ -665,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2411-spiral-matrix-iv) |
 | [2472-build-a-matrix-with-conditions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2472-build-a-matrix-with-conditions) |
@@ -1023,6 +1025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2178-walking-robot-simulation-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2178-walking-robot-simulation-ii) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2411-spiral-matrix-iv) |
 | [2479-meeting-rooms-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2479-meeting-rooms-iii) |
 | [2645-pass-the-pillow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2645-pass-the-pillow) |
