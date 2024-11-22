@@ -320,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0926-find-and-replace-pattern](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0926-find-and-replace-pattern) |
 | [0999-regions-cut-by-slashes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0999-regions-cut-by-slashes) |
 | [1023-time-based-key-value-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1023-time-based-key-value-store) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
 | [1217-relative-sort-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1217-relative-sort-array) |
 | [1256-rank-transform-of-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1256-rank-transform-of-an-array) |
@@ -543,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 | [1096-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1096-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1185-find-in-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1185-find-in-mountain-array) |
 | [1196-filling-bookcase-shelves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1207-delete-nodes-and-return-forest) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1036-rotting-oranges) |
 | [1094-matrix-cells-in-distance-order](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1094-matrix-cells-in-distance-order) |
 | [1117-as-far-from-land-as-possible](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1117-as-far-from-land-as-possible) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1380-number-of-closed-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1380-number-of-closed-islands) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
