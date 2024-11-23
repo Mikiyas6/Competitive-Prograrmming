@@ -5,60 +5,50 @@
 #         self.next = next
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-
-        def reverse(head):
-            prev = None
-            current = head
-
-            while current:
-                next_node = current.next  
-                current.next = prev       
-                prev = current            
-                current = next_node       
-
-            return prev 
-
-        if not head:
+        if not head or not head.next:
             return head
-        # Figuring out what part of the linkedlist that we don't need to reverse and breaking it out from the original list
-        current = head
-        n = 0
-        while current:
-            current = current.next
-            n += 1
-        end_up = n-(n%k)-1
-        current = head
-        for i in range(end_up):
-            current = current.next
-        unreversed_part = current.next
-        current.next = None
-
-        end_up = k - 1
-        ptr = head
-
-        def fun(ptr):
-            if not ptr:
-                return ptr
-            current = ptr
-            for i in range(end_up):
-                current = current.next
-            second_part = current.next
-            current.next = None
-            reversedList = reverse(ptr)
-            current = reversedList
+        def reverse(head):
+            if not head.next:
+                return head
+            secondPart = head.next
+            head.next = None
+            reversedPart = reverse(secondPart)
+            current = reversedPart
             while current.next:
                 current = current.next
-            current.next = fun(second_part)
-            return reversedList
-        
-        properly_reversed = fun(ptr)
-        current = properly_reversed
+            current.next = head
+            return reversedPart
+        size = 0
+        current = head
+        while current:
+            size += 1
+            current = current.next
+        end_up = size-(size%k)-1
+        current = head
+        for _ in range(end_up):
+            current = current.next
+        unReversedPart = current.next
+        current.next = None
+        def fun(head,ptr):
+            if not head:
+                return head
+            for i in range(k-1):
+                ptr = ptr.next
+            secondPart = ptr.next
+            ptr.next = None
+            reversed_part = reverse(head)
+            current = reversed_part
+            while current.next:
+                current = current.next
+            ptr = secondPart
+            current.next = fun(secondPart,ptr)
+            return reversed_part
+        current = head
+        reversed_part = fun(head,current)
+        current = reversed_part
         while current.next:
             current = current.next
-        current.next = unreversed_part
-        return properly_reversed
-
-            
-
-
-            
+        current.next = unReversedPart
+        return reversed_part
+       
+        
