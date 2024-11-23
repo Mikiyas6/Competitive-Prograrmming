@@ -584,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
+| [1972-rotating-the-box](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1972-rotating-the-box) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -666,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
+| [1972-rotating-the-box](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1972-rotating-the-box) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -812,6 +814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1923-sentence-similarity-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1923-sentence-similarity-iii) |
+| [1972-rotating-the-box](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2481-strictly-palindromic-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2481-strictly-palindromic-number) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
