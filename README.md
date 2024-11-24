@@ -303,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0409-longest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0409-longest-palindrome) |
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
 | [0447-number-of-boomerangs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0447-number-of-boomerangs) |
+| [0457-circular-array-loop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0457-circular-array-loop) |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0417-pacific-atlantic-water-flow) |
 | [0447-number-of-boomerangs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0447-number-of-boomerangs) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0457-circular-array-loop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0457-circular-array-loop) |
 | [0463-island-perimeter](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0463-island-perimeter) |
 | [0477-total-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0477-total-hamming-distance) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
@@ -802,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0344-reverse-string) |
 | [0349-intersection-of-two-arrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0457-circular-array-loop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0457-circular-array-loop) |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0633-sum-of-square-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0633-sum-of-square-numbers) |
 | [0647-palindromic-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0647-palindromic-substrings) |
