@@ -5,26 +5,17 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-
-        if not head:
-            return head
         
         def reverse(head):
-
-            if not head.next:
+            if not head or not head.next:
                 return head
-            
-            right_part = head.next
+            second_part = head.next
             head.next = None
-            node = head
-            reversedList = reverse(right_part)
-            current = reversedList
-
+            reversed_second_part = reverse(second_part)
+            current = reversed_second_part
             while current.next:
                 current = current.next
-            
-            current.next = node
-            return reversedList
+            current.next = head
+            return reversed_second_part
         
         return reverse(head)
-    
