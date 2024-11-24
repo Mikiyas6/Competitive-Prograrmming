@@ -20,13 +20,14 @@ class Solution:
             return slow
         
         def reverse(head):
-            prev = None  
-            current = head 
+            prev = None
+            current = head
             while current:
-                next_node = current.next 
-                current.next = prev 
-                prev = current 
-                current = next_node 
+                second_part = current.next
+                current.next = None
+                current.next = prev
+                prev = current
+                current = second_part
             return prev 
 
         middle = findMiddle(head)
