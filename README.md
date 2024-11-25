@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0695-max-area-of-island) |
+| [0787-sliding-puzzle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0787-sliding-puzzle) |
 | [0801-is-graph-bipartite](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0820-find-eventual-safe-states) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-sliding-puzzle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0787-sliding-puzzle) |
 | [0833-bus-routes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0833-bus-routes) |
 | [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
@@ -654,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0695-max-area-of-island) |
+| [0787-sliding-puzzle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0787-sliding-puzzle) |
 | [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0895-shortest-path-to-get-all-keys](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0895-shortest-path-to-get-all-keys) |
 | [0921-spiral-matrix-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0921-spiral-matrix-iii) |
