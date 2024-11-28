@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1558-course-schedule-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1558-course-schedule-iv) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2121-find-if-path-exists-in-graph) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -584,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1803-average-waiting-time) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [1876-map-of-highest-peak](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1876-map-of-highest-peak) |
 | [1923-sentence-similarity-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1923-sentence-similarity-iii) |
 | [1940-maximum-xor-for-each-query](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1940-maximum-xor-for-each-query) |
@@ -707,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1380-number-of-closed-islands](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1380-number-of-closed-islands) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2121-find-if-path-exists-in-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2466-maximum-segment-sum-after-removals) |
