@@ -567,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
+| [1491-number-of-times-binary-string-is-prefix-aligned](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1491-number-of-times-binary-string-is-prefix-aligned) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1499-maximum-performance-of-a-team](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1499-maximum-performance-of-a-team) |
