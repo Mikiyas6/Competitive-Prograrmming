@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2121-find-if-path-exists-in-graph) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2201-valid-arrangement-of-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2201-valid-arrangement-of-pairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2121-find-if-path-exists-in-graph) |
+| [2201-valid-arrangement-of-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2201-valid-arrangement-of-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2439-longest-cycle-in-a-graph](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2439-longest-cycle-in-a-graph) |
@@ -1419,4 +1421,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0278-first-bad-version](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0278-first-bad-version) |
 | [1185-find-in-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1185-find-in-mountain-array) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [2201-valid-arrangement-of-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2201-valid-arrangement-of-pairs) |
 <!---LeetCode Topics End-->
