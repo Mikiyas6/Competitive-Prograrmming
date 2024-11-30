@@ -1,10 +1,7 @@
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
-        n = len(nums)
-        start = 0
-        end = n-1
-
-        def ceil(nums,start,end,target):
+        
+        def search(start,end,nums,target):
             if start > end:
                 return start
             mid = start + (end-start)//2
@@ -14,7 +11,8 @@ class Solution:
                 end = mid-1
             else:
                 start = mid+1
-            return ceil(nums,start,end,target)
+            return search(start,end,nums,target)
         
-        return ceil(nums,start,end,target)
-            
+        start = 0
+        end = len(nums)-1
+        return search(start,end,nums,target)
