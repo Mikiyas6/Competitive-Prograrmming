@@ -26,10 +26,6 @@ class Solution:
         
         if not root or (not root.left and not root.right):
             return True
-        if (not root.left and root.right) or (root.left and not root.right):
-            return False
-        if root.left.val != root.right.val:
-            return False
         queue1 = deque([root.left])
         queue2 = deque([root.right])
         return symmetryCheck(queue1,queue2)
