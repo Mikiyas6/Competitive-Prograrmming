@@ -6,33 +6,32 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-
-        if not root:
-            return False
         
-        def BFS(left_queue,right_queue):
-
-            while left_queue and right_queue:
-                level = len(left_queue)
+        def symmetryCheck(queue1,queue2):
+            while queue1 and queue2:
+                level = len(queue1)
                 for _ in range(level):
-                    node1 = left_queue.popleft()
-                    node2 = right_queue.popleft()
-                    if not node1 and node2:
-                        return False
-                    if not node2 and node1:
-                        return False
-                    if not node1 and not node2:
-                        continue
-                    if node1.val != node2.val:
-                        return False
-                    
-                    left_queue.append(node1.left)
-                    left_queue.append(node1.right)
-                    right_queue.append(node2.right)
-                    right_queue.append(node2.left)
-
+                    node1 = queue1.popleft()
+                    node2 = queue2.popleft()
+                    if node1 and node2:
+                        if (not node1.left and node2.right) or (node1.left and not node2.right):
+                            return False
+                        if (not node1.right and node2.left) or (node1.right and not node2.left):
+                            return False
+                        if node1.val != node2.val:
+                            return False
+                        queue1.append(node1.left)
+                        queue1.append(node1.right)
+                        queue2.append(node2.right)
+                        queue2.append(node2.left)
             return True
-
-        return BFS(deque([root.left]),deque([root.right]))
-
-
+        
+        if not root or (not root.left and not root.right):
+            return True
+        if (not root.left and root.right) or (root.left and not root.right):
+            return False
+        if root.left.val != root.right.val:
+            return False
+        queue1 = deque([root.left])
+        queue2 = deque([root.right])
+        return symmetryCheck(queue1,queue2)
