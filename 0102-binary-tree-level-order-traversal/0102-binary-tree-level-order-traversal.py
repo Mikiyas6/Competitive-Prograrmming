@@ -8,6 +8,8 @@ class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root:
             return []
+        if not root.left and not root.right:
+            return [[root.val]]
         def BFS(root):
             queue = deque([root])
             result = []
