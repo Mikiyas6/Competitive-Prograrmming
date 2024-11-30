@@ -10,17 +10,17 @@ class Solution:
         }
 
         result = []
-
-        def backtrack(index,path):
-
-            if index >= len(digits):
+        def backtrack(i,path):
+            if i == len(digits):
                 result.append(''.join(path[:]))
                 return
-
-            for i in range(len(hashmap[digits[index]])):
-                path.append(hashmap[digits[index]][i])
-                backtrack(index+1,path)
+            letters = hashmap[digits[i]]
+            for j in range(len(letters)):
+                path.append(letters[j])
+                backtrack(i+1,path)
                 path.pop()
-            
         backtrack(0,[])
         return result
+            
+
+        
