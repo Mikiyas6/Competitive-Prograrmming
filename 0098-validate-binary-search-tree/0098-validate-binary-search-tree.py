@@ -9,15 +9,23 @@ class Solution:
         
         minValue = float('-inf')
         maxValue = float('inf')
-
-        def DFS(root,minValue,maxValue):
-            
+        def validate(root,minValue,maxValue):
             if not root:
                 return True
-            if minValue < root.val and root.val < maxValue:
-                left = DFS(root.left,minValue,root.val)
-                right = DFS(root.right,root.val,maxValue)
-                return left and right
-            return False
+            if minValue >= root.val or maxValue <= root.val:
+                return False
+            left = validate(root.left,minValue,root.val)
+            right = validate(root.right,root.val,maxValue)
+            return left and right
         
-        return DFS(root,minValue,maxValue)
+        return validate(root,minValue,maxValue)
+
+            # if not root:
+            #     return True
+            # if (root.left and root.val <= root.left.val) or (root.right and root.val >= root.right.val):
+            #     return False
+            # left = validate(root.left)
+            # right = validate(root.right)
+            # return left and right
+        
+        return validate(root)
