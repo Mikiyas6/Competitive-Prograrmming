@@ -13,11 +13,9 @@ class Solution:
                 for _ in range(level):
                     node1 = queue1.popleft()
                     node2 = queue2.popleft()
+                    if node1 and not node2 or node2 and not node1:
+                        return False
                     if node1 and node2:
-                        if (not node1.left and node2.right) or (node1.left and not node2.right):
-                            return False
-                        if (not node1.right and node2.left) or (node1.right and not node2.left):
-                            return False
                         if node1.val != node2.val:
                             return False
                         queue1.append(node1.left)
