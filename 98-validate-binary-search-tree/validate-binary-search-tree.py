@@ -19,13 +19,3 @@ class Solution:
             return left and right
         
         return validate(root,minValue,maxValue)
-
-            # if not root:
-            #     return True
-            # if (root.left and root.val <= root.left.val) or (root.right and root.val >= root.right.val):
-            #     return False
-            # left = validate(root.left)
-            # right = validate(root.right)
-            # return left and right
-        
-        return validate(root)
