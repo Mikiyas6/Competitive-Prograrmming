@@ -790,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Shortest Path
 |  |
 | ------- |
@@ -950,6 +951,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2586-longest-square-streak-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2586-longest-square-streak-in-an-array) |
 | [2755-extra-characters-in-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Backtracking
 |  |
 | ------- |
@@ -1134,6 +1136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Recursion
 |  |
 | ------- |
@@ -1317,6 +1320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0062-unique-paths) |
 | [0458-poor-pigs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0458-poor-pigs) |
+| [3637-count-number-of-balanced-permutations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Prefix Sum
 |  |
 | ------- |
