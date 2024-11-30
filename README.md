@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -652,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Matrix
 |  |
 | ------- |
@@ -879,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2716-prime-subtraction-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2716-prime-subtraction-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1300,6 +1303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Memoization
 |  |
 | ------- |
@@ -1329,6 +1333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2466-maximum-segment-sum-after-removals](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Game Theory
 |  |
 | ------- |
