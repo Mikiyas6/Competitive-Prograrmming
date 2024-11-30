@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3195-separate-black-and-white-balls](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
+| [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
 ## Graph
 |  |
 | ------- |
@@ -786,6 +787,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
+| [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
 ## Shortest Path
 |  |
 | ------- |
@@ -968,6 +970,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1127,6 +1130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2715-k-items-with-the-maximum-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2715-k-items-with-the-maximum-sum) |
 | [2716-prime-subtraction-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
 ## Recursion
 |  |
 | ------- |
@@ -1348,6 +1352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2716-prime-subtraction-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3635-smallest-divisible-digit-product-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3635-smallest-divisible-digit-product-ii) |
 ## Brainteaser
 |  |
 | ------- |
