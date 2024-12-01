@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/valid-arrangement-of-pairs">2201. Valid Arrangement of Pairs</a></h2><h3>Hard</h3><hr><p>You are given a <strong>0-indexed</strong> 2D integer array <code>pairs</code> where <code>pairs[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>. An arrangement of <code>pairs</code> is <strong>valid</strong> if for every index <code>i</code> where <code>1 &lt;= i &lt; pairs.length</code>, we have <code>end<sub>i-1</sub> == start<sub>i</sub></code>.</p>
+<h2><a href="https://leetcode.com/problems/valid-arrangement-of-pairs">Valid Arrangement of Pairs</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a <strong>0-indexed</strong> 2D integer array <code>pairs</code> where <code>pairs[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>. An arrangement of <code>pairs</code> is <strong>valid</strong> if for every index <code>i</code> where <code>1 &lt;= i &lt; pairs.length</code>, we have <code>end<sub>i-1</sub> == start<sub>i</sub></code>.</p>
 
 <p>Return <em><strong>any</strong> valid arrangement of </em><code>pairs</code>.</p>
 
