@@ -12,7 +12,9 @@ class Solution:
             if not root:
                 return 
             result += root.val if root.val >= low and root.val <= high else 0
-            preorder(root.left,low,high)
-            preorder(root.right,low,high)
+            if low <= root.val:
+                preorder(root.left,low,high)
+            if high >= root.val:
+                preorder(root.right,low,high)
         preorder(root,low,high)
         return result
