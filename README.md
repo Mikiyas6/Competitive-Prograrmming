@@ -209,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0820-find-eventual-safe-states) |
 | [0881-loud-and-rich](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0881-loud-and-rich) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0988-flip-equivalent-binary-trees) |
 | [0999-regions-cut-by-slashes](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0999-regions-cut-by-slashes) |
 | [1005-univalued-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1005-univalued-binary-tree) |
@@ -393,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0988-flip-equivalent-binary-trees) |
 | [1005-univalued-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1035-cousins-in-binary-tree) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0988-flip-equivalent-binary-trees) |
 | [1005-univalued-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1005-univalued-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1035-cousins-in-binary-tree) |
@@ -1242,6 +1245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0975-range-sum-of-bst](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0975-range-sum-of-bst) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 ## Data Stream
 |  |
