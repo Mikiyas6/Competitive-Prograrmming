@@ -623,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2179-most-beautiful-item-for-each-query](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -790,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2502-sort-the-people](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -851,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1923-sentence-similarity-iii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1923-sentence-similarity-iii) |
 | [1972-rotating-the-box](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
 | [2481-strictly-palindromic-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2481-strictly-palindromic-number) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -1071,6 +1074,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2178-walking-robot-simulation-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2178-walking-robot-simulation-ii) |
+| [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2411-spiral-matrix-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2411-spiral-matrix-iv) |
