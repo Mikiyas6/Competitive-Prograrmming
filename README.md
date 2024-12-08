@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2651-count-ways-to-group-overlapping-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2651-count-ways-to-group-overlapping-ranges) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
@@ -661,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2767-maximum-sum-with-exactly-k-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2767-maximum-sum-with-exactly-k-elements) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -868,6 +870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2481-strictly-palindromic-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2481-strictly-palindromic-number) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3195-separate-black-and-white-balls](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3195-separate-black-and-white-balls) |
 ## Binary Search
@@ -911,6 +914,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2513-number-of-pairs-satisfying-inequality) |
 | [2586-longest-square-streak-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2586-longest-square-streak-in-an-array) |
 | [2716-prime-subtraction-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2716-prime-subtraction-operation) |
+| [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3485-maximize-score-of-numbers-in-ranges](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3485-maximize-score-of-numbers-in-ranges) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
