@@ -746,6 +746,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0072-edit-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0093-restore-ip-addresses) |
 | [0115-distinct-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0115-distinct-subsequences) |
@@ -932,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0072-edit-distance) |
 | [0096-unique-binary-search-trees](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0096-unique-binary-search-trees) |
 | [0115-distinct-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0118-pascals-triangle) |
