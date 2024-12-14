@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2803-modify-graph-edge-weights](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2803-modify-graph-edge-weights) |
+| [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Depth-First Search
 |  |
@@ -680,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2767-maximum-sum-with-exactly-k-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2767-maximum-sum-with-exactly-k-elements) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
+| [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
@@ -1227,6 +1229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
+| [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 ## Stack
 |  |
 | ------- |
@@ -1374,6 +1377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3141-minimum-size-subarray-in-infinite-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3141-minimum-size-subarray-in-infinite-array) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -1465,6 +1469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0731-my-calendar-ii) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2466-maximum-segment-sum-after-removals) |
 | [2513-number-of-pairs-satisfying-inequality](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2513-number-of-pairs-satisfying-inequality) |
+| [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -1489,6 +1494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
+| [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 ## Rejection Sampling
 |  |
 | ------- |
