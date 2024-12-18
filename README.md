@@ -615,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1499-maximum-performance-of-a-team](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1499-maximum-performance-of-a-team) |
 | [1511-count-number-of-teams](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1603-running-sum-of-1d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1603-running-sum-of-1d-array) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -1264,6 +1265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -1495,6 +1497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0654-maximum-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0654-maximum-binary-tree) |
 | [1002-maximum-width-ramp](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1002-maximum-width-ramp) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Geometry
 |  |
