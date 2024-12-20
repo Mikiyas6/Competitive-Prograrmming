@@ -1,10 +1,6 @@
-class Solution(object):
-    def findOriginalArray(self, changed):
-        """
-        :type changed: List[int]
-        :rtype: List[int]
-        """
-        changed = self.Counting_sort(changed)
+class Solution:
+    def findOriginalArray(self, changed: List[int]) -> List[int]:
+        changed = self.merge_sort(changed)
         lists = []
         a = 0
         b = 1
@@ -25,18 +21,32 @@ class Solution(object):
             return []
         else:
             return matched
-    def Counting_sort(self,nums):
-        lists1 = [0] * (max(nums)+1)
-        for i in range(len(nums)):
-            lists1[nums[i]] += 1
-        lists2 = []
-        for i in range(len(lists1)):
-            if i == 0:
-                lists2.append(lists1[i])
+    def merge_sort(self,arr):
+        if len(arr) <= 1:
+            return arr
+        mid = len(arr) // 2
+        left_half = arr[:mid]
+        right_half = arr[mid:]
+        left_half = self.merge_sort(left_half)
+        right_half = self.merge_sort(right_half)
+        return self.merges(left_half, right_half)
+    def merges(self,left, right):
+        merged = []
+        left_index = right_index = 0
+        while left_index < len(left) and right_index < len(right):
+            if left[left_index] < right[right_index]:
+                merged.append(left[left_index])
+                left_index += 1
             else:
-                lists2.append(lists1[i]+lists2[-1])
-        lists3 = [0] * (len(nums))
-        for i in range(len(nums)):
-            lists3[lists2[nums[i]]-1] = nums[i]
-            lists2[nums[i]] = lists2[nums[i]] - 1
-        return lists3
+                merged.append(right[right_index])
+                right_index += 1
+
+        while left_index < len(left):
+            merged.append(left[left_index])
+            left_index += 1
+
+        while right_index < len(right):
+            merged.append(right[right_index])
+            right_index += 1
+
+        return merged
