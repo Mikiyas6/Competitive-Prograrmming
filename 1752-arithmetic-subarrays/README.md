@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/arithmetic-subarrays">1752. Arithmetic Subarrays</a></h2><h3>Medium</h3><hr><p>A sequence of numbers is called <strong>arithmetic</strong> if it consists of at least two elements, and the difference between every two consecutive elements is the same. More formally, a sequence <code>s</code> is arithmetic if and only if <code>s[i+1] - s[i] == s[1] - s[0] </code>for all valid <code>i</code>.</p>
+<h2><a href="https://leetcode.com/problems/arithmetic-subarrays">Arithmetic Subarrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>A sequence of numbers is called <strong>arithmetic</strong> if it consists of at least two elements, and the difference between every two consecutive elements is the same. More formally, a sequence <code>s</code> is arithmetic if and only if <code>s[i+1] - s[i] == s[1] - s[0] </code>for all valid <code>i</code>.</p>
 
 <p>For example, these are <strong>arithmetic</strong> sequences:</p>
 
