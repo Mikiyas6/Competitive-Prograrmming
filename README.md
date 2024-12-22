@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1752-arithmetic-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1752-arithmetic-subarrays) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1961-maximum-ice-cream-bars) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1694-make-sum-divisible-by-p) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1752-arithmetic-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1752-arithmetic-subarrays) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -637,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1694-make-sum-divisible-by-p) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1752-arithmetic-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1752-arithmetic-subarrays) |
 | [1755-defuse-the-bomb](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1755-defuse-the-bomb) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
