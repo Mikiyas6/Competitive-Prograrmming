@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/next-greater-node-in-linked-list">1072. Next Greater Node In Linked List</a></h2><h3>Medium</h3><hr><p>You are given the <code>head</code> of a linked list with <code>n</code> nodes.</p>
+<h2><a href="https://leetcode.com/problems/next-greater-node-in-linked-list">Next Greater Node In Linked List</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given the <code>head</code> of a linked list with <code>n</code> nodes.</p>
 
 <p>For each node in the list, find the value of the <strong>next greater node</strong>. That is, for each node, find the value of the first node that is next to it and has a <strong>strictly larger</strong> value than it.</p>
 
