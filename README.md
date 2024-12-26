@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1325-path-with-maximum-probability) |
 | [1499-maximum-performance-of-a-team](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1499-maximum-performance-of-a-team) |
 | [1762-furthest-building-you-can-reach](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1762-furthest-building-you-can-reach) |
+| [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [1917-maximum-average-pass-ratio](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1917-maximum-average-pass-ratio) |
 | [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -656,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1803-average-waiting-time](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1803-average-waiting-time) |
+| [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1840-minimize-hamming-distance-after-swap-operations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1840-minimize-hamming-distance-after-swap-operations) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1866-restore-the-array-from-adjacent-pairs) |
@@ -1051,6 +1053,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1511-count-number-of-teams](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1511-count-number-of-teams) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
@@ -1276,6 +1279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
@@ -1549,6 +1553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2868-continuous-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2868-continuous-subarrays) |
 ## Rejection Sampling
