@@ -582,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0679-24-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0679-24-game) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0695-max-area-of-island](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -1037,6 +1038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0688-knight-probability-in-chessboard](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0688-knight-probability-in-chessboard) |
+| [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0747-min-cost-climbing-stairs) |
 | [0815-champagne-tower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0815-champagne-tower) |
