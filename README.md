@@ -868,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
@@ -1063,6 +1064,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
+| [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2554-minimum-total-distance-traveled](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2554-minimum-total-distance-traveled) |
@@ -1252,6 +1254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2050-count-good-numbers) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
+| [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2481-strictly-palindromic-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2481-strictly-palindromic-number) |
 | [2645-pass-the-pillow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2645-pass-the-pillow) |
@@ -1460,6 +1463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0062-unique-paths) |
 | [0458-poor-pigs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0458-poor-pigs) |
+| [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [3637-count-number-of-balanced-permutations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3637-count-number-of-balanced-permutations) |
 ## Prefix Sum
 |  |
