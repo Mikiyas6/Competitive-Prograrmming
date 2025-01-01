@@ -857,6 +857,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -1474,6 +1475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1240-stone-game-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1603-running-sum-of-1d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1603-running-sum-of-1d-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1694-make-sum-divisible-by-p) |
 | [1940-maximum-xor-for-each-query](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1940-maximum-xor-for-each-query) |
