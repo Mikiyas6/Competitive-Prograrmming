@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-good-days-to-rob-the-bank">Find Good Days to Rob the Bank</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You and a gang of thieves are planning on robbing a bank. You are given a <strong>0-indexed</strong> integer array <code>security</code>, where <code>security[i]</code> is the number of guards on duty on the <code>i<sup>th</sup></code> day. The days are numbered starting from <code>0</code>. You are also given an integer <code>time</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-good-days-to-rob-the-bank">2205. Find Good Days to Rob the Bank</a></h2><h3>Medium</h3><hr><p>You and a gang of thieves are planning on robbing a bank. You are given a <strong>0-indexed</strong> integer array <code>security</code>, where <code>security[i]</code> is the number of guards on duty on the <code>i<sup>th</sup></code> day. The days are numbered starting from <code>0</code>. You are also given an integer <code>time</code>.</p>
 
 <p>The <code>i<sup>th</sup></code> day is a good day to rob the bank if:</p>
 
