@@ -586,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0659-split-array-into-consecutive-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0679-24-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0679-24-game) |
+| [0682-baseball-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0682-baseball-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0695-max-area-of-island](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -1179,6 +1180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
 | [0861-flipping-an-image](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0861-flipping-an-image) |
 | [0906-walking-robot-simulation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0906-walking-robot-simulation) |
@@ -1316,6 +1318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0234-palindrome-linked-list) |
 | [0654-maximum-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0654-maximum-binary-tree) |
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
+| [0682-baseball-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0735-asteroid-collision) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0957-minimum-add-to-make-parentheses-valid) |
