@@ -652,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1497-design-a-stack-with-increment-operation](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1499-maximum-performance-of-a-team](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1499-maximum-performance-of-a-team) |
 | [1511-count-number-of-teams](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1511-count-number-of-teams) |
+| [1524-string-matching-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1524-string-matching-in-an-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1603-running-sum-of-1d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1603-running-sum-of-1d-array) |
@@ -871,6 +872,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1381-maximum-score-words-formed-by-letters](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
+| [1524-string-matching-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -1556,6 +1558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
+| [1524-string-matching-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 ## Hash Function
 |  |
