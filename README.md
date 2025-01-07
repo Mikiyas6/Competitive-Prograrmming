@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1962-single-threaded-cpu](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2117-find-original-array-from-doubled-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2117-find-original-array-from-doubled-array) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2118-maximum-earnings-from-taxi) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2117-find-original-array-from-doubled-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2117-find-original-array-from-doubled-array) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2118-maximum-earnings-from-taxi) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2300-construct-string-with-repeat-limit) |
@@ -695,6 +697,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2117-find-original-array-from-doubled-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2117-find-original-array-from-doubled-array) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2118-maximum-earnings-from-taxi) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -1006,6 +1009,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2118-maximum-earnings-from-taxi) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -1085,6 +1089,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1814-jump-game-vi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1814-jump-game-vi) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2118-maximum-earnings-from-taxi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2118-maximum-earnings-from-taxi) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
 | [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2205-find-good-days-to-rob-the-bank) |
