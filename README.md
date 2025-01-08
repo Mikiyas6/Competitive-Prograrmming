@@ -708,6 +708,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2205-find-good-days-to-rob-the-bank](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2205-find-good-days-to-rob-the-bank) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
+| [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -1095,6 +1096,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
 | [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2205-find-good-days-to-rob-the-bank) |
+| [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2262-solving-questions-with-brainpower](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2262-solving-questions-with-brainpower) |
 | [2526-longest-increasing-subsequence-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2526-longest-increasing-subsequence-ii) |
 | [2554-minimum-total-distance-traveled](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2554-minimum-total-distance-traveled) |
@@ -1288,6 +1290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
+| [2233-number-of-smooth-descent-periods-of-a-stock](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2233-number-of-smooth-descent-periods-of-a-stock) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2481-strictly-palindromic-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2481-strictly-palindromic-number) |
 | [2645-pass-the-pillow](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2645-pass-the-pillow) |
