@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2094-remove-stones-to-minimize-the-total](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2094-remove-stones-to-minimize-the-total) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2117-find-original-array-from-doubled-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2117-find-original-array-from-doubled-array) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2300-construct-string-with-repeat-limit) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
@@ -1297,6 +1298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1303-minimum-moves-to-reach-target-score](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2050-count-good-numbers) |
+| [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2106-find-greatest-common-divisor-of-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2106-find-greatest-common-divisor-of-array) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
@@ -1330,6 +1332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2050-count-good-numbers) |
+| [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2680-count-collisions-of-monkeys-on-a-polygon](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2680-count-collisions-of-monkeys-on-a-polygon) |
 ## Queue
 |  |
