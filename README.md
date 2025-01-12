@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2100-minimum-non-zero-product-of-the-array-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2100-minimum-non-zero-product-of-the-array-elements) |
 | [2117-find-original-array-from-doubled-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2117-find-original-array-from-doubled-array) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2300-construct-string-with-repeat-limit) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2379-maximum-total-importance-of-roads) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2450-minimum-replacements-to-sort-the-array) |
@@ -905,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2187-vowels-of-all-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2187-vowels-of-all-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2300-construct-string-with-repeat-limit) |
@@ -1366,6 +1368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2846-robot-collisions) |
