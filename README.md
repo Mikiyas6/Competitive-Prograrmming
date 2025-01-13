@@ -363,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0432-all-oone-data-structure) |
 | [0447-number-of-boomerangs](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0447-number-of-boomerangs) |
 | [0457-circular-array-loop](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0457-circular-array-loop) |
+| [0496-next-greater-element-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -587,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0463-island-perimeter) |
 | [0477-total-hamming-distance](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0477-total-hamming-distance) |
 | [0494-target-sum](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0518-coin-change-ii) |
 | [0539-minimum-time-difference](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0539-minimum-time-difference) |
 | [0542-01-matrix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0542-01-matrix) |
@@ -1361,6 +1363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0145-binary-tree-postorder-traversal) |
 | [0227-basic-calculator-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0227-basic-calculator-ii) |
 | [0234-palindrome-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0496-next-greater-element-i) |
 | [0654-maximum-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0654-maximum-binary-tree) |
 | [0678-valid-parenthesis-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0682-baseball-game) |
@@ -1621,6 +1624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0496-next-greater-element-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0496-next-greater-element-i) |
 | [0654-maximum-binary-tree](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0654-maximum-binary-tree) |
 | [1002-maximum-width-ramp](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1002-maximum-width-ramp) |
 | [1072-next-greater-node-in-linked-list](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1072-next-greater-node-in-linked-list) |
