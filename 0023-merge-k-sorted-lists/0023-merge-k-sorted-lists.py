@@ -15,6 +15,7 @@ class Solution:
         dummy = ListNode(-1)
         current = dummy
         while minHeap:
-            current.next = ListNode(heappop(minHeap))
+            value = heappop(minHeap)
+            current.next = ListNode(value)
             current = current.next
         return dummy.next
