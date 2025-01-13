@@ -15,10 +15,10 @@ class Solution:
             node1 = list1
             node2 = list2
             def merger(current,list1,list2):
-                if not list1 and list2:
+                if not list1:
                     current.next = list2
                     return current
-                elif not list2 and list1:
+                if not list2:
                     current.next = list1
                     return current
                 if list1.val <= list2.val:
