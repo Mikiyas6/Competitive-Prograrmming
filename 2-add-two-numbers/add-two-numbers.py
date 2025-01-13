@@ -26,14 +26,8 @@ class Solution:
             total = value1 + value2 + carry
             newNode = ListNode(total%10)
             carry = total // 10
-            if node1:
-                next1 = node1.next
-            else:
-                next1 = None
-            if node2:
-                next2 = node2.next
-            else:
-                next2 = None
+            next1 = node1.next if node1 else None
+            next2 = node2.next if node2 else None
             current.next = fun(newNode,next1,next2,carry)
             return current
         
