@@ -5,65 +5,51 @@
 #         self.next = next
 class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-
-        if not head:
-            return head
-
-        def findMiddle(current):
-            
-            slow = current
-            fast = current.next
-
+        def find_middle(head):
+            if not head or not head.next:
+                return head
+            slow = head
+            fast = head.next
             while fast and fast.next:
                 slow = slow.next
                 fast = fast.next.next
-            
             return slow
         
-        def mergeSort(list1,list2):
-            ptr1 = list1
-            ptr2 = list2
+        def merge(left,right):
+            ptr1 = left
+            ptr2 = right
             dummy = ListNode(-1)
             current = dummy
-
-            def merge(current,ptr1,ptr2):
-
+            def merger(current,ptr1,ptr2):
                 if not ptr1:
                     current.next = ptr2
                     return current
                 if not ptr2:
                     current.next = ptr1
                     return current
-                
                 if ptr1.val <= ptr2.val:
                     value = ptr1.val
                     ptr1 = ptr1.next
                 else:
                     value = ptr2.val
                     ptr2 = ptr2.next
-                
                 node = ListNode(value)
-                current.next = merge(node,ptr1,ptr2)
+                current.next = merger(node,ptr1,ptr2)
                 return current
-            
-            return merge(current,ptr1,ptr2).next
-
-        def fun(current):
-
-            if not current or not current.next:
-                return current
-            
-            middle = findMiddle(current)
-            right_side = middle.next
-            middle.next = None
-
-            left = fun(current)
-            right = fun(right_side)
-
-            mergedList = mergeSort(left,right)
-
-            return mergedList
+            return merger(current,ptr1,ptr2).next
         
-        current = head
-        return fun(current)
-    
+        def fun(head):
+            if not head or not head.next:
+                return head
+            middle = find_middle(head)
+            right = middle.next
+            middle.next = None
+            left = head
+            left_side = fun(left)
+            right_side = fun(right)
+            merged = merge(left_side,right_side)
+            return merged
+        
+        return fun(head)
+        
+            
