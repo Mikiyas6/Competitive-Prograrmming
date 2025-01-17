@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/camelcase-matching">1080. Camelcase Matching</a></h2><h3>Medium</h3><hr><p>Given an array of strings <code>queries</code> and a string <code>pattern</code>, return a boolean array <code>answer</code> where <code>answer[i]</code> is <code>true</code> if <code>queries[i]</code> matches <code>pattern</code>, and <code>false</code> otherwise.</p>
+<h2><a href="https://leetcode.com/problems/camelcase-matching">Camelcase Matching</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of strings <code>queries</code> and a string <code>pattern</code>, return a boolean array <code>answer</code> where <code>answer[i]</code> is <code>true</code> if <code>queries[i]</code> matches <code>pattern</code>, and <code>false</code> otherwise.</p>
 
 <p>A query word <code>queries[i]</code> matches <code>pattern</code> if you can insert lowercase English letters pattern so that it equals the query. You may insert each character at any position and you may not insert any characters.</p>
 
