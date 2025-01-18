@@ -369,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0142-linked-list-cycle-ii) |
 | [0149-max-points-on-a-line](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0149-max-points-on-a-line) |
+| [0187-repeated-dna-sequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0187-repeated-dna-sequences) |
 | [0242-valid-anagram](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0347-top-k-frequent-elements) |
@@ -880,6 +881,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0168-excel-sheet-column-title) |
 | [0171-excel-sheet-column-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0171-excel-sheet-column-number) |
 | [0179-largest-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0179-largest-number) |
+| [0187-repeated-dna-sequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0187-repeated-dna-sequences) |
 | [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [0227-basic-calculator-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0241-different-ways-to-add-parentheses) |
@@ -1184,6 +1186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0078-subsets) |
 | [0089-gray-code](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0089-gray-code) |
+| [0187-repeated-dna-sequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0187-repeated-dna-sequences) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0201-bitwise-and-of-numbers-range) |
 | [0268-missing-number](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0268-missing-number) |
 | [0318-maximum-product-of-word-lengths](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0318-maximum-product-of-word-lengths) |
@@ -1536,6 +1539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0187-repeated-dna-sequences) |
 | [0567-permutation-in-string](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -1626,6 +1630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Rolling Hash
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0187-repeated-dna-sequences) |
 | [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1642,6 +1647,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0187-repeated-dna-sequences) |
 | [0214-shortest-palindrome](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1508-longest-happy-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/3309-count-prefix-and-suffix-pairs-i) |
