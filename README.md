@@ -739,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2117-find-original-array-from-doubled-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2117-find-original-array-from-doubled-array) |
 | [2118-maximum-earnings-from-taxi](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2118-maximum-earnings-from-taxi) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2145-grid-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2145-grid-game) |
 | [2155-find-missing-observations](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2164-two-best-non-overlapping-events) |
@@ -840,6 +841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2080-check-if-move-is-legal](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2080-check-if-move-is-legal) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2145-grid-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2145-grid-game) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2411-spiral-matrix-iv) |
@@ -1601,6 +1603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1966-frequency-of-the-most-frequent-element](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2145-grid-game](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2145-grid-game) |
 | [2205-find-good-days-to-rob-the-bank](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2205-find-good-days-to-rob-the-bank) |
 | [2465-shifting-letters-ii](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2465-shifting-letters-ii) |
 | [2466-maximum-segment-sum-after-removals](https://github.com/Mikiyas6/Competitive-Prograrmming/tree/master/2466-maximum-segment-sum-after-removals) |
