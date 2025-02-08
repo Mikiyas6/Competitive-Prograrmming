@@ -1,9 +1,7 @@
 class Solution:
     def printVertically(self, s: str) -> List[str]:
         words = s.split(" ")
-        max_length = 0
-        for word in words:
-            max_length = max(max_length,len(word))
+        max_length = len(max(words,key=len))
         result = []
         for j in range(max_length):
             string = []
