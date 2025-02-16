@@ -1,38 +1,17 @@
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
-        
         n = len(nums)
-
-        left, right = 0, 1
-
-        while right < n:
-
-            if nums[left] == nums[right]:
-
-                nums[left] *= 2
-
-                nums[right] = 0
-            
-            left += 1
-
-            right += 1
-        
-        left, right = 0, 1
-
-        while right < n:
-
-            if nums[left] != 0:
-
-                left += 1
-            
-            else:
-
-                if nums[right] != 0:
-
-                    nums[left], nums[right] = nums[right], nums[left]
-
-                    left += 1
-            
-            right += 1
-        
+        for i in range(0,n-1):
+            if nums[i] == nums[i+1]:
+                nums[i] *= 2
+                nums[i+1] = 0
+        i = 0
+        j = 0
+        while j < n:
+            while j < n and nums[j] == 0:
+                j += 1
+            if j < n:
+                nums[i], nums[j] = nums[j],nums[i]
+                i += 1
+                j += 1
         return nums
