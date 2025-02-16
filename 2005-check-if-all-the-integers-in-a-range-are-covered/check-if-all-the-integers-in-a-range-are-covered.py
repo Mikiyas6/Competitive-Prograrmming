@@ -3,6 +3,8 @@ class Solution:
         max_value = 0
         for x, y in ranges:
             max_value = max(max_value,y)
+        if left > max_value or right > max_value:
+            return False
         prefixSum = [0]*(max_value+1)
         for x, y in ranges:
             prefixSum[x-1] += 1
@@ -11,9 +13,6 @@ class Solution:
         for i in range(len(prefixSum)-1):
             total += prefixSum[i]
             prefixSum[i] = total
-        if left > max_value or right > max_value:
-            return False
-        print(prefixSum)
         for i in range(left-1,right):
             if prefixSum[i] < 1:
                 return False
