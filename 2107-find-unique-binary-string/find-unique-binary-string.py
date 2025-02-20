@@ -1,34 +1,21 @@
 class Solution:
     def findDifferentBinaryString(self, nums: List[str]) -> str:
+        n = len(nums)
+        hashset = set(nums)
+        result = []
 
-        positions = ['.']*len(nums[0])
-        
-        hashmap = defaultdict(str)
+        def check(string):
+            if ''.join(string) not in hashset:
+                result.append("".join(string))
+                return True
 
-        for value in nums:
-            hashmap[value] = 1
-
-        def dfs(i):
-
-            if i == len(positions):
-                if ''.join(positions) not in hashmap:
+        def dfs(string):
+            if len(string) == n:
+                if check(string[:]):
                     return True
-
                 return False
             
-            for j in range(i,len(nums[0])):
-
-                positions[j] = '0'
-
-                if dfs(j+1):
-                    return True
-                
-                positions[j] = '1'
-
-                if dfs(j+1):
-                    return True
-            
-            return False
+            return dfs(string+["0"]) or dfs(string+["1"])
         
-        dfs(0)
-        return ''.join(positions)
+        dfs([])
+        return result[0]
