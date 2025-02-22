@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/recover-a-tree-from-preorder-traversal">1093. Recover a Tree From Preorder Traversal</a></h2><h3>Hard</h3><hr><p>We run a&nbsp;preorder&nbsp;depth-first search (DFS) on the <code>root</code> of a binary tree.</p>
+<h2><a href="https://leetcode.com/problems/recover-a-tree-from-preorder-traversal">Recover a Tree From Preorder Traversal</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>We run a&nbsp;preorder&nbsp;depth-first search (DFS) on the <code>root</code> of a binary tree.</p>
 
 <p>At each node in this traversal, we output <code>D</code> dashes (where <code>D</code> is the depth of this node), then we output the value of this node.&nbsp; If the depth of a node is <code>D</code>, the depth of its immediate child is <code>D + 1</code>.&nbsp; The depth of the <code>root</code> node is <code>0</code>.</p>
 
@@ -8,21 +8,21 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/04/08/recover-a-tree-from-preorder-traversal.png" style="width: 320px; height: 200px;" />
+<img alt="" src="https://assets.leetcode.com/uploads/2024/09/10/recover_tree_ex1.png" style="width: 423px; height: 200px;" />
 <pre>
 <strong>Input:</strong> traversal = &quot;1-2--3--4-5--6--7&quot;
 <strong>Output:</strong> [1,2,5,3,4,6,7]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114101-pm.png" style="width: 256px; height: 250px;" />
+<img alt="" src="https://assets.leetcode.com/uploads/2024/09/10/recover_tree_ex2.png" style="width: 432px; height: 250px;" />
 <pre>
 <strong>Input:</strong> traversal = &quot;1-2--3---4-5--6---7&quot;
 <strong>Output:</strong> [1,2,5,3,null,6,null,4,null,7]
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/04/11/screen-shot-2019-04-10-at-114955-pm.png" style="width: 276px; height: 250px;" />
+<img alt="" src="https://assets.leetcode.com/uploads/2024/09/10/recover_tree_ex3.png" style="width: 305px; height: 250px;" />
 <pre>
 <strong>Input:</strong> traversal = &quot;1-401--349---90--88&quot;
 <strong>Output:</strong> [1,401,null,349,88,90]
