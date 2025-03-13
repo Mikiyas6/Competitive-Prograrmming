@@ -1,12 +1,13 @@
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
-        grid = [[0]*numRows for _ in range(numRows)]
+        Matrix = [[1]+([0]*(numRows-1)) for _ in range(numRows)]
+        for i in range(1,numRows):
+            for j in range(1,numRows):
+                total = Matrix[i-1][j-1] + Matrix[i-1][j]
+                if total == 0:
+                    break
+                Matrix[i][j] = total
+        result = []
         for i in range(numRows):
-            grid[i][0] = 1
-        for row in range(1,numRows):
-            for col in range(1,numRows):
-                grid[row][col] = grid[row-1][col-1] + grid[row-1][col]
-        
-        for i in range(numRows):
-            grid[i] = grid[i][:i+1]
-        return grid
+            result.append(Matrix[i][:i+1])
+        return result
