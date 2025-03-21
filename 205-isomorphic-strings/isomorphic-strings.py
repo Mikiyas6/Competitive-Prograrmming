@@ -1,19 +1,16 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        s_to_t_mapping = defaultdict(str)
-        t_to_s_mapping = defaultdict(str)
-
+        if len(s) != len(t):
+            return False
+        hashset = set()
+        hashmap = defaultdict(str)
         for i in range(len(s)):
-            if s[i] not in s_to_t_mapping:
-                s_to_t_mapping[s[i]] = t[i]
-            else:
-                if s_to_t_mapping[s[i]] != t[i]:
+            if hashmap[s[i]]:
+                if t[i] != hashmap[s[i]]:
                     return False
-
-            if t[i] not in t_to_s_mapping:
-                t_to_s_mapping[t[i]] = s[i]
             else:
-                if t_to_s_mapping[t[i]] != s[i]:
+                if t[i] in hashset:
                     return False
-
+                hashmap[s[i]] = t[i]
+                hashset.add(t[i])
         return True
