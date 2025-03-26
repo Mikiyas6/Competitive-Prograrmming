@@ -1,14 +1,14 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        result = [-1]*len(nums1)
         stack = []
         hashmap = defaultdict(int)
         for value in nums2:
             while stack and value > stack[-1]:
-                popped = stack.pop()
-                hashmap[popped] = value
+                popped_value = stack.pop()
+                hashmap[popped_value] = value
             stack.append(value)
-        result = []
-        for value in nums1:
-            result.append(hashmap[value] if hashmap[value] else -1) 
-        return result
-
+        for index,value in enumerate(nums1):
+            if hashmap[value]:
+                result[index] = hashmap[value]
+        return result 
