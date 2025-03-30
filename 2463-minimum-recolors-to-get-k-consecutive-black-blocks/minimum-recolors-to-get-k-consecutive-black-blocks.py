@@ -8,4 +8,4 @@ class Solution:
             hashmap[blocks[left]] -= 1
             min_operations = min(min_operations,hashmap["W"])
             left += 1
-        return min_operations if min_operations > 0 else 0
+        return min_operations 
