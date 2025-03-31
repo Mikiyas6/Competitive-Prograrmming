@@ -2,7 +2,6 @@ class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         matrix = [[0]*(rowIndex+2) for _ in range(rowIndex+1)]
         matrix[0][1] = 1
-        print(matrix)
         def fun(row):
             if row >= len(matrix):
                 return
