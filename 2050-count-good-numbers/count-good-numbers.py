@@ -1,21 +1,13 @@
 class Solution:
     def countGoodNumbers(self, n: int) -> int:
-        MOD = (10**9)+7
-        even = (n//2) + (n%2)
-        odd = n//2
-
-        def fun(num,pow):
-            if pow == 0:
+        MOD = (10**9) + 7
+        even_position = n//2 + n%2
+        odd_position = n//2
+        def find_power(position,power):
+            if power == 0:
                 return 1
-            if pow == 1:
-                return num
-            
-            result = fun(num,pow//2)
-            final_result = result*result*num if pow%2 != 0 else result*result
-            return final_result%MOD
-
-        for_even_numbers = fun(5,even)
-        for_prime_numbers = fun(4,odd)
-        return (for_even_numbers*for_prime_numbers)%MOD
-
-
+            if power == 1:
+                return position
+            result = find_power(position,power//2)
+            return (result * result * (position**(power%2)))%MOD
+        return (find_power(5,even_position) * find_power(4,odd_position)) % MOD
