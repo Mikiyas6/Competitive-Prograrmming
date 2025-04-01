@@ -7,8 +7,7 @@ class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode(-1)
         current = dummy
-        node1 = list1
-        node2 = list2
+
         def merge(current,list1,list2):
             if not list1:
                 current.next = list2
@@ -25,4 +24,5 @@ class Solution:
             node = ListNode(value)
             current.next = merge(node,list1,list2)
             return current
+        
         return merge(current,list1,list2).next
