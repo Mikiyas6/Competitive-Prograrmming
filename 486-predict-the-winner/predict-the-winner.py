@@ -1,17 +1,13 @@
 class Solution:
     def predictTheWinner(self, nums: List[int]) -> bool:
-        
-        def fun(left,right):
-
+    
+        def dfs(left, right):
             if left == right:
                 return nums[left]
             
-            left_side = nums[left] - fun(left+1,right)
-            right_side = nums[right] - fun(left,right-1)
-
-            return max(left_side,right_side)
-
-        result = fun(0,len(nums)-1)
-
-        return True if result >= 0 else False
-
+            pickLeft = nums[left] - dfs(left + 1, right)  # Choose left, opponent plays optimally
+            pickRight = nums[right] - dfs(left, right - 1)  # Choose right, opponent plays optimally
+            
+            return max(pickLeft, pickRight)
+        
+        return dfs(0, len(nums) - 1) >= 0
