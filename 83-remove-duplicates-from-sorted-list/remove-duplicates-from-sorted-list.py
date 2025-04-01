@@ -14,6 +14,5 @@ class Solution:
                 node = ListNode(root.val)
                 current.next = removeDuplicates(node,root.next)
                 return current
-            else:
-                return removeDuplicates(current,root.next)
+            return removeDuplicates(current,root.next)
         return removeDuplicates(current,head).next
