@@ -5,8 +5,8 @@ class Solution:
             if left == right:
                 return nums[left]
             
-            pickLeft = nums[left] - dfs(left + 1, right)  # Choose left, opponent plays optimally
-            pickRight = nums[right] - dfs(left, right - 1)  # Choose right, opponent plays optimally
+            pickLeft = nums[left] - dfs(left + 1, right)  
+            pickRight = nums[right] - dfs(left, right - 1)  
             
             return max(pickLeft, pickRight)
         
