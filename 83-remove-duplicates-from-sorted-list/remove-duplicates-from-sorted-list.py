@@ -5,27 +5,15 @@
 #         self.next = next
 class Solution:
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        
-        if not head:
-            return head
-        
-        dummy = ListNode(-1)
+        dummy = ListNode(-101)
         current = dummy
-        ptr1 = head
-        ptr2 = head.next
-
-        def removeDuplicates(current,ptr1,ptr2):
-
-            if not ptr2:
-                node = ListNode(ptr1.val)
-                current.next = node
+        def removeDuplicates(current,root):
+            if not root:
                 return current
-
-            if ptr1.val != ptr2.val:
-                node = ListNode(ptr1.val)
-                current.next = removeDuplicates(node,ptr1.next,ptr2.next)
+            if current.val != root.val:
+                node = ListNode(root.val)
+                current.next = removeDuplicates(node,root.next)
                 return current
-            
-            return removeDuplicates(current,ptr1.next,ptr2.next)
-        
-        return removeDuplicates(current,ptr1,ptr2).next
+            else:
+                return removeDuplicates(current,root.next)
+        return removeDuplicates(current,head).next
