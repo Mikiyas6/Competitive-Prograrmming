@@ -1,14 +1,14 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        visited = set()
+        hashset = set([0])
         while n != 1:
             temp = n
             total = 0
             while temp != 0:
-                total += (temp % 10)**2
+                total +=  (temp%10)**2
                 temp //= 10
-            if total in visited:
+            if total in hashset:
                 return False
-            visited.add(total)
             n = total
+            hashset.add(total)
         return True
