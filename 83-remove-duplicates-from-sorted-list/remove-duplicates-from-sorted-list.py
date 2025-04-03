@@ -16,12 +16,26 @@ class Solution:
         #         return current
         #     return removeDuplicates(current,root.next)
         # return removeDuplicates(current,head).next
+        #################################################################################
+        # dummy = ListNode(-101)
+        # current = dummy
+        # while head:
+        #     if head.val != current.val:
+        #         node = ListNode(head.val)
+        #         current.next = node
+        #         current = node
+        #     head = head.next
+        # return dummy.next
+        ###################################################################################
         dummy = ListNode(-101)
-        current = dummy
-        while head:
-            if head.val != current.val:
-                node = ListNode(head.val)
-                current.next = node
-                current = node
-            head = head.next
+        prev = dummy
+        current = head
+        while current:
+            while current and prev.val == current.val:
+                current = current.next
+            prev.next = current
+            prev = current
+            if current:
+                current = current.next
         return dummy.next
+        
