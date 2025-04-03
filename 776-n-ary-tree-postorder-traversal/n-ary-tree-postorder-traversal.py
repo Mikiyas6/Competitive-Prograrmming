@@ -8,14 +8,13 @@ class Node:
 
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
-        result = []
         def postOrder(root):
-            nonlocal result
             if not root:
-                return
+                return None
             children = root.children
+            result = []
             for child in children:
-                postOrder(child)
+                result.extend(postOrder(child))
             result.append(root.val)
-        postOrder(root)
-        return result
+            return result
+        return postOrder(root)
