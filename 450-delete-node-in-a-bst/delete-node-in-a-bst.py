@@ -6,46 +6,32 @@
 #         self.right = right
 class Solution:
     def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
-
-        def get_min(root):
-
-            if not root or not root.left:
-                return root
-            
-            return get_min(root.left)
-
-        def delete_node(root,value):
-            
-            if not root:
-                return root
-
-            if root.val == value:
-
-                if not root.left and not root.right:
+        def buildBST(root1,root2):
+            self.result = []
+            def serialize(root):
+                if not root:
+                    return
+                self.result.append(root.val)
+                serialize(root.left)
+                serialize(root.right)
+            serialize(root1)
+            serialize(root2)
+            self.result.sort()
+            def helper(start,end,arr):
+                if start > end:
                     return None
-                
-                if root.left and not root.right:
-                    return root.left
-                
-                if not root.left and root.right:
-                    return root.right
-                
-                else:
-
-                    node = get_min(root.right)
-
-                    root.val = node.val
-
-                    root.right = delete_node(root.right,node.val)
-
-                    return root
-
-            if value < root.val:
-                root.left = delete_node(root.left,value)
-            else:
-                root.right = delete_node(root.right,value)
-            
+                mid = start + (end-start)//2
+                root = TreeNode(arr[mid])
+                root.left = helper(start,mid-1,arr)
+                root.right = helper(mid+1,end,arr)
+                return root
+            return helper(0,len(self.result)-1,self.result)
+        def helper(root):
+            if not root:
+                return None
+            if root.val == key:
+                return buildBST(root.left,root.right)
+            root.left = helper(root.left)
+            root.right = helper(root.right)
             return root
-            
-        return delete_node(root,key)
-
+        return helper(root)
