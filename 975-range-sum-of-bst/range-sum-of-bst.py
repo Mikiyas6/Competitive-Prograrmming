@@ -6,15 +6,12 @@
 #         self.right = right
 class Solution:
     def rangeSumBST(self, root: Optional[TreeNode], low: int, high: int) -> int:
-        result = 0
-        def preorder(root,low,high):
-            nonlocal result
+        self.total = 0
+        def helper(root):
             if not root:
-                return 
-            result += root.val if root.val >= low and root.val <= high else 0
-            if low <= root.val:
-                preorder(root.left,low,high)
-            if high >= root.val:
-                preorder(root.right,low,high)
-        preorder(root,low,high)
-        return result
+                return
+            self.total += root.val if low <= root.val and root.val <= high else 0
+            helper(root.left)
+            helper(root.right)
+        helper(root)
+        return self.total
