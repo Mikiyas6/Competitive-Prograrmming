@@ -6,22 +6,10 @@
 #         self.right = right
 class Solution:
     def evaluateTree(self, root: Optional[TreeNode]) -> bool:
-        
-        def DFS(root):
-
+        def helper(root):
             if not root.left and not root.right:
-                if root.val == 1:
-                    return True
-
-                return False
-            
-            left_side_value = DFS(root.left)
-            right_side_value = DFS(root.right)
-
-            if root.val == 2:
-                return left_side_value or right_side_value
-
-            return left_side_value and right_side_value
-        
-        return DFS(root)
-
+                return True if root.val == 1 else False
+            left = helper(root.left)
+            right = helper(root.right)
+            return left or right if root.val == 2 else left and right
+        return helper(root)
