@@ -1,18 +1,13 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        result = []
-        n = len(candidates)
-        def backtrack(total,path):
-            if total == target:
-                if sorted(path) not in result:
-                    result.append(sorted(path[:]))
+        self.result = []
+        def dfs(i,comb,total):
+            if total >= target:
+                if total == target:
+                    self.result.append(comb[:])
                 return
-            for j in range(n):
-                if total + candidates[j] <= target:
-                    total += candidates[j]
-                    path.append(candidates[j])
-                    backtrack(total,path)
-                    total -= candidates[j]
-                    path.pop()
-        backtrack(0,[])
-        return result
+            for j in range(i,len(candidates)):
+                dfs(j,comb+[candidates[j]],total+candidates[j])
+        dfs(0,[],0)
+        return self.result
+
