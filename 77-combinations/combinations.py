@@ -1,13 +1,11 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        result = []
-        def backtrack(i,path):
-            if len(path) == k:
-                result.append(path[:])
+        self.result = []
+        def dfs(i,combo,length):
+            if length == k:
+                self.result.append(combo[:])
                 return
             for j in range(i,n+1):
-                path.append(j)
-                backtrack(j+1,path)
-                path.pop()
-        backtrack(1,[])
-        return result
+                dfs(j+1,combo+[j],length+1)
+        dfs(1,[],0)
+        return self.result
