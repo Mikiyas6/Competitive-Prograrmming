@@ -5,25 +5,28 @@
 #         self.next = next
 class Solution:
     def nodesBetweenCriticalPoints(self, head: Optional[ListNode]) -> List[int]:
-        if not head or not head.next or not head.next.next:
-            return [-1, -1]
-        
-        critical_points = []
-        prev, curr, pos = head, head.next, 1
-        while curr.next:
-            if (curr.val > prev.val and curr.val > curr.next.val) or (curr.val < prev.val and curr.val < curr.next.val):
-                critical_points.append(pos)
-            prev = curr
-            curr = curr.next
-            pos += 1
-        
-        if len(critical_points) < 2:
-            return [-1, -1]
-        
+        def isCritical(prev,current):
+            return (current.val < prev.val and current.val < current.next.val) or (current.val > prev.val and current.val > current.next.val)
+        current = head.next
+        prev = head
+        critical_point = None
+        min_point = float('inf')
+        max_point = float('-inf')
         min_distance = float('inf')
-        max_distance = critical_points[-1] - critical_points[0]
-        
-        for i in range(1, len(critical_points)):
-            min_distance = min(min_distance, critical_points[i] - critical_points[i - 1])
-        
-        return [min_distance, max_distance]
+        distance = 2
+        while current.next:
+            if isCritical(prev,current):
+                min_point = min(min_point,distance)
+                max_point = max(max_point,distance)
+                min_distance = min(min_distance,distance-critical_point) if critical_point else float('inf')
+                critical_point = distance
+            prev = prev.next
+            current = current.next
+            distance += 1
+        if min_point == float('inf') or max_point == float('-inf') or min_point == max_point:
+            return [-1,-1]
+        return [min_distance,max_point-min_point]
+
+            
+
+
