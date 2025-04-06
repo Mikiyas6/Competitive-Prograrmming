@@ -9,7 +9,6 @@ class Solution:
         current = head
         while current:
             while stack and current.val > stack[-1]:
-                print(current.val)
                 stack.pop()
             stack.append(current.val)
             current = current.next
