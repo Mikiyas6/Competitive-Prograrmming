@@ -2,14 +2,22 @@ class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         n = len(nums)
         memo = defaultdict(int)
-        def dp(i, target_sum):
-            if i >= n or target_sum <= 0:
-                return target_sum == 0
+        total = sum(nums)
+        targetSum = total//2
+
+        if total %2 != 0:
+            return False
+
+        def fun(i, total):
             
-            state = (i, target_sum)
-            if state not in memo:
-                memo[state] = dp(i + 1, target_sum - nums[i]) or dp(i + 1, target_sum)
+            if i >= n or total > targetSum:
+                return False
+            if total == targetSum:
+                return True
             
-            return memo[state]
+            if (i, total) not in memo:
+                memo[(i,total)] = fun(i+1,total+nums[i]) or fun(i+1,total)
+            
+            return memo[(i,total)]
         
-        return sum(nums) % 2 == 0 and dp(0, sum(nums) // 2)
+        return fun(0,0)
