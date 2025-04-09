@@ -9,8 +9,6 @@ class Solution:
         
         def bfs(root):
             queue = deque([root])
-            hashmap = defaultdict(int)
-            hashmap[root] = 0
             new_root = TreeNode(0)
             while queue:
                 level = len(queue)
@@ -37,10 +35,13 @@ class Solution:
                         queue.append(node.right)
                         local_total += node.right.val
                     if node.left:
-                        hashmap[node.left] = total-local_total
+                        node.left.val = total-local_total
                     if node.right:
-                        hashmap[node.right] = total-local_total
-            return hashmap
+                        node.right.val = total-local_total
+            root.val = 0
+            return root
+        
+        return bfs(root)
         
         hashmap = bfs(root)
 
