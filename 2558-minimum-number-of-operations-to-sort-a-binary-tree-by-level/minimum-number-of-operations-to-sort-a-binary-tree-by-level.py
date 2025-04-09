@@ -6,28 +6,37 @@
 #         self.right = right
 class Solution:
     def minimumOperations(self, root: Optional[TreeNode]) -> int:
-        def dfs(i, idx, viz):
-            if viz[i]: return 0
-            viz[i]=True
-            j=idx[i]
-            return 1+dfs(j, idx, viz)
+        def count(nums):
+            sorted_nums = sorted(nums)
+            hashmap = defaultdict(int)
+            count = 0
+            for i in range(len(nums)):
+                hashmap[nums[i]] = i
+            for i in range(len(nums)):
+                if sorted_nums[i] != nums[i]:
+                    index = hashmap[sorted_nums[i]]
+                    hashmap[nums[i]] = index
+                    hashmap[nums[index]] = i
+                    nums[index],nums[i] = nums[i],nums[index]
+                    count += 1
+            return count
 
-        q=deque()
-        q.append(root)
-        swaps=0
-        while q:
-            qz=len(q)
-            arr=[0]*qz
-            for i in range(qz):
-                node=q.popleft()
-                arr[i]=node.val
-                if node.left: q.append(node.left)
-                if node.right: q.append(node.right)
-            idx=sorted(range(qz), key = lambda k : arr[k])
-
-            viz=[False]*qz
-            for i in range(qz):
-                if not viz[i]:
-                    swaps+=dfs(i, idx, viz)-1
-        return swaps
+        def bfs(root):
+            queue = deque([root])
+            counter = 0
+            while queue:
+                level = len(queue)
+                nodes = []
+                for _ in range(level):
+                    node = queue.popleft()
+                    nodes.append(node.val)
+                    if node.left:
+                        queue.append(node.left)
+                    if node.right:
+                        queue.append(node.right)
+                if nodes:
+                    counter += count(nodes)
+            return counter
         
+        return bfs(root)
+                
