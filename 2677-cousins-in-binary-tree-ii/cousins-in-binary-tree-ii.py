@@ -6,36 +6,50 @@
 #         self.right = right
 class Solution:
     def replaceValueInTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        def dfs(arr):
-            if not arr:
-                return
+        
+        def bfs(root):
+            queue = deque([root])
+            hashmap = defaultdict(int)
+            hashmap[root] = 0
+            new_root = TreeNode(0)
+            while queue:
+                level = len(queue)
+                total = 0
+                for i in range(level):
+                    node = queue[i]
+                    if node.left:
+                        total += node.left.val
+                    if node.right:
+                        total += node.right.val
+                for _ in range(level):
+                    node = queue.popleft()
+                    local_total = 0
+                    if node.left:
+                        queue.append(node.left)
+                        local_total += node.left.val
+                    if node.right:
+                        queue.append(node.right)
+                        local_total += node.right.val
+                    if node.left:
+                        hashmap[node.left] = total-local_total
+                    if node.right:
+                        hashmap[node.right] = total-local_total
+            return hashmap
+        
+        hashmap = bfs(root)
 
-            total_sum = 0
-            for node in arr:
-                if not node:
-                    continue
-                if node.left:
-                    total_sum += node.left.val
-                if node.right:
-                    total_sum += node.right.val
+        def dfs(root,hashmap):
+            if not root:
+                return None
+            newRoot = TreeNode(hashmap[root])
+            newRoot.left = dfs(root.left,hashmap)
+            newRoot.right = dfs(root.right,hashmap)
+            return newRoot
+        
+        return dfs(root,hashmap)
+                
+                    
+                    
+                
 
-            childArr = []
-            for node in arr:
-                curSum = 0
-                if node.left:
-                    curSum += node.left.val
-                if node.right:
-                    curSum += node.right.val
-
-                if node.left:
-                    node.left.val = total_sum - curSum
-                    childArr.append(node.left)
-                if node.right:
-                    node.right.val = total_sum - curSum
-                    childArr.append(node.right)
-
-            dfs(childArr)
-
-        root.val = 0
-        dfs([root])
-        return root
+                    
