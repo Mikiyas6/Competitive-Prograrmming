@@ -9,8 +9,8 @@ class Solution:
                     self.result += 1
                     hashmap[value] -= 1
                     result = helper(hashmap)
-                    hashmap[value] += 1
                     self.result += result
+                    hashmap[value] += 1
             return result
         helper(hashmap)
         return self.result
