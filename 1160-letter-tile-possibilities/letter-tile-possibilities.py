@@ -10,7 +10,7 @@ class Solution:
                     hashmap[value] -= 1
                     result += helper(hashmap)
                     hashmap[value] += 1
-                self.result += result
+                    self.result += result
             return result
         helper(hashmap)
         return self.result
