@@ -8,7 +8,7 @@ class Solution:
                 if hashmap[value] > 0:
                     self.result += 1
                     hashmap[value] -= 1
-                    result += helper(hashmap)
+                    result = helper(hashmap)
                     hashmap[value] += 1
                     self.result += result
             return result
