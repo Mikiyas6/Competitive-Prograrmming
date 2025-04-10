@@ -3,8 +3,8 @@ class Solution:
         self.result = 0
         hashmap = Counter(tiles)
         def helper(hashmap):
+            result = 0
             for value in hashmap:
-                result = 0
                 if hashmap[value] > 0:
                     self.result += 1
                     hashmap[value] -= 1
