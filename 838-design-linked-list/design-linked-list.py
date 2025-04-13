@@ -53,19 +53,16 @@ class MyLinkedList:
         self.size += 1
         
     def deleteAtIndex(self, index: int) -> None:
-        if not self.head:
+        if index >= self.size or not self.head:
             return
         if index == 0:
             self.head = self.head.next
-            self.size -= 1
-            return
-        if index >= self.size:
-            return
-        end_up = index-1
-        current = self.head
-        for _ in range(end_up):
-            current = current.next
-        current.next = current.next.next
+        else:
+            end_up = index-1
+            current = self.head
+            for _ in range(end_up):
+                current = current.next
+            current.next = current.next.next
         self.size -= 1
 
 # Your MyLinkedList object will be instantiated and called as such:
