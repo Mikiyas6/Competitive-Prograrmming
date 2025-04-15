@@ -35,7 +35,10 @@ class MyQueue:
         Returns whether the queue is empty.
         Time Complexity: O(1)
         """
-        return not self.in_stack and not self.out_stack
+        if not self.in_stack and not self.out_stack:
+            return True
+        else:
+            return False
 
     def _transfer(self):
         """
@@ -43,7 +46,8 @@ class MyQueue:
         This reverses the order to simulate queue behavior.
         """
         while self.in_stack:
-            self.out_stack.append(self.in_stack.pop())
+            popped_value = self.in_stack.pop()
+            self.out_stack.append(popped_value)
 
 # Your MyQueue object will be instantiated and called as such:
 # obj = MyQueue()
