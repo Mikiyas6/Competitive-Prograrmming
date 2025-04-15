@@ -1,24 +1,17 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        
-        opening = "([{"
-        hashmap = {"(":")", "[":"]", "{":"}"}
         stack = []
-
-        for char in s:
-
-            if char in opening:
-
-                stack.append(char)
-            
-            else:
-
-                if stack and hashmap[stack[-1]] == char:
-
+        openings = {"(","[","{"}
+        parentheses = {")":"(","}":"{","]":"["}
+        for value in s:
+            if value not in openings:
+                if stack and stack[-1] == parentheses[value]:
                     stack.pop()
-                
                 else:
-
                     return False
-        
+            else:
+                stack.append(value)
         return True if not stack else False
+
+
+            
