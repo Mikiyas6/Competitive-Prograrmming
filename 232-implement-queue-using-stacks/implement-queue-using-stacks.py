@@ -17,9 +17,8 @@ class MyQueue:
         Removes the element from in front of queue and returns that element.
         Amortized Time Complexity: O(1)
         """
-        if self.out_stack:
-            return self.out_stack.pop()
-        self._transfer()
+        if not self.out_stack:
+            self._transfer()
         return self.out_stack.pop()
 
     def peek(self) -> int:
@@ -27,9 +26,8 @@ class MyQueue:
         Get the front element.
         Amortized Time Complexity: O(1)
         """
-        if self.out_stack:
-            return self.out_stack[-1]
-        self._transfer()
+        if not self.out_stack:
+            self._transfer()
         return self.out_stack[-1]
 
     def empty(self) -> bool:
