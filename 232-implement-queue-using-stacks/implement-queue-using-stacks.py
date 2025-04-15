@@ -17,6 +17,8 @@ class MyQueue:
         Removes the element from in front of queue and returns that element.
         Amortized Time Complexity: O(1)
         """
+        if self.out_stack:
+            return self.out_stack.pop()
         self._transfer()
         return self.out_stack.pop()
 
@@ -25,6 +27,8 @@ class MyQueue:
         Get the front element.
         Amortized Time Complexity: O(1)
         """
+        if self.out_stack:
+            return self.out_stack[-1]
         self._transfer()
         return self.out_stack[-1]
 
@@ -40,9 +44,8 @@ class MyQueue:
         Transfer elements from in_stack to out_stack if out_stack is empty.
         This reverses the order to simulate queue behavior.
         """
-        if not self.out_stack:
-            while self.in_stack:
-                self.out_stack.append(self.in_stack.pop())
+        while self.in_stack:
+            self.out_stack.append(self.in_stack.pop())
 
 # Your MyQueue object will be instantiated and called as such:
 # obj = MyQueue()
