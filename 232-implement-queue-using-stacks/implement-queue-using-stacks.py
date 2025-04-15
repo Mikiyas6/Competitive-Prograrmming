@@ -1,48 +1,48 @@
 class MyQueue:
-
     def __init__(self):
-        
-        self.stack1 = []
-        self.stack2 = []
-        self.size = 0
+        # Stack to handle incoming elements
+        self.in_stack = []
+        # Stack to reverse the order for queue behavior
+        self.out_stack = []
 
     def push(self, x: int) -> None:
-        
-        self.stack1.append(x)
-        self.size += 1
+        """
+        Push element x to the back of queue.
+        Time Complexity: O(1)
+        """
+        self.in_stack.append(x)
 
     def pop(self) -> int:
-        
-        for _ in range(self.size-1):
+        """
+        Removes the element from in front of queue and returns that element.
+        Amortized Time Complexity: O(1)
+        """
+        self._transfer()
+        return self.out_stack.pop()
 
-            self.stack2.append(self.stack1.pop())
-        
-        value = self.stack1.pop()
-        self.size -= 1
-
-        for _ in range(self.size):
-
-            self.stack1.append(self.stack2.pop())
-        
-        return value
     def peek(self) -> int:
-        
-        for _ in range(self.size-1):
-
-            self.stack2.append(self.stack1.pop())
-        
-        value = self.stack1[-1]
-
-        for _ in range(self.size-1):
-
-            self.stack1.append(self.stack2.pop())
-        
-        return value
+        """
+        Get the front element.
+        Amortized Time Complexity: O(1)
+        """
+        self._transfer()
+        return self.out_stack[-1]
 
     def empty(self) -> bool:
-        
-        return self.size == 0
+        """
+        Returns whether the queue is empty.
+        Time Complexity: O(1)
+        """
+        return not self.in_stack and not self.out_stack
 
+    def _transfer(self):
+        """
+        Transfer elements from in_stack to out_stack if out_stack is empty.
+        This reverses the order to simulate queue behavior.
+        """
+        if not self.out_stack:
+            while self.in_stack:
+                self.out_stack.append(self.in_stack.pop())
 
 # Your MyQueue object will be instantiated and called as such:
 # obj = MyQueue()
