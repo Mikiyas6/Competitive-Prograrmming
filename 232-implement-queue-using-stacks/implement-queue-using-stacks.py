@@ -9,25 +9,18 @@ class MyQueue:
 
     def pop(self) -> int:
         
-        if self.out_stack:
-            return self.out_stack.pop()
-        else:
+        if not self.out_stack:
             self.transfer()
-            return self.out_stack.pop()
+        return self.out_stack.pop()
 
     def peek(self) -> int:
-        if self.out_stack:
-            return self.out_stack[-1]
-        else:
+        if not self.out_stack:
             self.transfer()
-            return self.out_stack[-1]
+        return self.out_stack[-1]
 
     def empty(self) -> bool:
 
-        if len(self.in_stack) == 0 and len(self.out_stack) == 0:
-            return True
-        else:
-            return False
+        return not self.in_stack and not self.out_stack
     
     def transfer(self) -> None:
         while self.in_stack:
